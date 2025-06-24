@@ -10,7 +10,7 @@ Computer Science and Business Systems Student
 - 💬 Ask me about Tech
 - 📫 How to reach me: ...
   <br /> [<img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>](https://www.linkedin.com/in/bhargava-a-a1426b325/)
-[<img width="48" height="48" src="https://img.icons8.com/material/48/twitterx--v1.png" alt="twitterx--v1"/>](https://x.com/BhargavaA273345)
+[<img width="48" height="48" src="https://img.icons8.com/fluency-systems-filled/48/twitterx.png" alt="twitterx"/>](https://x.com/BhargavaA273345)
 
 - 😄 Pronouns: Techie
 - ⚡ Fun fact: Iam choosing 2 career paths at same time 
