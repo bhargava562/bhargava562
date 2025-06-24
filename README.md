@@ -20,6 +20,10 @@ Computer Science and Business Systems Student
 
 ### IDE and Tools I Use
 <img width="50" height="50" src="https://img.icons8.com/color/50/visual-studio-code-2019.png" alt="visual-studio-code-2019"/> <img width="50" height="50" src="https://img.icons8.com/color/50/intellij-idea.png" alt="intellij-idea"/> <img width="50" height="50" src="https://img.icons8.com/officexs/50/java-eclipse.png" alt="java-eclipse"/> <img width="50" height="50" src="https://img.icons8.com/color/50/apache-netbeans.png" alt="apache-netbeans"/> <img width="50" height="50" src="https://img.icons8.com/color/50/git.png" alt="git"/> <img width="50" height="50" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/50/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png" alt="external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo"/>
-<br />
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/Bhargava2525?theme=light&font=JetBrains%20Mono&ext=heatmap)
+### My Stats
+![Bhargava's GitHub stats](https://github-readme-stats.vercel.app/api?username=bhargava562&theme=tokyonight&show_icons=true)
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/Bhargava2525?theme=dark&font=JetBrains%20Mono&ext=heatmap)
+
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=bhargava562&bg_color=000000&color=ffffff&line=007002&point=11ff00&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
