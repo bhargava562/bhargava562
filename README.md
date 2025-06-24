@@ -9,8 +9,8 @@ Computer Science and Business Systems Student
 - 🤔 I’m looking for help with community guidance
 - 💬 Ask me about Tech
 - 📫 How to reach me: ...
-  <br /> [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhargava-a-a1426b325/)
-[![X](https://img.shields.io/badge/-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/BhargavaA273345)
+  <br /> [<img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>](https://www.linkedin.com/in/bhargava-a-a1426b325/)
+[<img width="48" height="48" src="https://img.icons8.com/ios-filled/48/twitterx--v1.png" alt="twitterx--v1"/>](https://x.com/BhargavaA273345)
 
 - 😄 Pronouns: Techie
 - ⚡ Fun fact: Iam choosing 2 career paths at same time 
