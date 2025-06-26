@@ -29,4 +29,6 @@ Computer Science and Business Systems Student
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=bhargava562&bg_color=000000&color=ffffff&line=007002&point=11ff00&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### My Contributions
-![snake gif](https://github.com/bhargava562/bhargava562/blob/output/github-snake.svg)
+<div align="center">
+ ![snake gif](https://github.com/bhargava562/bhargava562/blob/output/github-snake.svg)
+</div>
