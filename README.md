@@ -30,5 +30,8 @@ Computer Science and Business Systems Student
 
 ### My Contributions
 <p align="center">
-  <img src="https://github.com/bhargava562/bhargava562/blob/output/github-snake.svg" alt="snake gif">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/bhargava562/bhargava562/blob/output/github-snake-dark.svg">
+    <img alt="snake gif" src="https://github.com/bhargava562/bhargava562/blob/output/github-snake.svg">
+  </picture>
 </p>
