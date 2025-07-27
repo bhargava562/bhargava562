@@ -5,7 +5,7 @@ Computer Science and Business Systems Student
 
 - 🔭 Here's my [portfolio](https://bhargava562.github.io/my-portfolio/)
 - 🌱 I’m currently learning DSA
-- 👯 I’m looking to collaborate on AI/ML
+- 👯 I’m looking to collaborate on Software Development
 - 🤔 I’m looking for help with community guidance
 - 💬 Ask me about Tech
 - 📫 How to reach me: ...
