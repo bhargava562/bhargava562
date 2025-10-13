@@ -10,7 +10,7 @@ Computer Science and Business Systems Student
 - 💬 Ask me about Tech
 - 📫 How to reach me: ...
   <br /> [<img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>](https://www.linkedin.com/in/bhargava-a-a1426b325/)
-[<img width="48" height="48" src="https://img.icons8.com/fluency-systems-filled/48/twitterx.png" alt="twitterx"/>](https://x.com/BhargavaA273345)
+[<img width="48" height="48" src="https://img.icons8.com/fluency-systems-filled/48/twitterx.png" alt="twitterx"/>](https://x.com/Bhargava3196511)
 
 - 😄 Pronouns: Techie
 - ⚡ Fun fact: Iam choosing 2 career paths at same time 
@@ -20,6 +20,9 @@ Computer Science and Business Systems Student
 
 ### IDE and Tools I Use
 <img width="50" height="50" src="https://img.icons8.com/color/50/visual-studio-code-2019.png" alt="visual-studio-code-2019"/> <img width="50" height="50" src="https://img.icons8.com/color/50/intellij-idea.png" alt="intellij-idea"/> <img width="50" height="50" src="https://img.icons8.com/officexs/50/java-eclipse.png" alt="java-eclipse"/> <img width="50" height="50" src="https://img.icons8.com/color/50/git.png" alt="git"/> <img width="50" height="50" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/50/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png" alt="external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo"/>
+
+### AI Tools I Use
+<img width="48" height="48" src="https://img.icons8.com/fluency/48/github-copilot.png" alt="github-copilot"/> <img width="48" height="48" src="https://img.icons8.com/color/48/cursor-ai.png" alt="cursor-ai"/> <img width="48" height="48" src="https://img.icons8.com/fluency/48/gemini-ai.png" alt="gemini-ai"/> <img width="48" height="48" src="https://img.icons8.com/fluency/48/claude-ai.png" alt="claude-ai"/> <img width="50" height="50" src="https://img.icons8.com/ios/50/chatgpt.png" alt="chatgpt"/>
 
 ### My Stats
 ![Bhargava's GitHub stats](https://github-readme-stats.vercel.app/api?username=bhargava562&theme=vue-dark&show_icons=true)
