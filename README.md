@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/221352995-5ac18bdf-1a19-4f99-bbb6-77559b220470.gif" style="width:100%; height:auto;" />
-</p>
-
 ## Hi there 👋 It's me Bhargava
 
 Computer Science and Business Systems Student
@@ -42,4 +38,8 @@ Computer Science and Business Systems Student
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/bhargava562/bhargava562/blob/output/github-snake-dark.svg">
     <img alt="snake gif" src="https://github.com/bhargava562/bhargava562/blob/output/github-snake.svg">
   </picture>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/221352995-5ac18bdf-1a19-4f99-bbb6-77559b220470.gif" style="width:100%; height:auto;" />
 </p>
