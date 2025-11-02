@@ -17,7 +17,7 @@
 - ⚡ Fun fact: Iam choosing 2 career paths at same time 
 
 ### Socials
-[<img width="60" height="60" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin"/>](https://www.linkedin.com/in/bhargava-a-a1426b325/)
+[<img width="60" height="60" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin"/>](https://www.linkedin.com/in/bhargavaa1/)
 [<img width="60" height="60" src="https://img.icons8.com/fluency-systems-filled/96/twitterx.png" alt="twitterx"/>](https://x.com/Bhargava3196511)
 [<img width="50" height="50" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-discord-chat-for-social-gaming-between-peers-logo-color-tal-revivo.png" alt="discord"/>](https://www.google.com/)
 [<img width="50" height="50" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-stack-overflow-web-portal-for-professional-and-enthusiast-programmers-logo-color-tal-revivo.png" alt="stackoverflow"/>](https://stackoverflow.com/users/31757615/bhargava)
