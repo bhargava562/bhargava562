@@ -8,7 +8,7 @@
 <br />
 <img align="right" width="370" height="290" src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif">
 
-- 🔭 Here's my [portfolio](https://bhargava562.github.io/my-portfolio/)
+- 🔭 Here's my [portfolio](https://my-portfolio-gamma-two-22.vercel.app/)
 - 🌱 I’m currently learning DSA and System Design
 - 👯 I’m looking to collaborate on Software Development
 - 🤔 I’m looking for help with community guidance
