@@ -1,13 +1,15 @@
 <!-- ╔══════════════════════════════════════════════════════════════════════╗
-     ║  BHARGAVA A — GitHub Profile README v4.1 // ADAPTIVE TERMINAL       ║
+     ║  BHARGAVA A — GitHub Profile README v5.0 // GLITCH TERMINAL         ║
      ║  Username: bhargava562 | LinkedIn: bhargavaa1 | LC: Bhargava2525    ║
      ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<!-- ▓▓▓▓▓▓▓▓▓▓▓▓  ADAPTIVE HERO HEADER  ▓▓▓▓▓▓▓▓▓▓▓▓ -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=blur&color=0:000000,50:0F0F23,100:000000&height=260&section=header&text=BHARGAVA.SYS&fontSize=64&fontColor=00FF9C&fontAlignY=42&desc=%3E%20Backend%20Engineer%20%2F%2F%20Centaur%20Builder%20%2F%2F%20DSA%20Grinder&descSize=16&descAlignY=62&descColor=7CFFCB&animation=fadeIn"/>
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=blur&color=0:D3F4E6,50:E8F9F1,100:D3F4E6&height=260&section=header&text=BHARGAVA.SYS&fontSize=64&fontColor=0B7A5B&fontAlignY=42&desc=%3E%20Backend%20Engineer%20%2F%2F%20Centaur%20Builder%20%2F%2F%20DSA%20Grinder&descSize=16&descAlignY=62&descColor=157A6E&animation=fadeIn"/>
-</picture>
+<!-- ▓▓▓▓▓▓▓▓▓▓▓▓  GLITCH HERO HEADER  ▓▓▓▓▓▓▓▓▓▓▓▓ -->
+<p align="center">
+  <img src="./assets/glitch/glitch-hero.svg" width="680" alt="BHARGAVA.SYS"/>
+</p>
+<p align="center">
+  <em>&gt; Backend Engineer // Centaur Builder // DSA Grinder</em>
+</p>
 
 <!-- ▓▓▓▓▓▓▓▓▓▓▓▓  TYPING TERMINAL LINE — DUAL THEME  ▓▓▓▓▓▓▓▓▓▓▓▓ -->
 <p align="center">
@@ -79,7 +81,7 @@ principle  : ship the boring 80%, own the hard 20%
 <br/>
 
 <!-- ▓▓▓▓▓▓▓▓▓▓▓▓  STACK  ▓▓▓▓▓▓▓▓▓▓▓▓ -->
-<h2 align="center">⚡ Stack Trace</h2>
+<h2 align="center"><img src="./assets/glitch/glitch-stack-trace.svg" width="360" alt="Stack Trace"/></h2>
 
 <table align="center" width="94%">
 <tr>
@@ -130,7 +132,7 @@ principle  : ship the boring 80%, own the hard 20%
 <br/>
 
 <!-- ▓▓▓▓▓▓▓▓▓▓▓▓  EXPERIENCE  ▓▓▓▓▓▓▓▓▓▓▓▓ -->
-<h2 align="center">💼 Runtime Log</h2>
+<h2 align="center"><img src="./assets/glitch/glitch-runtime-log.svg" width="360" alt="Runtime Log"/></h2>
 
 <table align="center" width="94%">
 <tr>
@@ -152,7 +154,7 @@ principle  : ship the boring 80%, own the hard 20%
 <br/>
 
 <!-- ▓▓▓▓▓▓▓▓▓▓▓▓  PROJECTS  ▓▓▓▓▓▓▓▓▓▓▓▓ -->
-<h2 align="center">🚀 Deployed Builds</h2>
+<h2 align="center"><img src="./assets/glitch/glitch-deployed-builds.svg" width="420" alt="Deployed Builds"/></h2>
 
 <table align="center" width="94%">
 <tr>
@@ -222,7 +224,7 @@ principle  : ship the boring 80%, own the hard 20%
 <br/>
 
 <!-- ▓▓▓▓▓▓▓▓▓▓▓▓  METRICS PANEL — DUAL THEME  ▓▓▓▓▓▓▓▓▓▓▓▓ -->
-<h2 align="center">📡 Telemetry</h2>
+<h2 align="center"><img src="./assets/glitch/glitch-telemetry.svg" width="320" alt="Telemetry"/></h2>
 
 <p align="center">
 <picture>
@@ -298,7 +300,7 @@ principle  : ship the boring 80%, own the hard 20%
 <br/>
 
 <!-- ▓▓▓▓▓▓▓▓▓▓▓▓  ACHIEVEMENTS  ▓▓▓▓▓▓▓▓▓▓▓▓ -->
-<h2 align="center">🏆 Logged Wins</h2>
+<h2 align="center"><img src="./assets/glitch/glitch-logged-wins.svg" width="360" alt="Logged Wins"/></h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HackerRank%20Orchestrate%202026-Rank%20452%2F12%2C885%20(Top%203.5%25)-00FF9C?style=for-the-badge&labelColor=1a1a2e"/>
@@ -315,7 +317,7 @@ principle  : ship the boring 80%, own the hard 20%
 <br/>
 
 <!-- ▓▓▓▓▓▓▓▓▓▓▓▓  CONNECT  ▓▓▓▓▓▓▓▓▓▓▓▓ -->
-<h2 align="center">📶 Open Channels</h2>
+<h2 align="center"><img src="./assets/glitch/glitch-open-channels.svg" width="400" alt="Open Channels"/></h2>
 
 <p align="center">
   Open to <strong>SDE roles (2028)</strong> and <strong>backend/platform engineering</strong> collaborations<br/>
