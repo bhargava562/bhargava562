@@ -8,6 +8,9 @@
 <!-- THEME-AWARE HERO                                                       -->
 
 <!-- ====================================================================== -->
+<p align="center">
+  <img src="Banner.png" alt="header all programming" />
+</p>
 
 <picture>
   <source
