@@ -105,7 +105,7 @@
 $ whoami --verbose
 
 name       : Bhargava A
-role       : Python Backend Developer Intern @ Linkific
+role       : Python Backend Intern @ Linkific ('26) | GDG On Campus Lead
 identity   : "Centaur Engineer" — AI as force multiplier,
              not a replacement for engineering judgment
 college    : R.M.K. Engineering College
@@ -117,10 +117,10 @@ principle  : ship the boring 80%, own the hard 20%
 
 <h3>🧠 Currently Compiling</h3>
 
-* ⚙️ Production **FastAPI** backend @ Linkific — auth, scoring engine, test suite
-* 📐 **30-pattern DSA sprint** (15 weeks) — past Sliding Window, mid Prefix Sum
+* ⚙️ **Production Backend Systems** — async pipelines, connection pooling & low-latency caching
+* 📐 **30-pattern DSA sprint** (15 weeks) — LeetCode, CodeForces, AtCoder problem-solving
 * 🛰️ **Orbit** — request-time health-aware credential failover platform (Java/Spring Boot)
-* ✍️ Weekly engineering deep-dives on LinkedIn — real problems, not tutorials
+* ✍️ Weekly engineering deep-dives on LinkedIn — real systems, production edge cases
 
 </td>
 
@@ -154,7 +154,7 @@ alt="terminal build animation"
 
 <h2 align="center">
   <img
-    src="./assets/glitch/glitch-stack-trace.svg"
+    src="./assets/headers/stack-trace.svg"
     width="360"
     alt="Stack Trace"
   />
@@ -263,13 +263,13 @@ alt="terminal build animation"
 
 <!-- ====================================================================== -->
 
-<!-- EXPERIENCE                                                             -->
+<!-- EXPERIENCE & VOLUNTEERING                                              -->
 
 <!-- ====================================================================== -->
 
 <h2 align="center">
   <img
-    src="./assets/glitch/glitch-runtime-log.svg"
+    src="./assets/headers/runtime-log.svg"
     width="360"
     alt="Runtime Log"
   />
@@ -279,21 +279,45 @@ alt="terminal build animation"
 <tr>
 <td width="100%">
 
-**`[Apr 2026 → Aug 2026]`**   **Python Backend Developer Intern** — Linkific
-
-    → Built a production FastAPI backend from scratch (Gritt app) — JWT / RBAC / bcrypt / Google OAuth 2.0
-
-    → Designed a multi-phase filtering & scoring algorithm and an 11-phase test suite
-
-    → Optimized queries via `EXPLAIN ANALYZE`, added connection pooling on Neon PostgreSQL, SlowAPI rate limiting
-
-    → Shipped to production on Render — architecture review score **9.5/10**
+### 💼 Work Experience
 
 <br/>
 
-**`[Dec 2025 → Present]`**   **Tech Member** — GDG On Campus RMK
+**`[Apr 2026 → Aug 2026]`** &nbsp; **Python Backend Developer Intern** — Linkific
 
-    → Community platform infrastructure — 18-table PostgreSQL schema review, production SQL (58 indexes, 11 triggers, 4 views), Redis config + async client module
+&nbsp;&nbsp;&nbsp;&nbsp;→ Engineered **5+ core auth & user REST endpoints** (JWT, RBAC, bcrypt, Google OAuth 2.0) for a production FastAPI backend
+
+&nbsp;&nbsp;&nbsp;&nbsp;→ Architected a **multi-phase data processing pipeline** generating timer-scheduled output queues for reliable batch execution
+
+&nbsp;&nbsp;&nbsp;&nbsp;→ Diagnosed cloud database latency; migrated to **Supabase Shared Pooler (asyncpg)** with in-memory TTL caching, reducing warm cloud response times by **~34%** (181ms → 120ms on Render)
+
+&nbsp;&nbsp;&nbsp;&nbsp;→ Hardened endpoints with **SlowAPI rate limiting**, authored an **11-phase comprehensive test suite**, and achieved a **9.5/10 production architecture review score**
+
+<br/>
+
+**`[Jun 2025 → Jul 2025]`** &nbsp; **Frontend Developer Intern** — The Entrepreneurship Network
+
+&nbsp;&nbsp;&nbsp;&nbsp;→ Developed responsive user interfaces using **React** and **Tailwind CSS**, implementing **28 reusable components** across **8 production routes**
+
+&nbsp;&nbsp;&nbsp;&nbsp;→ Optimized client-side routing, state management, and asset delivery for high-performance user journeys
+
+<br/>
+<hr/>
+<br/>
+
+### 🤝 Volunteering & Community Leadership
+
+<br/>
+
+**`[Oct 2026 → Present]`** &nbsp; **Lead** — Google Developer Groups on Campus (GDGoC RMK)
+
+&nbsp;&nbsp;&nbsp;&nbsp;→ Directing campus developer community, organizing **Google Cloud Study Jam** cohorts, and delivering hands-on GCP lab mentorship for cloud practitioners
+
+<br/>
+
+**`[Dec 2025 → Oct 2026]`** &nbsp; **Tech Team Member** — Google Developer Groups on Campus (GDGoC RMK)
+
+&nbsp;&nbsp;&nbsp;&nbsp;→ Engineered an **interactive technical quiz application** for live developer events and facilitated community workshops on modern backend and cloud architectures
 
 </td>
 </tr>
@@ -309,7 +333,7 @@ alt="terminal build animation"
 
 <h2 align="center">
   <img
-    src="./assets/glitch/glitch-deployed-builds.svg"
+    src="./assets/headers/deployed-builds.svg"
     width="420"
     alt="Deployed Builds"
   />
@@ -324,11 +348,11 @@ alt="terminal build animation"
 
 **Request-Time Health-Aware Credential Failover Platform**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
-![SpringBoot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square\&logo=spring\&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square\&logo=react\&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![SpringBoot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-> Flagship build — developer integration platform that fails over API credentials in real time based on live health signals instead of static config. **In active development.**
+> **Flagship Platform** — Enterprise-grade developer platform that dynamically fails over API credentials at request time based on live health telemetry and circuit breakers rather than static configurations. **In active development.**
 
 </td>
 
@@ -338,13 +362,13 @@ alt="terminal build animation"
 
 **Autonomous Cognitive Firewall & Honeypot**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square\&logo=fastapi\&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-10B981?style=flat-square)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
 
-> Real-time scam neutralization via a LangGraph multi-agent swarm — analyzes manipulation tactics and runs an autonomous honeypot to delay and expose attackers. **2nd place, ₹15,000 — SVCE Yet Another Hackathon 2026.**
+> Real-time adversarial deception and cognitive firewall powered by a LangGraph multi-agent swarm — inspects incoming traffic, classifies social engineering payloads, and engages attackers in an autonomous honeypot. **2nd place, ₹15,000 — SVCE Yet Another Hackathon 2026.**
 
-[![View Code](https://img.shields.io/badge/View%20Code%20→-00FF9C?style=for-the-badge\&logoColor=000000\&labelColor=1a1a2e)](https://github.com/bhargava562/BlockSafe)
+[![View Code](https://img.shields.io/badge/View%20Code%20→-00FF9C?style=for-the-badge&logoColor=000000&labelColor=1a1a2e)](https://github.com/bhargava562/BlockSafe)
 
 </td>
 
@@ -354,30 +378,33 @@ alt="terminal build animation"
 
 <td width="50%" valign="top">
 
-### 🕸️ MUSKETS / PFCE
+### 🤖 Friday
 
-**Post-Detection Mule Account Containment Radar** · `Prototype`
+**Java CLI AI Assistant**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![SpringBoot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
-> Prototype post-detection response layer for mule-account containment, designed to complement (not compete with) RBI's MuleHunter AI. Not a deployed/production system. **Finalist, IOB CyberNova 2025.**
+> Intelligent command-line assistant powered by Gemini API, integrating 10+ external APIs (Google Calendar, Wolfram Alpha, GNews, OpenWeather) with persistent task scheduling and native system notifications.
 
-[![View Code](https://img.shields.io/badge/View%20Code%20→-0891B2?style=for-the-badge\&logoColor=white\&labelColor=1a1a2e)](https://github.com/bhargava562/muskets-containment-radar)
+[![View Code](https://img.shields.io/badge/View%20Code%20→-0891B2?style=for-the-badge&logoColor=white&labelColor=1a1a2e)](https://github.com/bhargava562/Friday)
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🤖 Friday
+### 💻 Portfolio OS
 
-**Java AI Desktop Assistant**
+**Ubuntu Web Desktop**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square\&logo=googlegemini\&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-> CLI assistant wired into 10+ APIs (Calendar, Wolfram Alpha, GNews) with persistent reminders and native desktop notifications.
+> Interactive web desktop environment recreating the Ubuntu OS experience in the browser — features functional terminal emulator, file explorer, window management, and interactive developer widgets.
 
-[![View Code](https://img.shields.io/badge/View%20Code%20→-0891B2?style=for-the-badge\&logoColor=white\&labelColor=1a1a2e)](https://github.com/bhargava562/Friday)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo%20→-00FF9C?style=for-the-badge&logoColor=000000&labelColor=1a1a2e)](https://bhargavaa.vercel.app/)
 
 </td>
 
@@ -402,13 +429,13 @@ alt="terminal build animation"
 
 <!-- ====================================================================== -->
 
-<!-- METRICS                                                                -->
+<!-- METRICS & CODING PROFILES                                              -->
 
 <!-- ====================================================================== -->
 
 <h2 align="center">
   <img
-    src="./assets/glitch/glitch-telemetry.svg"
+    src="./assets/headers/telemetry.svg"
     width="320"
     alt="Telemetry"
   />
@@ -428,7 +455,7 @@ alt="terminal build animation"
   />
 </picture>
 
- 
+&nbsp;
 
 <picture>
   <source
@@ -457,7 +484,7 @@ alt="terminal build animation"
   />
 </picture>
 
- 
+&nbsp;
 
 <picture>
   <source
@@ -503,7 +530,46 @@ alt="terminal build animation"
 
 </p>
 
-<h3 align="center">⚔️ LeetCode — Bhargava2525</h3>
+<h3 align="center">⚔️ Competitive Programming & Problem Solving</h3>
+
+<p align="center">
+
+  <a href="https://leetcode.com/Bhargava2525/">
+    <img
+      src="https://img.shields.io/badge/LEETCODE-Bhargava2525-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=1a1a2e"
+      alt="LeetCode"
+    />
+  </a>
+
+  <a href="https://codolio.com/profile/bhargavA45">
+    <img
+      src="https://img.shields.io/badge/CODOLIO-bhargavA45-00FF9C?style=for-the-badge&logo=codeforces&logoColor=black&labelColor=1a1a2e"
+      alt="Codolio"
+    />
+  </a>
+
+  <a href="https://codeforces.com/profile/bhargava_a5">
+    <img
+      src="https://img.shields.io/badge/CODEFORCES-bhargava__a5-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=1a1a2e"
+      alt="CodeForces"
+    />
+  </a>
+
+  <a href="https://atcoder.jp/users/bhargavaa1">
+    <img
+      src="https://img.shields.io/badge/ATCODER-bhargavaa1-222222?style=for-the-badge&logo=atcoder&logoColor=white&labelColor=1a1a2e"
+      alt="AtCoder"
+    />
+  </a>
+
+  <a href="https://www.hackerrank.com/profile/Bhargava_A_056">
+    <img
+      src="https://img.shields.io/badge/HACKERRANK-Bhargava__A__056-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=1a1a2e"
+      alt="HackerRank"
+    />
+  </a>
+
+</p>
 
 <p align="center">
 
@@ -575,11 +641,11 @@ alt="terminal build animation"
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github.com/bhargava562/bhargava562/blob/output/github-snake-dark.svg"
+      srcset="./assets/snake/github-snake-dark.svg"
     />
     <img
       alt="GitHub contribution grid snake animation"
-      src="https://github.com/bhargava562/bhargava562/blob/output/github-snake.svg"
+      src="./assets/snake/github-snake.svg"
     />
   </picture>
 
@@ -589,13 +655,13 @@ alt="terminal build animation"
 
 <!-- ====================================================================== -->
 
-<!-- ACHIEVEMENTS                                                           -->
+<!-- ACHIEVEMENTS & CERTIFICATIONS                                          -->
 
 <!-- ====================================================================== -->
 
 <h2 align="center">
   <img
-    src="./assets/glitch/glitch-logged-wins.svg"
+    src="./assets/headers/logged-wins.svg"
     width="360"
     alt="Logged Wins"
   />
@@ -604,15 +670,15 @@ alt="terminal build animation"
 <p align="center">
 
 <img
- src="https://img.shields.io/badge/HackerRank%20Orchestrate%202026-Rank%20452%2F12%2C885%20(Top%203.5%25)-00FF9C?style=for-the-badge&labelColor=1a1a2e"
- alt="HackerRank Orchestrate 2026"
+ src="https://img.shields.io/badge/BlockSafe-2nd%20Place%20%40%20SVCE%20Hackathon%20(%E2%82%B915%2C000)-7CFFCB?style=for-the-badge&labelColor=1a1a2e&color=0891B2"
+ alt="BlockSafe second place"
 />
 
   <br/>
 
 <img
- src="https://img.shields.io/badge/BlockSafe-2nd%20Place%20%40%20SVCE%20Hackathon-7CFFCB?style=for-the-badge&labelColor=1a1a2e&color=0891B2"
- alt="BlockSafe second place"
+ src="https://img.shields.io/badge/HackerRank%20Orchestrate%202026-Rank%20452%2F12%2C885%20(Top%203.5%25)-00FF9C?style=for-the-badge&labelColor=1a1a2e"
+ alt="HackerRank Orchestrate 2026"
 />
 
   <br/>
@@ -632,8 +698,22 @@ alt="terminal build animation"
   <br/>
 
 <img
- src="https://img.shields.io/badge/OCP%20Java%20SE%2021%20Developer-Certified-FFA116?style=for-the-badge&labelColor=1a1a2e"
+ src="https://img.shields.io/badge/OCP%20Java%20SE%2021%20Developer-Oracle%20Certified-FFA116?style=for-the-badge&logo=oracle&logoColor=white&labelColor=1a1a2e"
  alt="OCP Java SE 21 Developer certification"
+/>
+
+  <br/>
+
+<img
+ src="https://img.shields.io/badge/AI%20Vector%20Search-Oracle%20Certified-F80000?style=for-the-badge&logo=oracle&logoColor=white&labelColor=1a1a2e"
+ alt="Oracle AI Vector Search certification"
+/>
+
+  <br/>
+
+<img
+ src="https://img.shields.io/badge/5--Day%20AI%20Agents-Google%20%2F%20Kaggle-4285F4?style=for-the-badge&logo=google&logoColor=white&labelColor=1a1a2e"
+ alt="Google Kaggle 5-Day AI Agents"
 />
 
 </p>
@@ -648,7 +728,7 @@ alt="terminal build animation"
 
 <h2 align="center">
   <img
-    src="./assets/glitch/glitch-open-channels.svg"
+    src="./assets/headers/open-channels.svg"
     width="400"
     alt="Open Channels"
   />
@@ -673,7 +753,7 @@ Open to <strong>SDE roles (2028)</strong> and <strong>backend/platform engineeri
     />
   </a>
 
- 
+&nbsp;
 
   <a href="https://bhargavaa.vercel.app/">
     <img
@@ -682,7 +762,7 @@ Open to <strong>SDE roles (2028)</strong> and <strong>backend/platform engineeri
     />
   </a>
 
- 
+&nbsp;
 
   <a href="https://www.linkedin.com/in/bhargavaa1/">
     <img

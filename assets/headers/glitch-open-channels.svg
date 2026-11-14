@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" width="500" height="50" role="img" aria-label="[ // 06. OPEN_CHANNELS ] - Connect">
+  <title>[ // 06. OPEN_CHANNELS ] - Connect</title>
+  <defs>
+    <style>
+      @keyframes hud-pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.25; }
+      }
+      .hud-font {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', monospace;
+      }
+      /* Default Light Mode */
+      .hud-frame { stroke: #94a3b8; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .hud-line { stroke: #cbd5e1; stroke-width: 1; }
+      .hud-title { fill: #0f172a; font-weight: 700; font-size: 14.5px; letter-spacing: 0.5px; }
+      .hud-bracket { fill: #64748b; font-weight: 500; font-size: 14.5px; }
+      .hud-slash { fill: #059669; font-weight: 700; font-size: 14.5px; }
+      .hud-num { fill: #0284c7; font-weight: 700; font-size: 14.5px; }
+      .hud-hashes { fill: #059669; font-size: 12px; font-weight: 800; letter-spacing: 1px; }
+      .hud-meta { fill: #64748b; font-size: 8.5px; font-weight: 500; letter-spacing: 0.8px; }
+      .hud-badge-box { fill: #f0fdf4; stroke: #86efac; stroke-width: 1; }
+      .hud-badge-dot { fill: #16a34a; }
+      .hud-badge-text { fill: #15803d; font-size: 9.5px; font-weight: 700; letter-spacing: 0.8px; }
+      .hud-pulse { animation: hud-pulse 2s ease-in-out infinite; }
+
+      /* Dark Mode Override */
+      @media (prefers-color-scheme: dark) {
+        .hud-frame { stroke: #00FF9C; stroke-opacity: 0.65; }
+        .hud-line { stroke: #30363d; }
+        .hud-title { fill: #f0f6fc; }
+        .hud-bracket { fill: #8b949e; }
+        .hud-slash { fill: #00FF9C; }
+        .hud-num { fill: #00f3ff; }
+        .hud-hashes { fill: #00FF9C; }
+        .hud-meta { fill: #8b949e; }
+        .hud-badge-box { fill: rgba(0, 255, 156, 0.08); stroke: rgba(0, 255, 156, 0.35); }
+        .hud-badge-dot { fill: #00FF9C; }
+        .hud-badge-text { fill: #00FF9C; }
+      }
+    </style>
+  </defs>
+
+  <!-- Corner Brackets -->
+  <path d="M 6,15 L 6,6 L 15,6" class="hud-frame" />
+  <path d="M 6,35 L 6,44 L 15,44" class="hud-frame" />
+  <path d="M 494,15 L 494,6 L 485,6" class="hud-frame" />
+  <path d="M 494,35 L 494,44 L 485,44" class="hud-frame" />
+
+  <!-- Subtle Tech Guide Lines -->
+  <line x1="22" y1="6" x2="70" y2="6" class="hud-line" stroke-dasharray="2 3" />
+  <line x1="22" y1="44" x2="110" y2="44" class="hud-line" stroke-dasharray="2 3" />
+  <line x1="430" y1="44" x2="478" y2="44" class="hud-line" stroke-dasharray="2 3" />
+
+  <!-- Accent Hashes -->
+  <text x="20" y="26" dominant-baseline="middle" class="hud-font hud-hashes">///</text>
+
+  <!-- Main Section Title -->
+  <text x="48" y="26" dominant-baseline="middle" class="hud-font">
+    <tspan class="hud-bracket">[ </tspan>
+    <tspan class="hud-slash">// </tspan>
+    <tspan class="hud-num">06. </tspan>
+    <tspan class="hud-title">OPEN_CHANNELS</tspan>
+    <tspan class="hud-bracket"> ]</tspan>
+  </text>
+
+  <!-- Telemetry Meta Tag -->
+  <text x="362" y="26" text-anchor="end" dominant-baseline="middle" class="hud-font hud-meta">COMM::0x06//PORT</text>
+  <line x1="369" y1="18" x2="369" y2="32" class="hud-line" />
+
+  <!-- Status Badge [SYS::ACTIVE] -->
+  <g transform="translate(376, 14)">
+    <rect width="108" height="22" rx="3" class="hud-badge-box" />
+    <circle cx="10" cy="11" r="2.5" class="hud-badge-dot hud-pulse" />
+    <text x="18" y="11.5" dominant-baseline="middle" class="hud-font hud-badge-text">[SYS::ACTIVE]</text>
+  </g>
+</svg>
