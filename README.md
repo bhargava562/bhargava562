@@ -11,7 +11,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
-    <img width="100%" alt="Bhargava A — AI-Native Software Engineer Terminal" src="./dark.svg" />
+    <img width="100%" alt="Bhargava A — Full-Stack & AI-Native Systems Engineer Terminal" src="./dark.svg" />
   </picture>
 </p>
 
@@ -58,20 +58,21 @@
 $ whoami --verbose
 
 name       : Bhargava A
-role       : Python Backend Intern @ Linkific ('26)
+role       : Full-Stack Developer & Python Backend Intern @ Linkific ('26)
 community  : Lead @ Google Developer Groups on Campus (RMKEC)
 identity   : "Centaur Engineer" — AI as force multiplier,
              not a replacement for engineering judgment
 college    : R.M.K. Engineering College
 degree     : B.Tech, CS & Business Systems | '24–'28
 cgpa       : 8.75 / 10
-location   : Greater Chennai Area, India
+location   : Avadi, Chennai, India
 principle  : Ship the boring 80%, own the hard 20%
 ```
 
 <h3>🧠 Currently Compiling</h3>
 
-* ⚙️ **Production Backend Systems** — asyncpg poolers, TTL caching & low-latency FastAPI pipelines
+* 🌐 **Full-Stack Web Architecture** — Modern responsive frontends (React 19, Next.js 15, Tailwind) coupled with high-throughput backend services
+* ⚙️ **Production Backend Pipelines** — asyncpg poolers, TTL caching & low-latency FastAPI / Spring Boot APIs
 * 📐 **30-pattern DSA sprint** — daily competitive programming on LeetCode, CodeForces & AtCoder
 * 🛰️ **Orbit** — request-time health-aware credential failover platform (Spring Boot / React)
 * ✍️ Weekly engineering deep-dives on LinkedIn — production systems, architecture trade-offs
@@ -102,51 +103,60 @@ principle  : Ship the boring 80%, own the hard 20%
 
 <table align="center" width="100%">
 <tr>
-
-<td align="center" width="50%" valign="top">
-
-**Languages**
-
+<th align="center" width="50%">💻 LANGUAGES & CORE</th>
+<th align="center" width="50%">🌐 FULL-STACK FRAMEWORKS</th>
+</tr>
+<tr>
+<td align="center" valign="top">
 <br/>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,python,typescript,javascript,cpp,c&perline=6" alt="Programming languages" />
-</a>
-
+<img src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" width="44" height="44" alt="Java" title="Java 21" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/python--v1.png" width="44" height="44" alt="Python" title="Python 3" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/typescript.png" width="44" height="44" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/javascript--v1.png" width="44" height="44" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/c-plus-plus-logo.png" width="44" height="44" alt="C++" title="C++" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/c-programming.png" width="44" height="44" alt="C" title="C" />
 <br/><br/>
-
-**Frameworks & Libraries**
-
-<br/>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=spring,fastapi,react,nextjs,nodejs,tailwind&perline=6" alt="Frameworks" />
-</a>
-
-</td>
-
-<td align="center" width="50%" valign="top">
-
-**Data & Infrastructure**
-
-<br/>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=postgresql,redis,mongodb,docker,supabase,linux&perline=6" alt="Data and infrastructure" />
-</a>
-
+<code>Java 21 (OCP)</code> • <code>Python</code> • <code>TypeScript</code> • <code>JavaScript</code> • <code>C++</code>
 <br/><br/>
-
-**Tools & Workflow**
-
-<br/>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman,bash&perline=6" alt="Development tools" />
-</a>
-
 </td>
-
+<td align="center" valign="top">
+<br/>
+<img src="https://img.icons8.com/color/48/react-native.png" width="44" height="44" alt="React" title="React 19" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/nextjs.png" width="44" height="44" alt="Next.js" title="Next.js 15" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/tailwind_css.png" width="44" height="44" alt="Tailwind CSS" title="Tailwind CSS" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/spring-logo.png" width="44" height="44" alt="Spring Boot" title="Spring Boot 3.4" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/nodejs.png" width="44" height="44" alt="Node.js" title="Node.js" />
+<br/><br/>
+<code>React 19</code> • <code>Next.js 15</code> • <code>Tailwind</code> • <code>FastAPI</code> • <code>Spring Boot</code>
+<br/><br/>
+</td>
+</tr>
+<tr>
+<th align="center" width="50%">🗄️ DATA & INFRASTRUCTURE</th>
+<th align="center" width="50%">🛠️ TOOLS & WORKFLOW</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<br/>
+<img src="https://img.icons8.com/color/48/postgreesql.png" width="44" height="44" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/redis.png" width="44" height="44" alt="Redis" title="Redis" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/mongodb.png" width="44" height="44" alt="MongoDB" title="MongoDB" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/docker.png" width="44" height="44" alt="Docker" title="Docker" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/linux--v1.png" width="44" height="44" alt="Linux" title="Linux" />
+<br/><br/>
+<code>PostgreSQL</code> • <code>Redis</code> • <code>Supabase</code> • <code>Docker</code> • <code>Linux</code>
+<br/><br/>
+</td>
+<td align="center" valign="top">
+<br/>
+<img src="https://img.icons8.com/color/48/git.png" width="44" height="44" alt="Git" title="Git" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/github--v1.png" width="44" height="44" alt="GitHub" title="GitHub" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" width="44" height="44" alt="VS Code" title="VS Code" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/intellij-idea.png" width="44" height="44" alt="IntelliJ IDEA" title="IntelliJ IDEA" />
+<br/><br/>
+<code>Git</code> • <code>GitHub Actions</code> • <code>VS Code</code> • <code>IntelliJ</code> • <code>Postman</code>
+<br/><br/>
+</td>
 </tr>
 </table>
 
@@ -174,29 +184,90 @@ principle  : Ship the boring 80%, own the hard 20%
 
 ### 💼 Work Experience
 
-**`[Apr 2026 → Aug 2026]`** &nbsp; **Python Backend Developer Intern** — Linkific
-* Engineered **5+ core auth & user REST endpoints** (JWT, RBAC, bcrypt, Google OAuth 2.0) for a production FastAPI backend.
-* Architected a **multi-phase data processing pipeline** reading stored PostgreSQL inputs to compute and generate a sequential timer-scheduled output queue.
-* Diagnosed cloud database latency; migrated to **Supabase Shared Pooler (asyncpg)** and TTL caching, cutting warm cloud response times by **~34%** (181 ms → 120 ms on Render; ~23 ms locally).
-* Hardened endpoints with **SlowAPI rate limiting** and authored an **11-phase test suite**.
+<!-- Role 1: Linkific -->
+<p>
+  <strong>Python Backend Developer Intern</strong> &nbsp;•&nbsp; <strong>Linkific</strong>
+  <br/>
+  <img src="https://img.shields.io/badge/TENURE-APR%202026%20%E2%86%92%20AUG%202026-00FF9C?style=flat-square&labelColor=0d1424" alt="Tenure" />
+  <img src="https://img.shields.io/badge/DOMAIN-BACKEND%20%26%20DISTRIBUTED%20SYSTEMS-00F3FF?style=flat-square&labelColor=0d1424" alt="Domain" />
+  <img src="https://img.shields.io/badge/MODE-REMOTE-7CFFCB?style=flat-square&labelColor=0d1424" alt="Mode" />
+</p>
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+- <img src="https://img.shields.io/badge/METRIC-~34%25%20LATENCY%20CUT-00FF9C?style=flat-square&labelColor=0d1424" alt="Latency Cut" /> Diagnosed cloud database bottleneck; migrated to **Supabase Shared Pooler (asyncpg)** and TTL caching, slashing warm cloud response times by **~34%** (181 ms → 120 ms on Render; ~23 ms locally).
+- <img src="https://img.shields.io/badge/METRIC-5%2B%20CORE%20ENDPOINTS-00F3FF?style=flat-square&labelColor=0d1424" alt="Auth Endpoints" /> Engineered **5+ core auth & user REST endpoints** incorporating **JWT, granular RBAC, bcrypt password hashing**, and **Google OAuth 2.0**.
+- <img src="https://img.shields.io/badge/METRIC-11--PHASE%20TEST%20SUITE-FFA116?style=flat-square&labelColor=0d1424" alt="Test Suite" /> Hardened endpoints with **SlowAPI rate limiting** and authored an exhaustive **11-phase test suite** ensuring zero-regression releases.
+- <img src="https://img.shields.io/badge/METRIC-TIMER%20DATA%20PIPELINE-0891B2?style=flat-square&labelColor=0d1424" alt="Data Pipeline" /> Architected a **multi-phase data processing pipeline** reading stored PostgreSQL inputs to compute and generate a sequential timer-scheduled output queue.
 
 <br/>
+<hr/>
+<br/>
 
-**`[Jun 2025 → Jul 2025]`** &nbsp; **Frontend Developer Intern** — The Entrepreneurship Network
-* Developed responsive user interfaces using **React** and **Tailwind CSS**, delivering 28 JSX components across 8 routes for the TEN Tech Competition Engine.
-* Optimized client-side routing, state management with `useCallback`/`useEffect`, and implemented React Error Boundaries for fault-tolerant UI (1.62s LCP, 0.00 CLS).
+<!-- Role 2: TEN -->
+<p>
+  <strong>Frontend Developer Intern</strong> &nbsp;•&nbsp; <strong>The Entrepreneurship Network</strong>
+  <br/>
+  <img src="https://img.shields.io/badge/TENURE-JUN%202025%20%E2%86%92%20JUL%202025-00F3FF?style=flat-square&labelColor=0d1424" alt="Tenure" />
+  <img src="https://img.shields.io/badge/DOMAIN-FRONTEND%20ENGINEERING-00FF9C?style=flat-square&labelColor=0d1424" alt="Domain" />
+  <img src="https://img.shields.io/badge/MODE-REMOTE-7CFFCB?style=flat-square&labelColor=0d1424" alt="Mode" />
+</p>
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+- <img src="https://img.shields.io/badge/METRIC-28%20JSX%20COMPONENTS-00F3FF?style=flat-square&labelColor=0d1424" alt="28 Components" /> Developed responsive interfaces delivering **28 JSX modular components across 8 routes** for the flagship TEN Tech Competition Engine.
+- <img src="https://img.shields.io/badge/METRIC-1.62s%20LCP%20%7C%200.00%20CLS-00FF9C?style=flat-square&labelColor=0d1424" alt="Web Vitals" /> Optimized client-side routing and state management with `useCallback`/`useEffect`, clocking **1.62s LCP and 0.00 CLS** Core Web Vitals.
+- <img src="https://img.shields.io/badge/METRIC-FAULT--TOLERANT%20UI-FFA116?style=flat-square&labelColor=0d1424" alt="Error Boundaries" /> Implemented **React Error Boundaries** preventing catastrophic cascading failures and guaranteeing graceful UI fallback states.
 
 <hr/>
 
 ### 🤝 Volunteering & Community Leadership
 
-**`[Oct 2026 → Present]`** &nbsp; **Lead** — Google Developer Groups on Campus (GDGoC RMK)
-* Directing campus developer community, organizing **Google Cloud Study Jam**, mentoring students through GCP labs, and designing automated certificate issuance workflows.
+<!-- Volunteering 1: GDGoC RMK Lead -->
+<p>
+  <strong>Lead Organizer</strong> &nbsp;•&nbsp; <strong>Google Developer Groups on Campus (GDGoC RMK)</strong>
+  <br/>
+  <img src="https://img.shields.io/badge/TENURE-OCT%202026%20%E2%86%92%20PRESENT-FFA116?style=flat-square&labelColor=0d1424" alt="Tenure" />
+  <img src="https://img.shields.io/badge/ROLE-CAMPUS%20COMMUNITY%20DIRECTOR-00FF9C?style=flat-square&labelColor=0d1424" alt="Role" />
+  <img src="https://img.shields.io/badge/CAMPUS-RMKEC-00F3FF?style=flat-square&labelColor=0d1424" alt="Campus" />
+</p>
+
+![GoogleCloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![GenAI](https://img.shields.io/badge/Generative%20AI-00FF9C?style=flat-square&labelColor=0d1424)
+![DevEcosystem](https://img.shields.io/badge/Developer%20Ecosystem-FF6F00?style=flat-square&labelColor=0d1424)
+![Automation](https://img.shields.io/badge/Automated%20Workflows-0891B2?style=flat-square&labelColor=0d1424)
+
+- <img src="https://img.shields.io/badge/METRIC-200%2B%20STUDENTS%20MENTORED-00FF9C?style=flat-square&labelColor=0d1424" alt="Mentored" /> Directing campus developer ecosystem, mentoring **200+ students** through hands-on GCP cloud architecture and GenAI engineering tracks.
+- <img src="https://img.shields.io/badge/METRIC-GOOGLE%20CLOUD%20STUDY%20JAM-00F3FF?style=flat-square&labelColor=0d1424" alt="Study Jam" /> Spearheading campus-wide **Google Cloud Study Jam**, guiding developers across cloud IAM, serverless compute, and BigQuery analytics.
+- <img src="https://img.shields.io/badge/METRIC-AUTOMATION%20PIPELINES-FFA116?style=flat-square&labelColor=0d1424" alt="Automation" /> Architected an **automated certificate issuance workflow**, streamlining verification and distribution for workshop participants.
 
 <br/>
+<hr/>
+<br/>
 
-**`[Dec 2025 → Oct 2026]`** &nbsp; **Tech Team Member** — Google Developer Groups on Campus (GDGoC RMK)
-* Engineered an **interactive technical quiz application** for live developer events and provided hands-on technical mentoring across workshops.
+<!-- Volunteering 2: GDGoC RMK Tech Team -->
+<p>
+  <strong>Technical Team Member</strong> &nbsp;•&nbsp; <strong>Google Developer Groups on Campus (GDGoC RMK)</strong>
+  <br/>
+  <img src="https://img.shields.io/badge/TENURE-DEC%202025%20%E2%86%92%20OCT%202026-7CFFCB?style=flat-square&labelColor=0d1424" alt="Tenure" />
+  <img src="https://img.shields.io/badge/DOMAIN-TECHNICAL%20DEVELOPMENT-0891B2?style=flat-square&labelColor=0d1424" alt="Domain" />
+</p>
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![WebApps](https://img.shields.io/badge/Interactive%20Apps-61DAFB?style=flat-square&labelColor=0d1424)
+![Workshops](https://img.shields.io/badge/Engineering%20Workshops-00FF9C?style=flat-square&labelColor=0d1424)
+
+- <img src="https://img.shields.io/badge/METRIC-INTERACTIVE%20QUIZ%20APP-00FF9C?style=flat-square&labelColor=0d1424" alt="Quiz App" /> Engineered a real-time **interactive technical quiz application** powering live campus developer events and hackathons.
+- <img src="https://img.shields.io/badge/METRIC-HANDS--ON%20MENTORING-00F3FF?style=flat-square&labelColor=0d1424" alt="Mentoring" /> Provided hands-on debugging, Git version control, and system design mentoring across developer workshops.
 
 </td>
 </tr>
@@ -275,22 +346,8 @@ principle  : Ship the boring 80%, own the hard 20%
   <img src="./assets/headers/telemetry.svg" width="480" alt="[ // 04. TELEMETRY ]" />
 </p>
 
-<!-- GitHub Stats Grid -->
+<!-- GitHub Telemetry Grid -->
 <table align="center" width="100%">
-<tr>
-<td align="center" width="50%">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=bhargava562&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06090E&title_color=00FF9C&icon_color=00F3FF&text_color=94A3B8&include_all_commits=true&count_private=true" />
-    <img height="185" src="https://github-readme-stats.vercel.app/api?username=bhargava562&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=0B7A5B&icon_color=157A6E&text_color=333333&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  </picture>
-</td>
-<td align="center" width="50%">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=bhargava562&layout=compact&theme=tokyonight&hide_border=true&bg_color=06090E&title_color=00FF9C&text_color=94A3B8&langs_count=8" />
-    <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhargava562&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=0B7A5B&text_color=333333&langs_count=8" alt="Top languages" />
-  </picture>
-</td>
-</tr>
 <tr>
 <td align="center" width="50%">
   <picture>
@@ -314,11 +371,20 @@ principle  : Ship the boring 80%, own the hard 20%
   </picture>
 </p>
 
+<h3 align="center">🏆 GitHub Accolades & Trophies</h3>
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=bhargava562&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4" />
-    <img src="https://github-profile-trophy.vercel.app/?username=bhargava562&theme=flat&no-frame=true&row=1&column=7&margin-w=4" alt="GitHub trophies" />
-  </picture>
+  <img src="https://img.shields.io/badge/🏆%20Pull%20Shark-Merged%20Pull%20Requests-00FF9C?style=for-the-badge&labelColor=0d1424" alt="Pull Shark" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/⚡%20Quickdraw-Fast%20Issue%20Resolution-00F3FF?style=for-the-badge&labelColor=0d1424" alt="Quickdraw" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🧠%20Galaxy%20Brain-Discussion%20Authority-FFA116?style=for-the-badge&labelColor=0d1424" alt="Galaxy Brain" />
+  <br/><br/>
+  <img src="https://img.shields.io/badge/👥%20Pair%20Extraordinaire-Collaborative%20Commits-7CFFCB?style=for-the-badge&labelColor=0d1424" alt="Pair Extraordinaire" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🚀%20YOLO-Continuous%20Deployment-0891B2?style=for-the-badge&labelColor=0d1424" alt="YOLO" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/💎%20Arctic%20Code%20Vault-Preserved%20Heritage-8E75B2?style=for-the-badge&labelColor=0d1424" alt="Arctic Code Vault" />
 </p>
 
 <h3 align="center">⚔️ Competitive Programming Handles</h3>
@@ -355,11 +421,10 @@ principle  : Ship the boring 80%, own the hard 20%
   <img src="https://img.shields.io/badge/50%20Day%20Badge%20'26-FFA116?style=for-the-badge&labelColor=0d1424" alt="50 day LeetCode badge" />
 </p>
 
+<h3 align="center">📊 Real-Time GitHub Contribution Matrix</h3>
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=bhargava562&bg_color=06090E&color=00FF9C&line=00FF9C&point=00F3FF&area=true&hide_border=true&area_color=0d1424" />
-    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=bhargava562&bg_color=ffffff&color=0B7A5B&line=0B7A5B&point=157A6E&area=true&hide_border=true&area_color=D3F4E6" alt="GitHub contribution activity graph" />
-  </picture>
+  <img width="100%" src="https://ghchart.rshah.org/00FF9C/bhargava562" alt="Bhargava A GitHub Contribution Chart" />
 </p>
 
 <br/>
@@ -424,8 +489,9 @@ principle  : Ship the boring 80%, own the hard 20%
 <td>
   <img src="https://img.shields.io/badge/STATUS-ONLINE-00FF9C?style=flat-square&labelColor=0d1424" alt="Status Online" />
   <img src="https://img.shields.io/badge/DISPATCH-OPEN%20FOR%20SWE%20'28-00F3FF?style=flat-square&labelColor=0d1424" alt="Open for SWE '28" />
+  <img src="https://img.shields.io/badge/FOCUS-FULL--STACK%20%2B%20AI-FFA116?style=flat-square&labelColor=0d1424" alt="Full Stack Focus" />
   <br/>
-  <strong>Backend & AI-Native Systems Engineering</strong> <i>(Internships, Co-ops & Full-Time Roles)</i>
+  <strong>Full-Stack & AI-Native Systems Engineering</strong> <i>(Modern Frontends + High-Scale Backends + Agentic Swarms)</i>
 </td>
 </tr>
 <tr>
@@ -434,13 +500,13 @@ principle  : Ship the boring 80%, own the hard 20%
   <img src="https://img.shields.io/badge/SLA-%3C%2024%20HOURS-7CFFCB?style=flat-square&labelColor=0d1424" alt="SLA Less Than 24h" />
   <img src="https://img.shields.io/badge/CHANNELS-DIRECT%20PRIORITY-0891B2?style=flat-square&labelColor=0d1424" alt="Direct Priority" />
   <br/>
-  <em>Guaranteed priority response for engineering challenges, collaborative builds, and technical discussions.</em>
+  <em>Guaranteed priority response for full-stack engineering roles, collaborative builds, and technical discussions.</em>
 </td>
 </tr>
 <tr>
 <td><b>🛠️ Key Vectors</b></td>
 <td>
-  <code>FastAPI</code> · <code>Spring Boot</code> · <code>System Design</code> · <code>Multi-Agent Swarms</code> · <code>PostgreSQL / Redis</code>
+  <code>React 19</code> · <code>Next.js 15</code> · <code>Tailwind CSS</code> · <code>FastAPI</code> · <code>Spring Boot</code> · <code>System Design</code> · <code>Multi-Agent Swarms</code> · <code>PostgreSQL / Redis</code>
 </td>
 </tr>
 <tr>
