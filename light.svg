@@ -13,68 +13,57 @@
   </clipPath>
   <clipPath id="cmdClip1Light">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 180; 180; 0; 0" keyTimes="0; 0.0139; 0.0444; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 95; 95; 0; 0" keyTimes="0; 0.0083; 0.0417; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip2Light">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 195; 195; 0; 0" keyTimes="0; 0.1806; 0.2111; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 210; 210; 0; 0" keyTimes="0; 0.1667; 0.175; 0.2083; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip3Light">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 225; 225; 0; 0" keyTimes="0; 0.3472; 0.3778; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 345; 345; 0; 0" keyTimes="0; 0.3333; 0.3417; 0.375; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip4Light">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 175; 175; 0; 0" keyTimes="0; 0.5139; 0.5444; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 330; 330; 0; 0" keyTimes="0; 0.5; 0.5083; 0.5417; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip5Light">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 260; 260; 0; 0" keyTimes="0; 0.6806; 0.7111; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 510; 510; 0; 0" keyTimes="0; 0.6667; 0.675; 0.7083; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip6Light">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 175; 175; 0; 0" keyTimes="0; 0.8472; 0.8778; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 255; 255; 0; 0" keyTimes="0; 0.8333; 0.8417; 0.875; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
-  <linearGradient id="loaderGradLight" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#00f3ff" />
-    <stop offset="50%" stop-color="#00ff9c" />
-    <stop offset="100%" stop-color="#ffa116" />
-  </linearGradient>
-  <linearGradient id="sweepGradLight" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#00f3ff" stop-opacity="0"/>
-    <stop offset="30%" stop-color="#00f3ff" stop-opacity="0.25"/>
-    <stop offset="70%" stop-color="#00ff9c" stop-opacity="0.3"/>
-    <stop offset="100%" stop-color="#00f3ff" stop-opacity="0"/>
-  </linearGradient>
   <pattern id="scanlinesLight" width="100" height="4" patternUnits="userSpaceOnUse">
     <line x1="0" y1="2" x2="100" y2="2" stroke="#00f3ff" stroke-width="1" stroke-opacity="0.035"/>
   </pattern>
 </defs>
 <!-- Terminal Chassis & Header -->
-<rect x="462" y="66" width="682" height="510" rx="10" fill="#06090e" stroke="#00f3ff" stroke-opacity="0.45" stroke-width="1.6"/>
+<rect x="462" y="66" width="682" height="510" rx="10" fill="#06090e" stroke="#00f3ff" stroke-opacity="0.4" stroke-width="1.6"/>
 <path d="M 462,76 A 10,10 0 0,1 472,66 L 1134,66 A 10,10 0 0,1 1144,76 L 1144,102 L 462,102 Z" fill="#0c1322"/>
 <line x1="462" y1="102" x2="1144" y2="102" stroke="rgba(0, 243, 255, 0.25)" stroke-width="1"/>
 <circle cx="482" cy="84" r="5.5" fill="#ff5f56"/>
 <circle cx="500" cy="84" r="5.5" fill="#ffbd2e"/>
 <circle cx="518" cy="84" r="5.5" fill="#27c93f"/>
-<text x="803" y="88" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12" font-weight="600" fill="#94a3b8" letter-spacing="1">zsh - bhargava@ai-core: ~ (tty1) [PID: 4096]</text>
+<text x="803" y="88" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12" font-weight="600" fill="#94a3b8" letter-spacing="1">zsh - bhargava@devbox: ~ (tty1) [PID: 4096]</text>
 <g transform="translate(1042, 75)">
   <rect width="90" height="18" rx="3" fill="rgba(0, 255, 156, 0.12)" stroke="rgba(0, 255, 156, 0.45)" stroke-width="1"/>
   <circle cx="9" cy="9" r="3" fill="#00ff9c">
     <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="17" y="12.5" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700" fill="#00ff9c" letter-spacing="0.5">&#9679; SECURE</text>
+  <text x="17" y="12.5" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700" fill="#00ff9c" letter-spacing="0.5">&#9679; ONLINE</text>
 </g>
 <g clip-path="url(#termViewportLight)">
   <rect x="463" y="103" width="680" height="471" fill="url(#scanlinesLight)" pointer-events="none"/>
-  <!-- Subtle Matrix Digital Rain Stream -->
-  <g pointer-events="none" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00ff9c" opacity="0.06" letter-spacing="3">
+  <!-- Subtle Matrix Digital Rain Background Stream (non-colliding 0.05 opacity) -->
+  <g pointer-events="none" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00ff9c" opacity="0.05" letter-spacing="3">
     <text x="480" y="0">
       0 1 0 1 1 0 A 7 F 9 2 E 4 0 1 C D 3 B
       <animateTransform attributeName="transform" type="translate" values="0 -250; 0 650" dur="7.0s" repeatCount="indefinite"/>
@@ -113,285 +102,243 @@
     </text>
   </g>
   <g id="termScene1Light">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-480; 0,480; 0,480; 0,0" keyTimes="0; 0.15; 0.1639; 0.1653; 0.9861; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1; 1; 0; 0; 1; 1" keyTimes="0; 0.155; 0.1639; 0.9861; 0.9917; 1" dur="36s" repeatCount="indefinite"/>
-    <!-- Prompt: >_B $ whoami -identity -->
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-480; 0,480; 0,480; 0,0" keyTimes="0; 0.15; 0.1639; 0.1653; 0.9833; 1" dur="36s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1.0; 1.0; 0.0; 0.0; 1.0" keyTimes="0; 0.15; 0.1639; 0.9833; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Single Authentic Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
         <tspan fill="#ffa116"> $ </tspan>
       </text>
     </g>
+    
+    <!-- Real Command Reveal via Typing Clip -->
     <g clip-path="url(#cmdClip1Light)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">whoami --identity</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">fastfetch</text>
     </g>
-    <rect width="10" height="20" rx="2" fill="#00f3ff" opacity="0.95">
-      <animate attributeName="x" values="552; 552; 736; 736; 720; 490; 490; 490; 552; 552" keyTimes="0; 0.0139; 0.0444; 0.05; 0.0694; 0.0695; 0.0778; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 168; 202; 418; 418; 132; 132" keyTimes="0; 0.0139; 0.0444; 0.05; 0.0694; 0.0695; 0.0778; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Traveling and Dropping Blinking Cursor -->
+    <rect width="10" height="20" rx="2" fill="#00f3ff">
+      <animate attributeName="x" values="552; 552; 651; 651; 488; 488; 552; 552" keyTimes="0; 0.0083; 0.0417; 0.0472; 0.05; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 430; 430; 132; 132" keyTimes="0; 0.0083; 0.0417; 0.0472; 0.05; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
-    <!-- Loader progress bar -->
+    
+    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
     <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.051; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
-      <!-- Track -->
-      <rect x="490" y="166" width="220" height="5" rx="2.5" fill="rgba(255,255,255,0.08)" stroke="rgba(0,243,255,0.3)" stroke-width="0.7"/>
-      <!-- Progress Fill -->
-      <rect x="490" y="166" width="0" height="5" rx="2.5" fill="url(#loaderGradLight)">
-        <animate attributeName="width" values="0; 0; 220; 220; 0; 0" keyTimes="0; 0.05; 0.0694; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Loader label -->
-      <text x="724" y="172" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#00ff9c" letter-spacing="1">[DECRYPTING IDENTITY_RECORD] 100% OK</text>
-    </g>
-    <rect x="480" width="638" height="26" rx="4" fill="url(#sweepGradLight)" pointer-events="none">
-      <animate attributeName="y" values="190; 190; 190; 440; 440; 190" keyTimes="0; 0.05; 0.051; 0.0811; 0.0861; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0; 0; 0.85; 0.85; 0; 0" keyTimes="0; 0.05; 0.051; 0.0811; 0.0861; 1" dur="36s" repeatCount="indefinite"/>
-    </rect>
-    <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0667; 0.0747; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
-      <text x="490" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00f3ff" letter-spacing="0.5">IDENTIFIER :</text>
-      <text x="618" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">Bhargava A</text>
-      <text x="490" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#38bdf8" letter-spacing="0.5">COGNITION  :</text>
-      <text x="618" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">"Centaur Engineer" — AI as Force Multiplier</text>
-      <text x="490" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#c084fc" letter-spacing="0.5">ACADEMICS  :</text>
-      <text x="618" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">B.Tech CSBS @ R.M.K. Engineering College ('24–'28)</text>
-      <text x="490" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00ff9c" letter-spacing="0.5">LOCATION   :</text>
-      <text x="618" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Greater Chennai Area, India | CGPA: 8.75 / 10</text>
-      <text x="490" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#fbbf24" letter-spacing="0.5">ROLE_ARCH  :</text>
-      <text x="618" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Backend Developer &amp; AI Systems Architect</text>
+      <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.05; 0.0514; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
+
+      <!-- Fastfetch System Specs -->
+      <text x="488" y="180" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700">
+        <tspan fill="#00ff9c">bhargava@devbox</tspan>
+        <tspan fill="#475569" dx="10">---------------------------------------------</tspan>
+      </text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
+        <text x="488" y="214"><tspan fill="#00f3ff" font-weight="700">OS         :</tspan><tspan fill="#38bdf8" dx="16">Arch Linux x86_64</tspan><tspan fill="#64748b" dx="10">[Kernel 6.12.9-arch1]</tspan></text>
+        <text x="488" y="246"><tspan fill="#00f3ff" font-weight="700">Host       :</tspan><tspan fill="#f1f5f9" dx="16">ThinkPad E14 Gen 5 (Custom Dev Rig)</tspan></text>
+        <text x="488" y="278"><tspan fill="#00f3ff" font-weight="700">Identity   :</tspan><tspan fill="#00ff9c" dx="16">Bhargava A</tspan><tspan fill="#94a3b8" dx="8">| "Centaur Engineer" (AI-Augmented)</tspan></text>
+        <text x="488" y="310"><tspan fill="#00f3ff" font-weight="700">Role       :</tspan><tspan fill="#ffa116" dx="16">AI Systems &amp; Distributed Backend Developer</tspan></text>
+        <text x="488" y="342"><tspan fill="#00f3ff" font-weight="700">Academics  :</tspan><tspan fill="#c084fc" dx="16">B.Tech CSBS @ R.M.K. Engineering College ('24–'28)</tspan></text>
+        <text x="488" y="374"><tspan fill="#00f3ff" font-weight="700">Focus      :</tspan><tspan fill="#38bdf8" dx="16">Agent Swarms, Low-Latency APIs, Event Pipelines</tspan></text>
+        <text x="488" y="406"><tspan fill="#00f3ff" font-weight="700">Uptime     :</tspan><tspan fill="#4ade80" dx="16">247 days, 13 hours, 42 mins</tspan></text>
+      </g>
     </g>
   </g>
   <g id="termScene2Light">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.1528; 0.1667; 0.3167; 0.3306; 0.3319; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1528; 0.1667; 0.3217; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
-    <!-- Prompt: >_B $ cat career_intent.md -->
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.15; 0.1667; 0.3167; 0.3306; 0.3319; 1" dur="36s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.15; 0.1667; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Single Authentic Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
         <tspan fill="#ffa116"> $ </tspan>
       </text>
     </g>
+    
+    <!-- Real Command Reveal via Typing Clip -->
     <g clip-path="url(#cmdClip2Light)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">cat career_intent.md</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">cat ~/career_intent.md</text>
     </g>
-    <rect width="10" height="20" rx="2" fill="#00f3ff" opacity="0.95">
-      <animate attributeName="x" values="552; 552; 751; 751; 720; 490; 490; 490; 552; 552" keyTimes="0; 0.1806; 0.2111; 0.2167; 0.2361; 0.2362; 0.2444; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 168; 202; 418; 418; 132; 132" keyTimes="0; 0.1806; 0.2111; 0.2167; 0.2361; 0.2362; 0.2444; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Traveling and Dropping Blinking Cursor -->
+    <rect width="10" height="20" rx="2" fill="#00f3ff">
+      <animate attributeName="x" values="552; 552; 552; 766; 766; 488; 488; 552; 552" keyTimes="0; 0.1667; 0.175; 0.2083; 0.2139; 0.2167; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 430; 430; 132; 132" keyTimes="0; 0.1667; 0.175; 0.2083; 0.2139; 0.2167; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
-    <!-- Loader progress bar -->
+    
+    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
     <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.2167; 0.2177; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
-      <!-- Track -->
-      <rect x="490" y="166" width="220" height="5" rx="2.5" fill="rgba(255,255,255,0.08)" stroke="rgba(0,243,255,0.3)" stroke-width="0.7"/>
-      <!-- Progress Fill -->
-      <rect x="490" y="166" width="0" height="5" rx="2.5" fill="url(#loaderGradLight)">
-        <animate attributeName="width" values="0; 0; 220; 220; 0; 0" keyTimes="0; 0.2167; 0.2361; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Loader label -->
-      <text x="724" y="172" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#00ff9c" letter-spacing="1">[PARSING MISSION_STATEMENT] 100% OK</text>
-    </g>
-    <rect x="480" width="638" height="26" rx="4" fill="url(#sweepGradLight)" pointer-events="none">
-      <animate attributeName="y" values="190; 190; 190; 440; 440; 190" keyTimes="0; 0.2167; 0.2177; 0.2478; 0.2528; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0; 0; 0.85; 0.85; 0; 0" keyTimes="0; 0.2167; 0.2177; 0.2478; 0.2528; 1" dur="36s" repeatCount="indefinite"/>
-    </rect>
-    <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.2333; 0.2413; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
-      <text x="490" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00f3ff" letter-spacing="0.5">CAREER_AIM :</text>
-      <text x="618" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">Product Engineer / AI Systems Architect → CTO Track</text>
-      <text x="490" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#38bdf8" letter-spacing="0.5">PASSION    :</text>
-      <text x="618" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">High-Throughput Distributed Backends &amp; Agent Swarms</text>
-      <text x="490" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#c084fc" letter-spacing="0.5">CREED      :</text>
-      <text x="618" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">"Ship the boring 80%, own the hard 20%"</text>
-      <text x="490" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00ff9c" letter-spacing="0.5">CALIBRATION:</text>
-      <text x="618" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Never a vibe-coder — First-principles engineering</text>
-      <text x="490" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#fbbf24" letter-spacing="0.5">SPRINT     :</text>
-      <text x="618" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">30-Pattern DSA Sprint + System Design Fundamentals</text>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.1667; 0.2167; 0.2181; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
+
+      <!-- Career Intent Markdown File -->
+      <text x="488" y="184" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#ffa116">## MISSION &amp; CAREER TRAJECTORY</text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
+        <text x="488" y="220"><tspan fill="#00f3ff" font-weight="700">* Target   :</tspan><tspan fill="#f1f5f9" dx="16">Product Engineer &gt; AI Systems Architect &gt; CTO Track</tspan></text>
+        <text x="488" y="256"><tspan fill="#00f3ff" font-weight="700">* Passion  :</tspan><tspan fill="#f1f5f9" dx="16">High-Throughput Distributed Backends &amp; Agent Swarms</tspan></text>
+        <text x="488" y="292"><tspan fill="#00f3ff" font-weight="700">* Creed    :</tspan><tspan fill="#00ff9c" font-weight="700" dx="16">"Ship the boring 80%, own the hard 20%"</tspan></text>
+        <text x="488" y="328"><tspan fill="#00f3ff" font-weight="700">* Ethos    :</tspan><tspan fill="#f8fafc" dx="16">First-principles builder — never a vibe-coder</tspan></text>
+        <text x="488" y="364"><tspan fill="#00f3ff" font-weight="700">* Sprint   :</tspan><tspan fill="#c084fc" dx="16">30-Pattern DSA Sprint + System Design Fundamentals</tspan></text>
+        <text x="488" y="400"><tspan fill="#00f3ff" font-weight="700">* Reading  :</tspan><tspan fill="#38bdf8" dx="16">Designing Data-Intensive Applications (DDIA)</tspan></text>
+      </g>
     </g>
   </g>
   <g id="termScene3Light">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.3194; 0.3333; 0.4833; 0.4972; 0.4986; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.3194; 0.3333; 0.4883; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
-    <!-- Prompt: >_B $ ./inspect-stack -verified -->
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.3167; 0.3333; 0.4833; 0.4972; 0.4986; 1" dur="36s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.3167; 0.3333; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Single Authentic Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
         <tspan fill="#ffa116"> $ </tspan>
       </text>
     </g>
+    
+    <!-- Real Command Reveal via Typing Clip -->
     <g clip-path="url(#cmdClip3Light)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">./inspect-stack --verified</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">env | grep -E 'LANG|BACKEND|AI|INFRA'</text>
     </g>
-    <rect width="10" height="20" rx="2" fill="#00f3ff" opacity="0.95">
-      <animate attributeName="x" values="552; 552; 781; 781; 720; 490; 490; 490; 552; 552" keyTimes="0; 0.3472; 0.3778; 0.3833; 0.4028; 0.4029; 0.4111; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 168; 202; 418; 418; 132; 132" keyTimes="0; 0.3472; 0.3778; 0.3833; 0.4028; 0.4029; 0.4111; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Traveling and Dropping Blinking Cursor -->
+    <rect width="10" height="20" rx="2" fill="#00f3ff">
+      <animate attributeName="x" values="552; 552; 552; 901; 901; 488; 488; 552; 552" keyTimes="0; 0.3333; 0.3417; 0.375; 0.3806; 0.3833; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 420; 420; 132; 132" keyTimes="0; 0.3333; 0.3417; 0.375; 0.3806; 0.3833; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
-    <!-- Loader progress bar -->
+    
+    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
     <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.3833; 0.3843; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
-      <!-- Track -->
-      <rect x="490" y="166" width="220" height="5" rx="2.5" fill="rgba(255,255,255,0.08)" stroke="rgba(0,243,255,0.3)" stroke-width="0.7"/>
-      <!-- Progress Fill -->
-      <rect x="490" y="166" width="0" height="5" rx="2.5" fill="url(#loaderGradLight)">
-        <animate attributeName="width" values="0; 0; 220; 220; 0; 0" keyTimes="0; 0.3833; 0.4028; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Loader label -->
-      <text x="724" y="172" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#00ff9c" letter-spacing="1">[SCANNING RUNTIME_TOOLCHAIN] 100% OK</text>
-    </g>
-    <rect x="480" width="638" height="26" rx="4" fill="url(#sweepGradLight)" pointer-events="none">
-      <animate attributeName="y" values="190; 190; 190; 440; 440; 190" keyTimes="0; 0.3833; 0.3843; 0.4144; 0.4194; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0; 0; 0.85; 0.85; 0; 0" keyTimes="0; 0.3833; 0.3843; 0.4144; 0.4194; 1" dur="36s" repeatCount="indefinite"/>
-    </rect>
-    <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.4; 0.408; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
-      <text x="490" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00f3ff" letter-spacing="0.5">LANGUAGES  :</text>
-      <text x="618" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">Java (OCP 21 Certified), Python, TypeScript, C++</text>
-      <text x="490" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#38bdf8" letter-spacing="0.5">BACKEND    :</text>
-      <text x="618" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Spring Boot, FastAPI, PostgreSQL, Redis, SlowAPI</text>
-      <text x="490" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#c084fc" letter-spacing="0.5">AI_SYSTEMS :</text>
-      <text x="618" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">LangGraph (Multi-Agent), Gemini API, Claude MCP, Groq</text>
-      <text x="490" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00ff9c" letter-spacing="0.5">INFRA_OPS  :</text>
-      <text x="618" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Docker, Supabase (asyncpg), Linux, Postman, Git</text>
-      <text x="490" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#fbbf24" letter-spacing="0.5">PATTERNS   :</text>
-      <text x="618" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Distributed Locking, TTL Cache, Event Pipelines</text>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.3333; 0.3833; 0.3847; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
+
+      <!-- Core Stack Shell Environment Variables -->
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
+        <text x="488" y="192"><tspan fill="#00f3ff" font-weight="700">LANGUAGES</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#00ff9c">"Java 21 (OCP), Python 3.12, TypeScript, C++, Go"</tspan></text>
+        <text x="488" y="232"><tspan fill="#00f3ff" font-weight="700">BACKEND</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#f1f5f9">"Spring Boot 3.4, FastAPI, PostgreSQL, Redis, Kafka"</tspan></text>
+        <text x="488" y="272"><tspan fill="#00f3ff" font-weight="700">AI_SYSTEMS</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#ffa116">"LangGraph, Gemini 2.0, Claude MCP, Ollama, Groq"</tspan></text>
+        <text x="488" y="312"><tspan fill="#00f3ff" font-weight="700">INFRA_OPS</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#38bdf8">"Docker, Supabase, Linux Kernel, Postman, Git CI/CD"</tspan></text>
+        <text x="488" y="352"><tspan fill="#00f3ff" font-weight="700">FOCUS</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#c084fc">"Low-Latency APIs, Microservices &amp; Multi-Agent Swarms"</tspan></text>
+        <text x="488" y="392"><tspan fill="#00f3ff" font-weight="700">PARADIGM</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#4ade80">"Ship Boring 80%, Own Hard 20% | Zero-Vibe Rigor"</tspan></text>
+      </g>
     </g>
   </g>
   <g id="termScene4Light">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.4861; 0.5; 0.65; 0.6639; 0.6653; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.4861; 0.5; 0.655; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
-    <!-- Prompt: >_B $ cat experience.log -->
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.4833; 0.5; 0.65; 0.6639; 0.6653; 1" dur="36s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.4833; 0.5; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Single Authentic Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
         <tspan fill="#ffa116"> $ </tspan>
       </text>
     </g>
+    
+    <!-- Real Command Reveal via Typing Clip -->
     <g clip-path="url(#cmdClip4Light)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">cat experience.log</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">git log --oneline --decorate -n 4</text>
     </g>
-    <rect width="10" height="20" rx="2" fill="#00f3ff" opacity="0.95">
-      <animate attributeName="x" values="552; 552; 731; 731; 720; 490; 490; 490; 552; 552" keyTimes="0; 0.5139; 0.5444; 0.55; 0.5694; 0.5695; 0.5778; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 168; 202; 418; 418; 132; 132" keyTimes="0; 0.5139; 0.5444; 0.55; 0.5694; 0.5695; 0.5778; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Traveling and Dropping Blinking Cursor -->
+    <rect width="10" height="20" rx="2" fill="#00f3ff">
+      <animate attributeName="x" values="552; 552; 552; 886; 886; 488; 488; 552; 552" keyTimes="0; 0.5; 0.5083; 0.5417; 0.5472; 0.55; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 415; 415; 132; 132" keyTimes="0; 0.5; 0.5083; 0.5417; 0.5472; 0.55; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
-    <!-- Loader progress bar -->
+    
+    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
     <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.55; 0.551; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
-      <!-- Track -->
-      <rect x="490" y="166" width="220" height="5" rx="2.5" fill="rgba(255,255,255,0.08)" stroke="rgba(0,243,255,0.3)" stroke-width="0.7"/>
-      <!-- Progress Fill -->
-      <rect x="490" y="166" width="0" height="5" rx="2.5" fill="url(#loaderGradLight)">
-        <animate attributeName="width" values="0; 0; 220; 220; 0; 0" keyTimes="0; 0.55; 0.5694; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Loader label -->
-      <text x="724" y="172" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#00ff9c" letter-spacing="1">[QUERYING PRODUCTION_AUDITS] 100% OK</text>
-    </g>
-    <rect x="480" width="638" height="26" rx="4" fill="url(#sweepGradLight)" pointer-events="none">
-      <animate attributeName="y" values="190; 190; 190; 440; 440; 190" keyTimes="0; 0.55; 0.551; 0.5811; 0.5861; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0; 0; 0.85; 0.85; 0; 0" keyTimes="0; 0.55; 0.551; 0.5811; 0.5861; 1" dur="36s" repeatCount="indefinite"/>
-    </rect>
-    <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5667; 0.5747; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
-      <text x="490" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00f3ff" letter-spacing="0.5">LINKIFIC   :</text>
-      <text x="618" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">Backend Developer Intern ('26) | Prod FastAPI &amp; JWT</text>
-      <text x="490" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#38bdf8" letter-spacing="0.5">LINKIFIC_OP:</text>
-      <text x="618" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Pooler migration cut latency by ~34% (181→120ms)</text>
-      <text x="490" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#c084fc" letter-spacing="0.5">AUDIT_SCORE:</text>
-      <text x="618" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">Architecture Review 9.5/10 | 11-Phase Test Suite</text>
-      <text x="490" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00ff9c" letter-spacing="0.5">T.E.N.     :</text>
-      <text x="618" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Frontend Developer Intern ('25) | 28 React Components</text>
-      <text x="490" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#fbbf24" letter-spacing="0.5">LEADERSHIP :</text>
-      <text x="618" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Lead Organizer @ GDGoC RMK (Google Cloud Study Jam)</text>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.5; 0.55; 0.5514; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
+
+      <!-- Git Commit Log -->
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
+        <text x="488" y="196"><tspan fill="#ffa116" font-weight="700">e4a81c2</tspan><tspan fill="#00f3ff" font-weight="700" dx="12">(HEAD -&gt; linkific)</tspan><tspan fill="#f1f5f9" dx="14">feat: core backend architecture &amp; auth</tspan></text>
+        <text x="488" y="238"><tspan fill="#ffa116" font-weight="700">9b2f0a1</tspan><tspan fill="#38bdf8" font-weight="700" dx="12">(ten-intern)</tspan><tspan fill="#f1f5f9" dx="53">feat: high-throughput REST APIs &amp; pipelines</tspan></text>
+        <text x="488" y="280"><tspan fill="#ffa116" font-weight="700">7c1d3e8</tspan><tspan fill="#00ff9c" font-weight="700" dx="12">(gdgoc-rmk)</tspan><tspan fill="#f1f5f9" dx="61">feat: organize GenAI study jams &amp; agent swarms</tspan></text>
+        <text x="488" y="322"><tspan fill="#ffa116" font-weight="700">3f8a02c</tspan><tspan fill="#c084fc" font-weight="700" dx="12">(origin/main)</tspan><tspan fill="#f1f5f9" dx="45">init: resilient microservices &amp; docker runtime</tspan></text>
+        <text x="488" y="368" fill="#64748b" font-style="italic">... (350+ commits logged across production repos)</text>
+      </g>
     </g>
   </g>
   <g id="termScene5Light">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.6528; 0.6667; 0.8167; 0.8306; 0.8319; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6528; 0.6667; 0.8217; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
-    <!-- Prompt: >_B $ ./list-deployments -flagships -->
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.65; 0.6667; 0.8167; 0.8306; 0.8319; 1" dur="36s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.65; 0.6667; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Single Authentic Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
         <tspan fill="#ffa116"> $ </tspan>
       </text>
     </g>
+    
+    <!-- Real Command Reveal via Typing Clip -->
     <g clip-path="url(#cmdClip5Light)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">./list-deployments --flagships</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"</text>
     </g>
-    <rect width="10" height="20" rx="2" fill="#00f3ff" opacity="0.95">
-      <animate attributeName="x" values="552; 552; 816; 816; 720; 490; 490; 490; 552; 552" keyTimes="0; 0.6806; 0.7111; 0.7167; 0.7361; 0.7362; 0.7444; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 168; 202; 418; 418; 132; 132" keyTimes="0; 0.6806; 0.7111; 0.7167; 0.7361; 0.7362; 0.7444; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Traveling and Dropping Blinking Cursor -->
+    <rect width="10" height="20" rx="2" fill="#00f3ff">
+      <animate attributeName="x" values="552; 552; 552; 1066; 1066; 488; 488; 552; 552" keyTimes="0; 0.6667; 0.675; 0.7083; 0.7139; 0.7167; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 415; 415; 132; 132" keyTimes="0; 0.6667; 0.675; 0.7083; 0.7139; 0.7167; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
-    <!-- Loader progress bar -->
+    
+    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
     <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.7167; 0.7177; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
-      <!-- Track -->
-      <rect x="490" y="166" width="220" height="5" rx="2.5" fill="rgba(255,255,255,0.08)" stroke="rgba(0,243,255,0.3)" stroke-width="0.7"/>
-      <!-- Progress Fill -->
-      <rect x="490" y="166" width="0" height="5" rx="2.5" fill="url(#loaderGradLight)">
-        <animate attributeName="width" values="0; 0; 220; 220; 0; 0" keyTimes="0; 0.7167; 0.7361; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Loader label -->
-      <text x="724" y="172" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#00ff9c" letter-spacing="1">[VERIFYING LIVE_DEPLOYMENTS] 100% OK</text>
-    </g>
-    <rect x="480" width="638" height="26" rx="4" fill="url(#sweepGradLight)" pointer-events="none">
-      <animate attributeName="y" values="190; 190; 190; 440; 440; 190" keyTimes="0; 0.7167; 0.7177; 0.7478; 0.7528; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0; 0; 0.85; 0.85; 0; 0" keyTimes="0; 0.7167; 0.7177; 0.7478; 0.7528; 1" dur="36s" repeatCount="indefinite"/>
-    </rect>
-    <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.7333; 0.7413; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
-      <text x="490" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00f3ff" letter-spacing="0.5">ORBIT      :</text>
-      <text x="618" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">Request-Time Credential Failover Platform (Spring Boot)</text>
-      <text x="490" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#38bdf8" letter-spacing="0.5">BLOCKSAFE  :</text>
-      <text x="618" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Cognitive Firewall Swarm [2nd Place ₹15,000 Hackathon]</text>
-      <text x="490" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#c084fc" letter-spacing="0.5">FRIDAY     :</text>
-      <text x="618" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">Java CLI AI Assistant with Persistent Scheduling (10+ APIs)</text>
-      <text x="490" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00ff9c" letter-spacing="0.5">PORTFOLIO  :</text>
-      <text x="618" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">bhargavaa.vercel.app [Ubuntu Web Desktop Simulation]</text>
-      <text x="490" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#fbbf24" letter-spacing="0.5">STATUS     :</text>
-      <text x="618" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Active Production Pipelines &amp; MVP Releases</text>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.6667; 0.7167; 0.7181; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
+
+      <!-- Docker PS Container Status Table -->
+      <text x="488" y="188" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="700" fill="#64748b" letter-spacing="1">NAMES        STATUS                 PORTS / DEPLOYMENT</text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
+        <text x="488" y="222"><tspan fill="#00ff9c" font-weight="700">orbit</tspan><tspan fill="#38bdf8" dx="70">Up 24 days (healthy)</tspan><tspan fill="#f1f5f9" dx="20">:8080 (Credential Failover Engine)</tspan></text>
+        <text x="488" y="258"><tspan fill="#00ff9c" font-weight="700">blocksafe</tspan><tspan fill="#38bdf8" dx="38">Up 12 days (healthy)</tspan><tspan fill="#ffa116" dx="20">:3000 (Firewall Swarm [&#8377;15k Winner])</tspan></text>
+        <text x="488" y="294"><tspan fill="#00ff9c" font-weight="700">friday</tspan><tspan fill="#38bdf8" dx="62">Up 48 days (healthy)</tspan><tspan fill="#f1f5f9" dx="20">:5000 (Spring Boot AI Assistant)</tspan></text>
+        <text x="488" y="330"><tspan fill="#00ff9c" font-weight="700">portfolio</tspan><tspan fill="#38bdf8" dx="38">Up 90 days (healthy)</tspan><tspan fill="#c084fc" dx="20">bhargavaa.vercel.app (Web Desktop OS)</tspan></text>
+        <text x="488" y="374" fill="#64748b" font-style="italic">4 containers active &#9679; 0 exit errors &#9679; 99.98% availability</text>
+      </g>
     </g>
   </g>
   <g id="termScene6Light">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.8194; 0.8333; 0.9833; 0.9972; 0.9986; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.8194; 0.8333; 0.9883; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
-    <!-- Prompt: >_B $ cat telemetry.json -->
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.8167; 0.8333; 0.9833; 0.9972; 0.9986; 1" dur="36s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.8167; 0.8333; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Single Authentic Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
         <tspan fill="#ffa116"> $ </tspan>
       </text>
     </g>
+    
+    <!-- Real Command Reveal via Typing Clip -->
     <g clip-path="url(#cmdClip6Light)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">cat telemetry.json</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">cat ~/telemetry.json | jq .</text>
     </g>
-    <rect width="10" height="20" rx="2" fill="#00f3ff" opacity="0.95">
-      <animate attributeName="x" values="552; 552; 731; 731; 720; 490; 490; 490; 552; 552" keyTimes="0; 0.8472; 0.8778; 0.8833; 0.9028; 0.9029; 0.9111; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 168; 202; 418; 418; 132; 132" keyTimes="0; 0.8472; 0.8778; 0.8833; 0.9028; 0.9029; 0.9111; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
+    
+    <!-- Traveling and Dropping Blinking Cursor -->
+    <rect width="10" height="20" rx="2" fill="#00f3ff">
+      <animate attributeName="x" values="552; 552; 552; 811; 811; 488; 488; 552; 552" keyTimes="0; 0.8333; 0.8417; 0.875; 0.8806; 0.8833; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 415; 415; 132; 132" keyTimes="0; 0.8333; 0.8417; 0.875; 0.8806; 0.8833; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
-    <!-- Loader progress bar -->
+    
+    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
     <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.8833; 0.8843; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
-      <!-- Track -->
-      <rect x="490" y="166" width="220" height="5" rx="2.5" fill="rgba(255,255,255,0.08)" stroke="rgba(0,243,255,0.3)" stroke-width="0.7"/>
-      <!-- Progress Fill -->
-      <rect x="490" y="166" width="0" height="5" rx="2.5" fill="url(#loaderGradLight)">
-        <animate attributeName="width" values="0; 0; 220; 220; 0; 0" keyTimes="0; 0.8833; 0.9028; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Loader label -->
-      <text x="724" y="172" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#00ff9c" letter-spacing="1">[RETRIEVING HONORS_AND_STATS] 100% OK</text>
-    </g>
-    <rect x="480" width="638" height="26" rx="4" fill="url(#sweepGradLight)" pointer-events="none">
-      <animate attributeName="y" values="190; 190; 190; 440; 440; 190" keyTimes="0; 0.8833; 0.8843; 0.9144; 0.9194; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0; 0; 0.85; 0.85; 0; 0" keyTimes="0; 0.8833; 0.8843; 0.9144; 0.9194; 1" dur="36s" repeatCount="indefinite"/>
-    </rect>
-    <g>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.9; 0.908; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
-      <text x="490" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00f3ff" letter-spacing="0.5">LEETCODE   :</text>
-      <text x="618" y="210" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">Bhargava2525 [200+ Solved · Contest ~1540 · Top 34%]</text>
-      <text x="490" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#38bdf8" letter-spacing="0.5">HACKERRANK :</text>
-      <text x="618" y="252" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">Rank 452 / 12,885 (Top 3.5% in Orchestrate 2026)</text>
-      <text x="490" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#c084fc" letter-spacing="0.5">ORACLE_JSE :</text>
-      <text x="618" y="294" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f1f5f9">Oracle Certified Professional: Java SE 21 Developer</text>
-      <text x="490" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#00ff9c" letter-spacing="0.5">ORACLE_AI  :</text>
-      <text x="618" y="336" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">AI Vector Search Professional Certified</text>
-      <text x="490" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#fbbf24" letter-spacing="0.5">DISPATCH   :</text>
-      <text x="618" y="378" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600" fill="#f8fafc">bhargavaanand2006@gmail.com | linkedin.com/in/bhargavaa1</text>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.8333; 0.8833; 0.8847; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
+
+      <!-- Telemetry JQ Colored JSON Output -->
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
+        <text x="488" y="186" fill="#94a3b8">{</text>
+        <text x="508" y="216"><tspan fill="#00f3ff">"leetcode"</tspan><tspan fill="#94a3b8">: { </tspan><tspan fill="#38bdf8">"solved"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#ffa116">150</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#38bdf8">"streak"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">"active"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#38bdf8">"rank"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">"top_tier"</tspan><tspan fill="#94a3b8"> },</tspan></text>
+        <text x="508" y="248"><tspan fill="#00f3ff">"hackathons"</tspan><tspan fill="#94a3b8">: [ </tspan><tspan fill="#00ff9c">"2nd Place Winner (&#8377;15,000)"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#00ff9c">"GDG GenAI Finalist"</tspan><tspan fill="#94a3b8"> ],</tspan></text>
+        <text x="508" y="280"><tspan fill="#00f3ff">"certifications"</tspan><tspan fill="#94a3b8">: [ </tspan><tspan fill="#c084fc">"Oracle Certified Professional: Java SE 21"</tspan><tspan fill="#94a3b8"> ],</tspan></text>
+        <text x="508" y="312"><tspan fill="#00f3ff">"community"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#f1f5f9">"Lead Organizer @ Google Developer Groups (RMKEC)"</tspan><tspan fill="#94a3b8">,</tspan></text>
+        <text x="508" y="344"><tspan fill="#00f3ff">"contributions"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#4ade80">"350+ GitHub Commits &amp; Open-Source Projects"</tspan></text>
+        <text x="488" y="374" fill="#94a3b8">}</text>
+      </g>
     </g>
   </g>
 </g>
