@@ -237,18 +237,9 @@ principle  : Ship the boring 80%, own the hard 20%
   <strong>Lead Organizer</strong> &nbsp;•&nbsp; <strong>Google Developer Groups on Campus (GDGoC RMK)</strong>
   <br/>
   <img src="https://img.shields.io/badge/TENURE-OCT%202026%20%E2%86%92%20PRESENT-FFA116?style=flat-square&labelColor=0d1424" alt="Tenure" />
-  <img src="https://img.shields.io/badge/ROLE-CAMPUS%20COMMUNITY%20DIRECTOR-00FF9C?style=flat-square&labelColor=0d1424" alt="Role" />
+  <img src="https://img.shields.io/badge/ROLE-LEAD%20ORGANIZER-00FF9C?style=flat-square&labelColor=0d1424" alt="Role" />
   <img src="https://img.shields.io/badge/CAMPUS-RMKEC-00F3FF?style=flat-square&labelColor=0d1424" alt="Campus" />
 </p>
-
-![GoogleCloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![GenAI](https://img.shields.io/badge/Generative%20AI-00FF9C?style=flat-square&labelColor=0d1424)
-![DevEcosystem](https://img.shields.io/badge/Developer%20Ecosystem-FF6F00?style=flat-square&labelColor=0d1424)
-![Automation](https://img.shields.io/badge/Automated%20Workflows-0891B2?style=flat-square&labelColor=0d1424)
-
-- <img src="https://img.shields.io/badge/METRIC-200%2B%20STUDENTS%20MENTORED-00FF9C?style=flat-square&labelColor=0d1424" alt="Mentored" /> Directing campus developer ecosystem, mentoring **200+ students** through hands-on GCP cloud architecture and GenAI engineering tracks.
-- <img src="https://img.shields.io/badge/METRIC-GOOGLE%20CLOUD%20STUDY%20JAM-00F3FF?style=flat-square&labelColor=0d1424" alt="Study Jam" /> Spearheading campus-wide **Google Cloud Study Jam**, guiding developers across cloud IAM, serverless compute, and BigQuery analytics.
-- <img src="https://img.shields.io/badge/METRIC-AUTOMATION%20PIPELINES-FFA116?style=flat-square&labelColor=0d1424" alt="Automation" /> Architected an **automated certificate issuance workflow**, streamlining verification and distribution for workshop participants.
 
 <br/>
 <hr/>
@@ -259,15 +250,9 @@ principle  : Ship the boring 80%, own the hard 20%
   <strong>Technical Team Member</strong> &nbsp;•&nbsp; <strong>Google Developer Groups on Campus (GDGoC RMK)</strong>
   <br/>
   <img src="https://img.shields.io/badge/TENURE-DEC%202025%20%E2%86%92%20OCT%202026-7CFFCB?style=flat-square&labelColor=0d1424" alt="Tenure" />
-  <img src="https://img.shields.io/badge/DOMAIN-TECHNICAL%20DEVELOPMENT-0891B2?style=flat-square&labelColor=0d1424" alt="Domain" />
+  <img src="https://img.shields.io/badge/ROLE-TECHNICAL%20TEAM%20MEMBER-0891B2?style=flat-square&labelColor=0d1424" alt="Role" />
+  <img src="https://img.shields.io/badge/CAMPUS-RMKEC-00F3FF?style=flat-square&labelColor=0d1424" alt="Campus" />
 </p>
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![WebApps](https://img.shields.io/badge/Interactive%20Apps-61DAFB?style=flat-square&labelColor=0d1424)
-![Workshops](https://img.shields.io/badge/Engineering%20Workshops-00FF9C?style=flat-square&labelColor=0d1424)
-
-- <img src="https://img.shields.io/badge/METRIC-INTERACTIVE%20QUIZ%20APP-00FF9C?style=flat-square&labelColor=0d1424" alt="Quiz App" /> Engineered a real-time **interactive technical quiz application** powering live campus developer events and hackathons.
-- <img src="https://img.shields.io/badge/METRIC-HANDS--ON%20MENTORING-00F3FF?style=flat-square&labelColor=0d1424" alt="Mentoring" /> Provided hands-on debugging, Git version control, and system design mentoring across developer workshops.
 
 </td>
 </tr>

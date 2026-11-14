@@ -324,9 +324,9 @@
         <text x="488" y="225"><tspan fill="#94a3b8">     Loaded: </tspan><tspan fill="#f1f5f9">loaded (/etc/systemd/system/gdgoc-rmk.service; enabled)</tspan></text>
         <text x="488" y="260"><tspan fill="#94a3b8">     Active: </tspan><tspan fill="#00ff9c" font-weight="700">active (running)</tspan><tspan fill="#f1f5f9"> since Oct 2026; 5 months ago</tspan></text>
         <text x="488" y="295"><tspan fill="#94a3b8">   Operator: </tspan><tspan fill="#00f3ff" font-weight="700">Bhargava A</tspan><tspan fill="#94a3b8"> (Lead Organizer @ GDGoC RMKEC)</tspan></text>
-        <text x="488" y="330"><tspan fill="#94a3b8">  Education: </tspan><tspan fill="#38bdf8">Google Cloud Study Jam &amp; GCP Lab Mentorship</tspan></text>
-        <text x="488" y="365"><tspan fill="#94a3b8">  Workshops: </tspan><tspan fill="#c084fc">Hands-on GenAI &amp; Multi-Agent System Architecture</tspan></text>
-        <text x="488" y="400"><tspan fill="#94a3b8"> Automation: </tspan><tspan fill="#ffa116">Automated attendee certificate issuance pipeline</tspan></text>
+        <text x="488" y="330"><tspan fill="#94a3b8">   Previous: </tspan><tspan fill="#38bdf8">Technical Team Member (Dec 2025 – Oct 2026)</tspan></text>
+        <text x="488" y="365"><tspan fill="#94a3b8">     Status: </tspan><tspan fill="#c084fc">Campus Developer Community Leadership</tspan></text>
+        <text x="488" y="400"><tspan fill="#94a3b8">     Campus: </tspan><tspan fill="#ffa116">R.M.K. Engineering College (RMKEC)</tspan></text>
       </g>
     </g>
   </g>
