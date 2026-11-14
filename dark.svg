@@ -14,32 +14,37 @@
   </clipPath>
   <clipPath id="cmdClip1Dark">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 95; 95; 0; 0" keyTimes="0; 0.0083; 0.0417; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 75; 75; 0; 0" keyTimes="0.0000; 0.0060; 0.0345; 0.1262; 0.1357; 1.0000" dur="42s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip2Dark">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 0; 210; 210; 0; 0" keyTimes="0; 0.1667; 0.175; 0.2083; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 450; 450; 0; 0" keyTimes="0.0000; 0.1429; 0.1488; 0.1774; 0.2690; 0.2786; 1.0000" dur="42s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip3Dark">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 0; 345; 345; 0; 0" keyTimes="0; 0.3333; 0.3417; 0.375; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 540; 540; 0; 0" keyTimes="0.0000; 0.2857; 0.2917; 0.3202; 0.4119; 0.4214; 1.0000" dur="42s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip4Dark">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 0; 330; 330; 0; 0" keyTimes="0; 0.5; 0.5083; 0.5417; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 320; 320; 0; 0" keyTimes="0.0000; 0.4286; 0.4345; 0.4631; 0.5548; 0.5643; 1.0000" dur="42s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip5Dark">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 0; 510; 510; 0; 0" keyTimes="0; 0.6667; 0.675; 0.7083; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 560; 560; 0; 0" keyTimes="0.0000; 0.5714; 0.5774; 0.6060; 0.6976; 0.7071; 1.0000" dur="42s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip6Dark">
     <rect x="552" y="120" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 0; 255; 255; 0; 0" keyTimes="0; 0.8333; 0.8417; 0.875; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 330; 330; 0; 0" keyTimes="0.0000; 0.7143; 0.7202; 0.7488; 0.8405; 0.8500; 1.0000" dur="42s" repeatCount="indefinite"/>
+    </rect>
+  </clipPath>
+  <clipPath id="cmdClip7Dark">
+    <rect x="552" y="120" height="40" width="0">
+      <animate attributeName="width" values="0; 0; 0; 280; 280; 0; 0" keyTimes="0.0000; 0.8571; 0.8631; 0.8917; 0.9833; 0.9929; 1.0000" dur="42s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <pattern id="scanlinesDark" width="100" height="4" patternUnits="userSpaceOnUse">
@@ -63,7 +68,7 @@
 </g>
 <g clip-path="url(#termViewportDark)">
   <rect x="463" y="103" width="680" height="471" fill="url(#scanlinesDark)" pointer-events="none"/>
-  <!-- Subtle Matrix Digital Rain Background Stream (non-colliding 0.05 opacity) -->
+  <!-- Matrix Digital Rain Background Stream (0.05 opacity) -->
   <g pointer-events="none" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00ff9c" opacity="0.05" letter-spacing="3">
     <text x="480" y="0">
       0 1 0 1 1 0 A 7 F 9 2 E 4 0 1 C D 3 B
@@ -102,11 +107,12 @@
       <animateTransform attributeName="transform" type="translate" values="0 -250; 0 650" dur="7.5s" repeatCount="indefinite"/>
     </text>
   </g>
+  <!-- Scene 1: whoami (Linux whoami) -->
   <g id="termScene1Dark">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-480; 0,480; 0,480; 0,0" keyTimes="0; 0.15; 0.1639; 0.1653; 0.9833; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1.0; 1.0; 0.0; 0.0; 1.0" keyTimes="0; 0.15; 0.1639; 0.9833; 1" dur="36s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-480; 0,480; 0,480; 0,0" keyTimes="0.0000; 0.1262; 0.1381; 0.1429; 0.9905; 1.0000" dur="42s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1.0; 1.0; 0.0; 0.0; 1.0" keyTimes="0.0000; 0.1262; 0.1381; 0.9905; 1.0000" dur="42s" repeatCount="indefinite"/>
     
-    <!-- Single Authentic Prompt: >_B $ -->
+    <!-- Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
@@ -114,43 +120,37 @@
       </text>
     </g>
     
-    <!-- Real Command Reveal via Typing Clip -->
+    <!-- Command -->
     <g clip-path="url(#cmdClip1Dark)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">fastfetch</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="700" fill="#00ff9c">whoami</text>
     </g>
     
-    <!-- Traveling and Dropping Blinking Cursor -->
+    <!-- Blinking Cursor -->
     <rect width="10" height="20" rx="2" fill="#00f3ff">
-      <animate attributeName="x" values="552; 552; 651; 651; 488; 488; 552; 552" keyTimes="0; 0.0083; 0.0417; 0.0472; 0.05; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 430; 430; 132; 132" keyTimes="0; 0.0083; 0.0417; 0.0472; 0.05; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="552; 552; 615; 615; 488; 488; 552; 552" keyTimes="0.0000; 0.0060; 0.0345; 0.0393; 0.0405; 0.1262; 0.1357; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 395; 395; 132; 132" keyTimes="0.0000; 0.0060; 0.0345; 0.0393; 0.0405; 0.1262; 0.1357; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
-    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
+    <!-- Output -->
     <g>
-      <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.05; 0.0514; 0.15; 0.1639; 1" dur="36s" repeatCount="indefinite"/>
-
-      <!-- Fastfetch System Specs -->
-      <text x="488" y="180" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700">
-        <tspan fill="#00ff9c">bhargava@devbox</tspan>
-        <tspan fill="#475569" dx="10">---------------------------------------------</tspan>
-      </text>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
-        <text x="488" y="214"><tspan fill="#00f3ff" font-weight="700">OS         :</tspan><tspan fill="#38bdf8" dx="16">Arch Linux x86_64</tspan><tspan fill="#64748b" dx="10">[Kernel 6.12.9-arch1]</tspan></text>
-        <text x="488" y="246"><tspan fill="#00f3ff" font-weight="700">Host       :</tspan><tspan fill="#f1f5f9" dx="16">ThinkPad E14 Gen 5 (Custom Dev Rig)</tspan></text>
-        <text x="488" y="278"><tspan fill="#00f3ff" font-weight="700">Identity   :</tspan><tspan fill="#00ff9c" dx="16">Bhargava A</tspan><tspan fill="#94a3b8" dx="8">| "Centaur Engineer" (AI-Augmented)</tspan></text>
-        <text x="488" y="310"><tspan fill="#00f3ff" font-weight="700">Role       :</tspan><tspan fill="#ffa116" dx="16">AI Systems &amp; Distributed Backend Developer</tspan></text>
-        <text x="488" y="342"><tspan fill="#00f3ff" font-weight="700">Academics  :</tspan><tspan fill="#c084fc" dx="16">B.Tech CSBS @ R.M.K. Engineering College ('24–'28)</tspan></text>
-        <text x="488" y="374"><tspan fill="#00f3ff" font-weight="700">Focus      :</tspan><tspan fill="#38bdf8" dx="16">Agent Swarms, Low-Latency APIs, Event Pipelines</tspan></text>
-        <text x="488" y="406"><tspan fill="#00f3ff" font-weight="700">Uptime     :</tspan><tspan fill="#4ade80" dx="16">247 days, 13 hours, 42 mins</tspan></text>
+      <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.0393; 0.0405; 0.1262; 0.1381; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">
+        <text x="488" y="184"><tspan fill="#00f3ff">name</tspan><tspan fill="#94a3b8">                   : </tspan><tspan fill="#f1f5f9" font-weight="700">Bhargava A</tspan></text>
+        <text x="488" y="218"><tspan fill="#00f3ff">role</tspan><tspan fill="#94a3b8">                   : </tspan><tspan fill="#00ff9c">AI Systems &amp; Distributed Backend Developer</tspan></text>
+        <text x="488" y="252"><tspan fill="#00f3ff">community_volunteering</tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#38bdf8">Lead @ Google Developer Groups on Campus (RMKEC)</tspan></text>
+        <text x="488" y="286"><tspan fill="#00f3ff">identity</tspan><tspan fill="#94a3b8">               : </tspan><tspan fill="#00ff9c" font-weight="700">&quot;VIP Engineer&quot;</tspan><tspan fill="#94a3b8"> (Centaur / AI-Augmented Systems)</tspan></text>
+        <text x="488" y="320"><tspan fill="#00f3ff">location</tspan><tspan fill="#94a3b8">               : </tspan><tspan fill="#f1f5f9">Avadi, Chennai, India</tspan></text>
+        <text x="488" y="354"><tspan fill="#00f3ff">principle</tspan><tspan fill="#94a3b8">              : </tspan><tspan fill="#ffa116">Ship the boring 80%, own the hard 20%</tspan></text>
       </g>
     </g>
   </g>
+  <!-- Scene 2: Education (PowerShell Get-AcademicProfile) -->
   <g id="termScene2Dark">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.15; 0.1667; 0.3167; 0.3306; 0.3319; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.15; 0.1667; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0.0000; 0.1381; 0.1429; 0.2690; 0.2810; 0.2857; 1.0000" dur="42s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.1405; 0.1429; 0.2690; 0.2810; 1.0000" dur="42s" repeatCount="indefinite"/>
     
-    <!-- Single Authentic Prompt: >_B $ -->
+    <!-- Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
@@ -158,39 +158,36 @@
       </text>
     </g>
     
-    <!-- Real Command Reveal via Typing Clip -->
+    <!-- Command -->
     <g clip-path="url(#cmdClip2Dark)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">cat ~/career_intent.md</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="700" fill="#00ff9c">powershell -Command &quot;Get-AcademicProfile -Degree&quot;</text>
     </g>
     
-    <!-- Traveling and Dropping Blinking Cursor -->
+    <!-- Blinking Cursor -->
     <rect width="10" height="20" rx="2" fill="#00f3ff">
-      <animate attributeName="x" values="552; 552; 552; 766; 766; 488; 488; 552; 552" keyTimes="0; 0.1667; 0.175; 0.2083; 0.2139; 0.2167; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 132; 430; 430; 132; 132" keyTimes="0; 0.1667; 0.175; 0.2083; 0.2139; 0.2167; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="552; 552; 552; 985; 985; 488; 488; 552; 552" keyTimes="0.0000; 0.1429; 0.1488; 0.1774; 0.1821; 0.1833; 0.2690; 0.2786; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 365; 365; 132; 132" keyTimes="0.0000; 0.1429; 0.1488; 0.1774; 0.1821; 0.1833; 0.2690; 0.2786; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
-    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
+    <!-- Output -->
     <g>
-      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.1667; 0.2167; 0.2181; 0.3167; 0.3306; 1" dur="36s" repeatCount="indefinite"/>
-
-      <!-- Career Intent Markdown File -->
-      <text x="488" y="184" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#ffa116">## MISSION &amp; CAREER TRAJECTORY</text>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
-        <text x="488" y="220"><tspan fill="#00f3ff" font-weight="700">* Target   :</tspan><tspan fill="#f1f5f9" dx="16">Product Engineer &gt; AI Systems Architect &gt; CTO Track</tspan></text>
-        <text x="488" y="256"><tspan fill="#00f3ff" font-weight="700">* Passion  :</tspan><tspan fill="#f1f5f9" dx="16">High-Throughput Distributed Backends &amp; Agent Swarms</tspan></text>
-        <text x="488" y="292"><tspan fill="#00f3ff" font-weight="700">* Creed    :</tspan><tspan fill="#00ff9c" font-weight="700" dx="16">"Ship the boring 80%, own the hard 20%"</tspan></text>
-        <text x="488" y="328"><tspan fill="#00f3ff" font-weight="700">* Ethos    :</tspan><tspan fill="#f8fafc" dx="16">First-principles builder — never a vibe-coder</tspan></text>
-        <text x="488" y="364"><tspan fill="#00f3ff" font-weight="700">* Sprint   :</tspan><tspan fill="#c084fc" dx="16">30-Pattern DSA Sprint + System Design Fundamentals</tspan></text>
-        <text x="488" y="400"><tspan fill="#00f3ff" font-weight="700">* Reading  :</tspan><tspan fill="#38bdf8" dx="16">Designing Data-Intensive Applications (DDIA)</tspan></text>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.1429; 0.1821; 0.1833; 0.2690; 0.2810; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">
+        <text x="488" y="184"><tspan fill="#00f3ff">Institution</tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#f1f5f9" font-weight="700">R.M.K. Engineering College (Autonomous)</tspan></text>
+        <text x="488" y="218"><tspan fill="#00f3ff">Degree     </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#00ff9c">B.Tech Computer Science &amp; Business Systems (&apos;24–&apos;28)</tspan></text>
+        <text x="488" y="252"><tspan fill="#00f3ff">University </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#f1f5f9">Anna University, Chennai</tspan></text>
+        <text x="488" y="286"><tspan fill="#00f3ff">Cumulative </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#ffa116" font-weight="700">CGPA 8.75 / 10.00 </tspan><tspan fill="#38bdf8">[First Class with Distinction]</tspan></text>
+        <text x="488" y="320"><tspan fill="#00f3ff">Status     </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#00ff9c">Active Matriculation (3rd Year Undergraduate)</tspan></text>
       </g>
     </g>
   </g>
+  <!-- Scene 3: Skills (Linux env & grep) -->
   <g id="termScene3Dark">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.3167; 0.3333; 0.4833; 0.4972; 0.4986; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.3167; 0.3333; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0.0000; 0.2810; 0.2857; 0.4119; 0.4238; 0.4286; 1.0000" dur="42s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.2833; 0.2857; 0.4119; 0.4238; 1.0000" dur="42s" repeatCount="indefinite"/>
     
-    <!-- Single Authentic Prompt: >_B $ -->
+    <!-- Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
@@ -198,38 +195,36 @@
       </text>
     </g>
     
-    <!-- Real Command Reveal via Typing Clip -->
+    <!-- Command -->
     <g clip-path="url(#cmdClip3Dark)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">env | grep -E 'LANG|BACKEND|AI|INFRA'</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="700" fill="#00ff9c">env | grep -E &apos;TECH_STACK|AI_SKILLS|SOFT_SKILLS|METHODOLOGY&apos;</text>
     </g>
     
-    <!-- Traveling and Dropping Blinking Cursor -->
+    <!-- Blinking Cursor -->
     <rect width="10" height="20" rx="2" fill="#00f3ff">
-      <animate attributeName="x" values="552; 552; 552; 901; 901; 488; 488; 552; 552" keyTimes="0; 0.3333; 0.3417; 0.375; 0.3806; 0.3833; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 132; 420; 420; 132; 132" keyTimes="0; 0.3333; 0.3417; 0.375; 0.3806; 0.3833; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="552; 552; 552; 1075; 1075; 488; 488; 552; 552" keyTimes="0.0000; 0.2857; 0.2917; 0.3202; 0.3250; 0.3262; 0.4119; 0.4214; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 375; 375; 132; 132" keyTimes="0.0000; 0.2857; 0.2917; 0.3202; 0.3250; 0.3262; 0.4119; 0.4214; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
-    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
+    <!-- Output -->
     <g>
-      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.3333; 0.3833; 0.3847; 0.4833; 0.4972; 1" dur="36s" repeatCount="indefinite"/>
-
-      <!-- Core Stack Shell Environment Variables -->
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
-        <text x="488" y="192"><tspan fill="#00f3ff" font-weight="700">LANGUAGES</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#00ff9c">"Java 21 (OCP), Python 3.12, TypeScript, C++, Go"</tspan></text>
-        <text x="488" y="232"><tspan fill="#00f3ff" font-weight="700">BACKEND</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#f1f5f9">"Spring Boot 3.4, FastAPI, PostgreSQL, Redis, Kafka"</tspan></text>
-        <text x="488" y="272"><tspan fill="#00f3ff" font-weight="700">AI_SYSTEMS</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#ffa116">"LangGraph, Gemini 2.0, Claude MCP, Ollama, Groq"</tspan></text>
-        <text x="488" y="312"><tspan fill="#00f3ff" font-weight="700">INFRA_OPS</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#38bdf8">"Docker, Supabase, Linux Kernel, Postman, Git CI/CD"</tspan></text>
-        <text x="488" y="352"><tspan fill="#00f3ff" font-weight="700">FOCUS</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#c084fc">"Low-Latency APIs, Microservices &amp; Multi-Agent Swarms"</tspan></text>
-        <text x="488" y="392"><tspan fill="#00f3ff" font-weight="700">PARADIGM</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#4ade80">"Ship Boring 80%, Own Hard 20% | Zero-Vibe Rigor"</tspan></text>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.2857; 0.3250; 0.3262; 0.4119; 0.4238; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600">
+        <text x="488" y="190"><tspan fill="#00f3ff">TECH_STACK_CORE</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#f1f5f9">Java 21 (OCP), Python, TypeScript, SQL</tspan></text>
+        <text x="488" y="230"><tspan fill="#00f3ff">TECH_STACK_FRAME</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#00ff9c">Spring Boot, FastAPI, PostgreSQL, Redis, Docker</tspan></text>
+        <text x="488" y="270"><tspan fill="#00f3ff">AI_SKILLS</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#c084fc">LangGraph, Gemini API, Claude MCP, Ollama, Groq, Agent Swarms</tspan></text>
+        <text x="488" y="310"><tspan fill="#00f3ff">SOFT_SKILLS</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#38bdf8">First-Principles Thinking, Technical Mentorship, High Agency</tspan></text>
+        <text x="488" y="350"><tspan fill="#00f3ff">METHODOLOGY</tspan><tspan fill="#94a3b8">=</tspan><tspan fill="#ffa116">Ship the boring 80%, own the hard 20% | Centaur Engineering</tspan></text>
       </g>
     </g>
   </g>
+  <!-- Scene 4: Experience (Git log) -->
   <g id="termScene4Dark">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.4833; 0.5; 0.65; 0.6639; 0.6653; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.4833; 0.5; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0.0000; 0.4238; 0.4286; 0.5548; 0.5667; 0.5714; 1.0000" dur="42s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.4262; 0.4286; 0.5548; 0.5667; 1.0000" dur="42s" repeatCount="indefinite"/>
     
-    <!-- Single Authentic Prompt: >_B $ -->
+    <!-- Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
@@ -237,37 +232,35 @@
       </text>
     </g>
     
-    <!-- Real Command Reveal via Typing Clip -->
+    <!-- Command -->
     <g clip-path="url(#cmdClip4Dark)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">git log --oneline --decorate -n 4</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="700" fill="#00ff9c">git log --oneline --decorate -n 3</text>
     </g>
     
-    <!-- Traveling and Dropping Blinking Cursor -->
+    <!-- Blinking Cursor -->
     <rect width="10" height="20" rx="2" fill="#00f3ff">
-      <animate attributeName="x" values="552; 552; 552; 886; 886; 488; 488; 552; 552" keyTimes="0; 0.5; 0.5083; 0.5417; 0.5472; 0.55; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 132; 415; 415; 132; 132" keyTimes="0; 0.5; 0.5083; 0.5417; 0.5472; 0.55; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="552; 552; 552; 860; 860; 488; 488; 552; 552" keyTimes="0.0000; 0.4286; 0.4345; 0.4631; 0.4679; 0.4690; 0.5548; 0.5643; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 375; 375; 132; 132" keyTimes="0.0000; 0.4286; 0.4345; 0.4631; 0.4679; 0.4690; 0.5548; 0.5643; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
-    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
+    <!-- Output -->
     <g>
-      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.5; 0.55; 0.5514; 0.65; 0.6639; 1" dur="36s" repeatCount="indefinite"/>
-
-      <!-- Git Commit Log -->
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
-        <text x="488" y="196"><tspan fill="#ffa116" font-weight="700">e4a81c2</tspan><tspan fill="#00f3ff" font-weight="700" dx="12">(HEAD -&gt; linkific)</tspan><tspan fill="#f1f5f9" dx="14">feat: core backend architecture &amp; auth</tspan></text>
-        <text x="488" y="238"><tspan fill="#ffa116" font-weight="700">9b2f0a1</tspan><tspan fill="#38bdf8" font-weight="700" dx="12">(ten-intern)</tspan><tspan fill="#f1f5f9" dx="53">feat: high-throughput REST APIs &amp; pipelines</tspan></text>
-        <text x="488" y="280"><tspan fill="#ffa116" font-weight="700">7c1d3e8</tspan><tspan fill="#00ff9c" font-weight="700" dx="12">(gdgoc-rmk)</tspan><tspan fill="#f1f5f9" dx="61">feat: organize GenAI study jams &amp; agent swarms</tspan></text>
-        <text x="488" y="322"><tspan fill="#ffa116" font-weight="700">3f8a02c</tspan><tspan fill="#c084fc" font-weight="700" dx="12">(origin/main)</tspan><tspan fill="#f1f5f9" dx="45">init: resilient microservices &amp; docker runtime</tspan></text>
-        <text x="488" y="368" fill="#64748b" font-style="italic">... (350+ commits logged across production repos)</text>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.4286; 0.4679; 0.4690; 0.5548; 0.5667; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600">
+        <text x="488" y="196"><tspan fill="#ffa116" font-weight="700">* e4a81c2</tspan><tspan fill="#38bdf8"> (HEAD -&gt; main, tag: v1.4.0)</tspan><tspan fill="#f1f5f9"> feat(linkific): production FastAPI backend, JWT/RBAC auth &amp; 5+ REST endpoints</tspan></text>
+        <text x="488" y="238"><tspan fill="#ffa116" font-weight="700">* 9b2f0a1</tspan><tspan fill="#f1f5f9"> feat(linkific): Supabase Shared Pooler (asyncpg) + TTL cache </tspan><tspan fill="#00ff9c">(-34% cloud latency)</tspan></text>
+        <text x="488" y="280"><tspan fill="#ffa116" font-weight="700">* 7c1d3e8</tspan><tspan fill="#f1f5f9"> feat(ten): React frontend with 28 components, state hooks &amp; error boundaries</tspan></text>
+        <text x="488" y="326" fill="#94a3b8" font-style="italic">... (2 production tenures logged &#8226; 350+ commits across repositories)</text>
       </g>
     </g>
   </g>
+  <!-- Scene 5: Projects (Docker ps) -->
   <g id="termScene5Dark">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.65; 0.6667; 0.8167; 0.8306; 0.8319; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.65; 0.6667; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0.0000; 0.5667; 0.5714; 0.6976; 0.7095; 0.7143; 1.0000" dur="42s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.5690; 0.5714; 0.6976; 0.7095; 1.0000" dur="42s" repeatCount="indefinite"/>
     
-    <!-- Single Authentic Prompt: >_B $ -->
+    <!-- Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
@@ -275,38 +268,36 @@
       </text>
     </g>
     
-    <!-- Real Command Reveal via Typing Clip -->
+    <!-- Command -->
     <g clip-path="url(#cmdClip5Dark)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="700" fill="#00ff9c">docker ps --format &quot;table {{.Names}}	{{.Status}}	{{.Ports}}&quot;</text>
     </g>
     
-    <!-- Traveling and Dropping Blinking Cursor -->
+    <!-- Blinking Cursor -->
     <rect width="10" height="20" rx="2" fill="#00f3ff">
-      <animate attributeName="x" values="552; 552; 552; 1066; 1066; 488; 488; 552; 552" keyTimes="0; 0.6667; 0.675; 0.7083; 0.7139; 0.7167; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 132; 415; 415; 132; 132" keyTimes="0; 0.6667; 0.675; 0.7083; 0.7139; 0.7167; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="552; 552; 552; 1095; 1095; 488; 488; 552; 552" keyTimes="0.0000; 0.5714; 0.5774; 0.6060; 0.6107; 0.6119; 0.6976; 0.7071; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 385; 385; 132; 132" keyTimes="0.0000; 0.5714; 0.5774; 0.6060; 0.6107; 0.6119; 0.6976; 0.7071; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
-    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
+    <!-- Output -->
     <g>
-      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.6667; 0.7167; 0.7181; 0.8167; 0.8306; 1" dur="36s" repeatCount="indefinite"/>
-
-      <!-- Docker PS Container Status Table -->
-      <text x="488" y="188" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="700" fill="#64748b" letter-spacing="1">NAMES        STATUS                 PORTS / DEPLOYMENT</text>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
-        <text x="488" y="222"><tspan fill="#00ff9c" font-weight="700">orbit</tspan><tspan fill="#38bdf8" dx="70">Up 24 days (healthy)</tspan><tspan fill="#f1f5f9" dx="20">:8080 (Credential Failover Engine)</tspan></text>
-        <text x="488" y="258"><tspan fill="#00ff9c" font-weight="700">blocksafe</tspan><tspan fill="#38bdf8" dx="38">Up 12 days (healthy)</tspan><tspan fill="#ffa116" dx="20">:3000 (Firewall Swarm [&#8377;15k Winner])</tspan></text>
-        <text x="488" y="294"><tspan fill="#00ff9c" font-weight="700">friday</tspan><tspan fill="#38bdf8" dx="62">Up 48 days (healthy)</tspan><tspan fill="#f1f5f9" dx="20">:5000 (Spring Boot AI Assistant)</tspan></text>
-        <text x="488" y="330"><tspan fill="#00ff9c" font-weight="700">portfolio</tspan><tspan fill="#38bdf8" dx="38">Up 90 days (healthy)</tspan><tspan fill="#c084fc" dx="20">bhargavaa.vercel.app (Web Desktop OS)</tspan></text>
-        <text x="488" y="374" fill="#64748b" font-style="italic">4 containers active &#9679; 0 exit errors &#9679; 99.98% availability</text>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.5714; 0.6107; 0.6119; 0.6976; 0.7095; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">
+        <text x="488" y="188" font-weight="700" fill="#94a3b8">NAMES       STATUS          PORTS</text>
+        <text x="488" y="222"><tspan fill="#00ff9c" font-weight="700">orbit</tspan><tspan fill="#38bdf8" dx="44">Up 24 days</tspan><tspan fill="#f1f5f9" dx="20">8000/tcp (Credential Failover Platform)</tspan></text>
+        <text x="488" y="258"><tspan fill="#00ff9c" font-weight="700">blocksafe</tspan><tspan fill="#38bdf8" dx="12">Up 12 days</tspan><tspan fill="#ffa116" dx="20">8080/tcp (Cognitive Firewall Swarm [2nd &#8377;15,000])</tspan></text>
+        <text x="488" y="294"><tspan fill="#00ff9c" font-weight="700">friday</tspan><tspan fill="#38bdf8" dx="36">Up 48 days</tspan><tspan fill="#f1f5f9" dx="20">9090/tcp (Spring Boot AI Assistant)</tspan></text>
+        <text x="488" y="340" fill="#94a3b8" font-style="italic">3 containers active &#9679; 0 exit errors &#9679; 99.98% cluster uptime</text>
       </g>
     </g>
   </g>
+  <!-- Scene 6: Volunteering (Systemd status) -->
   <g id="termScene6Dark">
-    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0; 0.8167; 0.8333; 0.9833; 0.9972; 0.9986; 1" dur="36s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.8167; 0.8333; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480; 0,480" keyTimes="0.0000; 0.7095; 0.7143; 0.8405; 0.8524; 0.8571; 1.0000" dur="42s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.7119; 0.7143; 0.8405; 0.8524; 1.0000" dur="42s" repeatCount="indefinite"/>
     
-    <!-- Single Authentic Prompt: >_B $ -->
+    <!-- Prompt: >_B $ -->
     <g transform="translate(488, 148)">
       <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
         <tspan fill="#00f3ff">&gt;_B</tspan>
@@ -314,31 +305,68 @@
       </text>
     </g>
     
-    <!-- Real Command Reveal via Typing Clip -->
+    <!-- Command -->
     <g clip-path="url(#cmdClip6Dark)">
-      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">cat ~/telemetry.json | jq .</text>
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="700" fill="#00ff9c">systemctl status gdgoc-rmk.service</text>
     </g>
     
-    <!-- Traveling and Dropping Blinking Cursor -->
+    <!-- Blinking Cursor -->
     <rect width="10" height="20" rx="2" fill="#00f3ff">
-      <animate attributeName="x" values="552; 552; 552; 811; 811; 488; 488; 552; 552" keyTimes="0; 0.8333; 0.8417; 0.875; 0.8806; 0.8833; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="132; 132; 132; 132; 132; 415; 415; 132; 132" keyTimes="0; 0.8333; 0.8417; 0.875; 0.8806; 0.8833; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="552; 552; 552; 870; 870; 488; 488; 552; 552" keyTimes="0.0000; 0.7143; 0.7202; 0.7488; 0.7536; 0.7548; 0.8405; 0.8500; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 415; 415; 132; 132" keyTimes="0.0000; 0.7143; 0.7202; 0.7488; 0.7536; 0.7548; 0.8405; 0.8500; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
-    <!-- Authentic CLI Output (reveals on Enter, no fake loaders) -->
+    <!-- Output -->
     <g>
-      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0; 0.8333; 0.8833; 0.8847; 0.9833; 0.9972; 1" dur="36s" repeatCount="indefinite"/>
-
-      <!-- Telemetry JQ Colored JSON Output -->
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.7143; 0.7536; 0.7548; 0.8405; 0.8524; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600">
+        <text x="488" y="186"><tspan fill="#00ff9c">&#9679; gdgoc-rmk.service</tspan><tspan fill="#94a3b8"> - </tspan><tspan fill="#f1f5f9" font-weight="700">Google Developer Groups on Campus (RMKEC)</tspan></text>
+        <text x="488" y="216"><tspan fill="#94a3b8">     Loaded: </tspan><tspan fill="#f1f5f9">loaded (/etc/systemd/system/gdgoc-rmk.service; enabled)</tspan></text>
+        <text x="488" y="246"><tspan fill="#94a3b8">     Active: </tspan><tspan fill="#00ff9c" font-weight="700">active (running)</tspan><tspan fill="#f1f5f9"> since Oct 2026; 5 months ago</tspan></text>
+        <text x="488" y="276"><tspan fill="#94a3b8">   Operator: </tspan><tspan fill="#00f3ff" font-weight="700">Bhargava A</tspan><tspan fill="#94a3b8"> (Lead Organizer @ GDGoC RMKEC)</tspan></text>
+        <text x="488" y="306"><tspan fill="#94a3b8">  Education: </tspan><tspan fill="#38bdf8">Google Cloud Study Jam &amp; GCP Lab Mentorship</tspan></text>
+        <text x="488" y="336"><tspan fill="#94a3b8">  Workshops: </tspan><tspan fill="#c084fc">Hands-on GenAI &amp; Multi-Agent System Architecture</tspan></text>
+        <text x="488" y="366"><tspan fill="#94a3b8"> Automation: </tspan><tspan fill="#ffa116">Automated attendee certificate issuance pipeline</tspan></text>
+      </g>
+    </g>
+  </g>
+  <!-- Scene 7: Achievements (Linux jq JSON) -->
+  <g id="termScene7Dark">
+    <animateTransform attributeName="transform" type="translate" values="0,480; 0,480; 0,0; 0,0; 0,-480; 0,480" keyTimes="0.0000; 0.8524; 0.8571; 0.9833; 0.9952; 1.0000" dur="42s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.8548; 0.8571; 0.9833; 0.9952; 1.0000" dur="42s" repeatCount="indefinite"/>
+    
+    <!-- Prompt: >_B $ -->
+    <g transform="translate(488, 148)">
+      <text font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="800">
+        <tspan fill="#00f3ff">&gt;_B</tspan>
+        <tspan fill="#ffa116"> $ </tspan>
+      </text>
+    </g>
+    
+    <!-- Command -->
+    <g clip-path="url(#cmdClip7Dark)">
+      <text x="552" y="148" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="700" fill="#00ff9c">cat ~/achievements.json | jq .</text>
+    </g>
+    
+    <!-- Blinking Cursor -->
+    <rect width="10" height="20" rx="2" fill="#00f3ff">
+      <animate attributeName="x" values="552; 552; 552; 820; 820; 488; 488; 552; 552" keyTimes="0.0000; 0.8571; 0.8631; 0.8917; 0.8964; 0.8976; 0.9833; 0.9929; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132; 132; 132; 132; 132; 410; 410; 132; 132" keyTimes="0.0000; 0.8571; 0.8631; 0.8917; 0.8964; 0.8976; 0.9833; 0.9929; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Output -->
+    <g>
+      <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.8571; 0.8964; 0.8976; 0.9833; 0.9952; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">
         <text x="488" y="186" fill="#94a3b8">{</text>
-        <text x="508" y="216"><tspan fill="#00f3ff">"leetcode"</tspan><tspan fill="#94a3b8">: { </tspan><tspan fill="#38bdf8">"solved"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#ffa116">150</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#38bdf8">"streak"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">"active"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#38bdf8">"rank"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">"top_tier"</tspan><tspan fill="#94a3b8"> },</tspan></text>
-        <text x="508" y="248"><tspan fill="#00f3ff">"hackathons"</tspan><tspan fill="#94a3b8">: [ </tspan><tspan fill="#00ff9c">"2nd Place Winner (&#8377;15,000)"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#00ff9c">"GDG GenAI Finalist"</tspan><tspan fill="#94a3b8"> ],</tspan></text>
-        <text x="508" y="280"><tspan fill="#00f3ff">"certifications"</tspan><tspan fill="#94a3b8">: [ </tspan><tspan fill="#c084fc">"Oracle Certified Professional: Java SE 21"</tspan><tspan fill="#94a3b8"> ],</tspan></text>
-        <text x="508" y="312"><tspan fill="#00f3ff">"community"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#f1f5f9">"Lead Organizer @ Google Developer Groups (RMKEC)"</tspan><tspan fill="#94a3b8">,</tspan></text>
-        <text x="508" y="344"><tspan fill="#00f3ff">"contributions"</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#4ade80">"350+ GitHub Commits &amp; Open-Source Projects"</tspan></text>
-        <text x="488" y="374" fill="#94a3b8">}</text>
+        <text x="508" y="214"><tspan fill="#00f3ff">&quot;hackathon&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">&quot;SVCE Hackathon 2nd Place (&#8377;15,000 Prize)&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
+        <text x="508" y="244"><tspan fill="#00f3ff">&quot;rank&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#ffa116">&quot;HackerRank Top 3.5% Worldwide&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
+        <text x="508" y="274"><tspan fill="#00f3ff">&quot;ocp_java_21&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#c084fc">&quot;Oracle Certified Professional (1Z0-830)&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
+        <text x="508" y="304"><tspan fill="#00f3ff">&quot;oracle_ai&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#38bdf8">&quot;OCI Generative AI &amp; Vector Search Certified&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
+        <text x="508" y="334"><tspan fill="#00f3ff">&quot;google_kaggle&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">&quot;5-Day AI Agents Intensive Certified&quot;</tspan></text>
+        <text x="488" y="364" fill="#94a3b8">}</text>
       </g>
     </g>
   </g>

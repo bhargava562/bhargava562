@@ -178,7 +178,7 @@ principle  : Ship the boring 80%, own the hard 20%
 * Engineered **5+ core auth & user REST endpoints** (JWT, RBAC, bcrypt, Google OAuth 2.0) for a production FastAPI backend.
 * Architected a **multi-phase data processing pipeline** reading stored PostgreSQL inputs to compute and generate a sequential timer-scheduled output queue.
 * Diagnosed cloud database latency; migrated to **Supabase Shared Pooler (asyncpg)** and TTL caching, cutting warm cloud response times by **~34%** (181 ms → 120 ms on Render; ~23 ms locally).
-* Hardened endpoints with **SlowAPI rate limiting**, authored an **11-phase test suite**, and achieved an architecture review score of **9.5/10**.
+* Hardened endpoints with **SlowAPI rate limiting** and authored an **11-phase test suite**.
 
 <br/>
 
@@ -247,7 +247,7 @@ principle  : Ship the boring 80%, own the hard 20%
 
 <tr>
 
-<td width="50%" valign="top">
+<td colspan="2" width="100%" valign="top">
 
 ### 🤖 Friday
 **Java CLI AI Assistant**
@@ -259,21 +259,6 @@ principle  : Ship the boring 80%, own the hard 20%
 > Intelligent command-line assistant powered by Gemini API, integrating 10+ external APIs (Google Calendar, Wolfram Alpha, GNews) with Jackson-persisted reminders and desktop notifications.
 
 [![View Code](https://img.shields.io/badge/View%20Code%20→-0891B2?style=for-the-badge&logoColor=white&labelColor=0d1424)](https://github.com/bhargava562/Friday)
-
-</td>
-
-<td width="50%" valign="top">
-
-### 💻 Portfolio OS
-**Ubuntu Web Desktop Simulation**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-> Interactive web desktop recreating the Ubuntu OS experience in the browser — features PostgreSQL distributed locking (`UPDATE...RETURNING`), lazy-loading cutting bundle size by 96% (500KB → 20KB).
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo%20→-00FF9C?style=for-the-badge&logoColor=000000&labelColor=0d1424)](https://bhargavaa.vercel.app/)
 
 </td>
 
@@ -409,8 +394,6 @@ principle  : Ship the boring 80%, own the hard 20%
   <br/><br/>
   <img src="https://img.shields.io/badge/MUSKETS%2FPFCE-Finalist%20%40%20IOB%20CyberNova%202025-0891B2?style=for-the-badge&labelColor=0d1424" alt="MUSKETS PFCE finalist" />
   <br/><br/>
-  <img src="https://img.shields.io/badge/Linkific%20Architecture%20Review-9.5%2F10-0B7A5B?style=for-the-badge&labelColor=0d1424" alt="Linkific architecture review" />
-  <br/><br/>
   <img src="https://img.shields.io/badge/OCP%20Java%20SE%2021%20Developer-Oracle%20Certified-FFA116?style=for-the-badge&labelColor=0d1424" alt="OCP Java SE 21 Developer certification" />
   <br/><br/>
   <img src="https://img.shields.io/badge/AI%20Vector%20Search-Oracle%20Certified-F80000?style=for-the-badge&labelColor=0d1424" alt="Oracle AI Vector Search certification" />
@@ -428,28 +411,65 @@ principle  : Ship the boring 80%, own the hard 20%
   <img src="./assets/headers/open-channels.svg" width="480" alt="[ // 06. OPEN_CHANNELS ]" />
 </p>
 
-<p align="center">
-  Open to <strong>Software Engineering (2028)</strong> & <strong>Backend / AI-Native Systems</strong> engineering opportunities
+<table align="center" width="100%">
+<thead>
+<tr>
+<th align="left" width="32%">📡 TELEMETRY / STATUS</th>
+<th align="left" width="68%">⚡ SPECIFICATION & DISPATCH PARAMETERS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>🟢 Status & Availability</b></td>
+<td>
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-00FF9C?style=flat-square&labelColor=0d1424" alt="Status Online" />
+  <img src="https://img.shields.io/badge/DISPATCH-OPEN%20FOR%20SWE%20'28-00F3FF?style=flat-square&labelColor=0d1424" alt="Open for SWE '28" />
   <br/>
-  <em>FastAPI · Spring Boot · System Design · Agentic Architectures</em>
-</p>
+  <strong>Backend & AI-Native Systems Engineering</strong> <i>(Internships, Co-ops & Full-Time Roles)</i>
+</td>
+</tr>
+<tr>
+<td><b>⚡ Response SLA</b></td>
+<td>
+  <img src="https://img.shields.io/badge/SLA-%3C%2024%20HOURS-7CFFCB?style=flat-square&labelColor=0d1424" alt="SLA Less Than 24h" />
+  <img src="https://img.shields.io/badge/CHANNELS-DIRECT%20PRIORITY-0891B2?style=flat-square&labelColor=0d1424" alt="Direct Priority" />
+  <br/>
+  <em>Guaranteed priority response for engineering challenges, collaborative builds, and technical discussions.</em>
+</td>
+</tr>
+<tr>
+<td><b>🛠️ Key Vectors</b></td>
+<td>
+  <code>FastAPI</code> · <code>Spring Boot</code> · <code>System Design</code> · <code>Multi-Agent Swarms</code> · <code>PostgreSQL / Redis</code>
+</td>
+</tr>
+<tr>
+<td><b>📍 Node Coordinates</b></td>
+<td>
+  <code>Avadi, Chennai, India</code> &nbsp;•&nbsp; <em>Open to Relocation & Remote Engagements Worldwide</em>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br/>
 
 <p align="center">
   <a href="mailto:bhargavaanand2006@gmail.com">
-    <img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1424" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://bhargavaa.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-00FF9C?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=0d1424" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/DIRECT%20DISPATCH-bhargavaanand2006%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1424" alt="Email Bhargava" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/bhargavaa1/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1424" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN%20NETWORK-bhargavaa1-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1424" alt="LinkedIn Profile" />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408b6c1a41ac.gif" width="120" alt="Animated footer" />
+  &nbsp;
+  <a href="https://bhargavaa.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-bhargavaa.vercel.app-00FF9C?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=0d1424" alt="Live Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://x.com/Bhargava3196511" target="_blank">
+    <img src="https://img.shields.io/badge/RADAR%20FEED-%40Bhargava3196511-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1424" alt="X Radar" />
+  </a>
 </p>
 
 <br/>
