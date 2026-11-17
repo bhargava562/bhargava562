@@ -9,9 +9,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
-    <img width="100%" alt="Bhargava A — Full-Stack & AI-Native Systems Engineer Terminal" src="./dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg?v=2.2" />
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg?v=2.2" />
+    <img width="100%" alt="Bhargava A — Full-Stack & AI-Native Systems Engineer Terminal" src="./dark.svg?v=2.2" />
   </picture>
 </p>
 

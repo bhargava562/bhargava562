@@ -33,7 +33,7 @@
   </clipPath>
   <clipPath id="cmdClip5Light">
     <rect x="560" y="125" height="40" width="0">
-      <animate attributeName="width" values="0; 0; 0; 565; 565; 0; 0" keyTimes="0.0000; 0.5714; 0.5774; 0.6060; 0.6976; 0.7071; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0; 0; 0; 440; 440; 0; 0" keyTimes="0.0000; 0.5714; 0.5774; 0.6060; 0.6976; 0.7071; 1.0000" dur="42s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <clipPath id="cmdClip6Light">
@@ -240,21 +240,18 @@
     <!-- Blinking Cursor -->
     <rect width="11" height="22" rx="2" fill="#00f3ff">
       <animate attributeName="x" values="560; 560; 560; 915; 915; 488; 488; 560; 560" keyTimes="0.0000; 0.4286; 0.4345; 0.4631; 0.4679; 0.4690; 0.5548; 0.5643; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="131; 131; 131; 131; 131; 465; 465; 131; 131" keyTimes="0.0000; 0.4286; 0.4345; 0.4631; 0.4679; 0.4690; 0.5548; 0.5643; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="131; 131; 131; 131; 131; 420; 420; 131; 131" keyTimes="0.0000; 0.4286; 0.4345; 0.4631; 0.4679; 0.4690; 0.5548; 0.5643; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
     <!-- Output -->
     <g>
       <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.4286; 0.4679; 0.4690; 0.5548; 0.5667; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15.5" font-weight="600">
-        <text x="488" y="195"><tspan fill="#ffa116" font-weight="700">* e4a81c2</tspan><tspan fill="#38bdf8"> (HEAD -&gt; main, tag: v1.4.0)</tspan><tspan fill="#f1f5f9"> feat(linkific):</tspan></text>
-        <text x="488" y="230"><tspan fill="#f1f5f9">    Production FastAPI backend, JWT/RBAC &amp; 5+ endpoints</tspan></text>
-        <text x="488" y="275"><tspan fill="#ffa116" font-weight="700">* 9b2f0a1</tspan><tspan fill="#f1f5f9"> feat(linkific): Supabase asyncpg Shared Pooler</tspan></text>
-        <text x="488" y="310"><tspan fill="#00ff9c">    + TTL caching (-34% warm latency on Render)</tspan></text>
-        <text x="488" y="355"><tspan fill="#ffa116" font-weight="700">* 7c1d3e8</tspan><tspan fill="#f1f5f9"> feat(ten): React frontend with 28 JSX components</tspan></text>
-        <text x="488" y="390"><tspan fill="#38bdf8">    State hooks &amp; Error Boundaries (1.62s LCP)</tspan></text>
-        <text x="488" y="435" fill="#94a3b8" font-style="italic">... (2 production tenures logged &#8226; 0 architecture review claims)</text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="600">
+        <text x="488" y="205"><tspan fill="#ffa116" font-weight="700">* e4a81c2</tspan><tspan fill="#38bdf8"> (HEAD -&gt; main, v1.4)</tspan><tspan fill="#f1f5f9"> feat: FastAPI backend &amp; JWT auth</tspan></text>
+        <text x="488" y="260"><tspan fill="#ffa116" font-weight="700">* 9b2f0a1</tspan><tspan fill="#f1f5f9"> feat(linkific): Supabase pooler + TTL cache </tspan><tspan fill="#00ff9c">(-34% lat)</tspan></text>
+        <text x="488" y="315"><tspan fill="#ffa116" font-weight="700">* 7c1d3e8</tspan><tspan fill="#f1f5f9"> feat(ten): React 19 UI with 28 components </tspan><tspan fill="#38bdf8">(1.6s LCP)</tspan></text>
+        <text x="488" y="375" fill="#94a3b8" font-style="italic">... (2 production tenures logged &#8226; 0 claims)</text>
       </g>
     </g>
   </g>
@@ -273,7 +270,7 @@
     
     <!-- Command -->
     <g clip-path="url(#cmdClip5Light)">
-      <text x="560" y="150" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">docker ps --format &quot;table {{.Names}}	{{.Status}}	{{.Ports}}&quot;</text>
+      <text x="560" y="150" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="700" fill="#00ff9c">docker ps --format &quot;table {{.Names}}	{{.Ports}}&quot;</text>
     </g>
     
     <!-- Blinking Cursor -->
@@ -289,9 +286,9 @@
       <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15.5" font-weight="600">
         <text x="488" y="195"><tspan fill="#94a3b8" font-weight="700">NAMES</tspan><tspan x="615" fill="#94a3b8" font-weight="700">STATUS</tspan><tspan x="755" fill="#94a3b8" font-weight="700">PORTS / ROLE</tspan></text>
         <text x="488" y="245"><tspan fill="#00ff9c" font-weight="700">orbit</tspan><tspan x="615" fill="#38bdf8">Up 24 days</tspan><tspan x="755" fill="#f1f5f9">8000/tcp (Credential Failover Platform)</tspan></text>
-        <text x="488" y="295"><tspan fill="#00ff9c" font-weight="700">blocksafe</tspan><tspan x="615" fill="#38bdf8">Up 12 days</tspan><tspan x="755" fill="#ffa116">8080/tcp (Cognitive Firewall [&#8377;15k Prize])</tspan></text>
+        <text x="488" y="295"><tspan fill="#00ff9c" font-weight="700">blocksafe</tspan><tspan x="615" fill="#38bdf8">Up 12 days</tspan><tspan x="755" fill="#ffa116">8080/tcp (Cognitive Firewall [&#8377;15k])</tspan></text>
         <text x="488" y="345"><tspan fill="#00ff9c" font-weight="700">friday</tspan><tspan x="615" fill="#38bdf8">Up 48 days</tspan><tspan x="755" fill="#f1f5f9">9090/tcp (Spring Boot AI Assistant)</tspan></text>
-        <text x="488" y="405" fill="#94a3b8" font-style="italic">3 containers active &#9679; 0 exit errors &#9679; 99.98% cluster uptime</text>
+        <text x="488" y="405" fill="#94a3b8" font-style="italic">3 containers active &#9679; 0 errors &#9679; 99.98% cluster uptime</text>
       </g>
     </g>
   </g>
@@ -324,7 +321,7 @@
     <g>
       <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.7143; 0.7536; 0.7548; 0.8405; 0.8524; 1.0000" dur="42s" repeatCount="indefinite"/>
       <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15.5" font-weight="600">
-        <text x="488" y="195"><tspan fill="#00ff9c">&#9679; gdgoc-rmk.service</tspan><tspan fill="#94a3b8"> - </tspan><tspan fill="#f1f5f9" font-weight="700">Google Developer Groups on Campus (RMKEC)</tspan></text>
+        <text x="488" y="195"><tspan fill="#00ff9c">&#9679; gdgoc-rmk.service</tspan><tspan fill="#94a3b8"> - </tspan><tspan fill="#f1f5f9" font-weight="700">Google Developer Groups (RMKEC)</tspan></text>
         <text x="488" y="235"><tspan fill="#94a3b8">     Loaded: </tspan><tspan fill="#f1f5f9">loaded (/etc/systemd/system/gdgoc-rmk.service)</tspan></text>
         <text x="488" y="275"><tspan fill="#94a3b8">     Active: </tspan><tspan fill="#00ff9c" font-weight="700">active (running)</tspan><tspan fill="#f1f5f9"> since Oct 2026; 5 months ago</tspan></text>
         <text x="488" y="315"><tspan fill="#94a3b8">   Operator: </tspan><tspan fill="#00f3ff" font-weight="700">Bhargava A</tspan><tspan fill="#94a3b8"> (Lead Organizer @ GDGoC RMKEC)</tspan></text>
