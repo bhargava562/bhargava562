@@ -134,7 +134,7 @@ principle : Ship the boring 80%, own the hard 20%
 <br/>
 <img src="https://img.icons8.com/color/48/postgreesql.png" width="44" height="44" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;
 <img src="https://img.icons8.com/color/48/redis.png" width="44" height="44" alt="Redis" title="Redis" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/mongodb.png" width="44" height="44" alt="MongoDB" title="MongoDB" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/supabase.png" width="44" height="44" alt="Supabase" title="Supabase" />&nbsp;&nbsp;
 <img src="https://img.icons8.com/color/48/docker.png" width="44" height="44" alt="Docker" title="Docker" />&nbsp;&nbsp;
 <img src="https://img.icons8.com/color/48/linux--v1.png" width="44" height="44" alt="Linux" title="Linux" />
 <br/><br/>
@@ -146,21 +146,29 @@ principle : Ship the boring 80%, own the hard 20%
 <img src="https://img.icons8.com/color/48/git.png" width="44" height="44" alt="Git" title="Git" />&nbsp;&nbsp;
 <img src="https://img.icons8.com/color/48/github--v1.png" width="44" height="44" alt="GitHub" title="GitHub" />&nbsp;&nbsp;
 <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" width="44" height="44" alt="VS Code" title="VS Code" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/intellij-idea.png" width="44" height="44" alt="IntelliJ IDEA" title="IntelliJ IDEA" />
+<img src="https://img.icons8.com/color/48/intellij-idea.png" width="44" height="44" alt="IntelliJ IDEA" title="IntelliJ IDEA" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png" width="44" height="44" alt="Postman" title="Postman" />
 <br/><br/>
 <code>Git</code> • <code>GitHub Actions</code> • <code>VS Code</code> • <code>IntelliJ</code> • <code>Postman</code>
 <br/><br/>
 </td>
 </tr>
+<tr>
+<th colspan="2" align="center">🤖 AGENTIC TOOLS</th>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antigravity/antigravity-original.svg" width="44" height="44" alt="Antigravity" title="Google Antigravity" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubcopilot/githubcopilot-original.svg" width="44" height="44" alt="GitHub Copilot" title="GitHub Copilot" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/48/claude-ai.png" width="44" height="44" alt="Claude Code" title="Claude Code (Claude)" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/48/chatgpt.png" width="44" height="44" alt="Codex" title="OpenAI Codex (ChatGPT)" />
+<br/><br/>
+<code>Antigravity</code> • <code>GitHub Copilot</code> • <code>Claude Code</code> • <code>Codex</code>
+<br/><br/>
+</td>
+</tr>
 </table>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude%20Code-CC785C?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=0d1424" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Cursor-1a1a2e?style=for-the-badge&labelColor=0d1424" alt="Cursor" />
-  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&labelColor=0d1424" alt="Antigravity" />
-  <img src="https://img.shields.io/badge/LangGraph-10B981?style=for-the-badge&labelColor=0d1424" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&labelColor=0d1424" alt="Groq" />
-</p>
 
 <br/>
 
