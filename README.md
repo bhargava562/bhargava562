@@ -55,27 +55,21 @@
 <td width="58%" valign="top">
 
 ```yaml
-$ whoami --verbose
+$ whoami
 
-name       : Bhargava A
-role       : Full-Stack Developer & Python Backend Intern @ Linkific ('26)
-community  : Lead @ Google Developer Groups on Campus (RMKEC)
-identity   : "Centaur Engineer" — AI as force multiplier,
-             not a replacement for engineering judgment
-college    : R.M.K. Engineering College
-degree     : B.Tech, CS & Business Systems | '24–'28
-cgpa       : 8.75 / 10
-location   : Avadi, Chennai, India
-principle  : Ship the boring 80%, own the hard 20%
+name      : Bhargava A
+role      : Full-Stack & AI Systems Developer
+community : Lead @ Google Developer Groups on Campus (RMKEC)
+identity  : "VIP Engineer" (Centaur / AI-Augmented Systems)
+location  : Avadi, Chennai, India
+principle : Ship the boring 80%, own the hard 20%
 ```
 
-<h3>🧠 Currently Compiling</h3>
+<h3>⚡ Active Focus</h3>
 
-* 🌐 **Full-Stack Web Architecture** — Modern responsive frontends (React 19, Next.js 15, Tailwind) coupled with high-throughput backend services
-* ⚙️ **Production Backend Pipelines** — asyncpg poolers, TTL caching & low-latency FastAPI / Spring Boot APIs
-* 📐 **30-pattern DSA sprint** — daily competitive programming on LeetCode, CodeForces & AtCoder
-* 🛰️ **Orbit** — request-time health-aware credential failover platform (Spring Boot / React)
-* ✍️ Weekly engineering deep-dives on LinkedIn — production systems, architecture trade-offs
+* 🛰️ **Orbit Platform** — Request-time credential failover & resilience engine
+* 🤖 **AI-Native Systems** — Multi-agent swarms (LangGraph), Claude MCP & low-latency APIs
+* 📐 **DSA & Core Systems** — Daily competitive problem-solving & distributed architecture
 
 </td>
 
