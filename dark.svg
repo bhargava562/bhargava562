@@ -128,20 +128,20 @@
     <!-- Blinking Cursor -->
     <rect width="11" height="22" rx="2" fill="#00f3ff">
       <animate attributeName="x" values="560; 560; 635; 635; 488; 488; 560; 560" keyTimes="0.0000; 0.0060; 0.0345; 0.0393; 0.0405; 0.1262; 0.1357; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="131; 131; 131; 131; 435; 435; 131; 131" keyTimes="0.0000; 0.0060; 0.0345; 0.0393; 0.0405; 0.1262; 0.1357; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="131; 131; 131; 131; 455; 455; 131; 131" keyTimes="0.0000; 0.0060; 0.0345; 0.0393; 0.0405; 0.1262; 0.1357; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
     <!-- Output -->
     <g>
       <animate attributeName="opacity" values="0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.0393; 0.0405; 0.1262; 0.1381; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600">
-        <text x="488" y="195"><tspan fill="#00f3ff">name</tspan><tspan fill="#94a3b8">                   : </tspan><tspan fill="#f1f5f9" font-weight="700">Bhargava A</tspan></text>
-        <text x="488" y="235"><tspan fill="#00f3ff">role</tspan><tspan fill="#94a3b8">                   : </tspan><tspan fill="#00ff9c" font-weight="700">Full-Stack &amp; AI Systems Developer</tspan></text>
-        <text x="488" y="275"><tspan fill="#00f3ff">community_volunteering</tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#38bdf8">Lead @ Google Developer Groups on Campus (RMKEC)</tspan></text>
-        <text x="488" y="315"><tspan fill="#00f3ff">identity</tspan><tspan fill="#94a3b8">               : </tspan><tspan fill="#00ff9c" font-weight="700">&quot;VIP Engineer&quot;</tspan><tspan fill="#94a3b8"> (Centaur / AI-Augmented Systems)</tspan></text>
-        <text x="488" y="355"><tspan fill="#00f3ff">location</tspan><tspan fill="#94a3b8">               : </tspan><tspan fill="#f1f5f9">Avadi, Chennai, India</tspan></text>
-        <text x="488" y="395"><tspan fill="#00f3ff">principle</tspan><tspan fill="#94a3b8">              : </tspan><tspan fill="#ffa116">Ship the boring 80%, own the hard 20%</tspan></text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="600">
+        <text x="488" y="200"><tspan fill="#00f3ff">name</tspan><tspan fill="#94a3b8">      : </tspan><tspan fill="#f1f5f9" font-weight="700">Bhargava A</tspan></text>
+        <text x="488" y="245"><tspan fill="#00f3ff">role</tspan><tspan fill="#94a3b8">      : </tspan><tspan fill="#00ff9c" font-weight="700">Full-Stack &amp; AI Systems Developer</tspan></text>
+        <text x="488" y="290"><tspan fill="#00f3ff">community</tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#38bdf8">Lead @ Google Developer Groups on Campus (RMKEC)</tspan></text>
+        <text x="488" y="335"><tspan fill="#00f3ff">identity</tspan><tspan fill="#94a3b8">  : </tspan><tspan fill="#00ff9c" font-weight="700">&quot;VIP Engineer&quot;</tspan><tspan fill="#94a3b8"> (Centaur / AI Systems)</tspan></text>
+        <text x="488" y="380"><tspan fill="#00f3ff">location</tspan><tspan fill="#94a3b8">  : </tspan><tspan fill="#f1f5f9">Avadi, Chennai, India</tspan></text>
+        <text x="488" y="425"><tspan fill="#00f3ff">principle</tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#ffa116">Ship the boring 80%, own the hard 20%</tspan></text>
       </g>
     </g>
   </g>
@@ -166,19 +166,20 @@
     <!-- Blinking Cursor -->
     <rect width="11" height="22" rx="2" fill="#00f3ff">
       <animate attributeName="x" values="560; 560; 560; 1085; 1085; 488; 488; 560; 560" keyTimes="0.0000; 0.1429; 0.1488; 0.1774; 0.1821; 0.1833; 0.2690; 0.2786; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="131; 131; 131; 131; 131; 425; 425; 131; 131" keyTimes="0.0000; 0.1429; 0.1488; 0.1774; 0.1821; 0.1833; 0.2690; 0.2786; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="131; 131; 131; 131; 131; 445; 445; 131; 131" keyTimes="0.0000; 0.1429; 0.1488; 0.1774; 0.1821; 0.1833; 0.2690; 0.2786; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
     <!-- Output -->
     <g>
       <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.1429; 0.1821; 0.1833; 0.2690; 0.2810; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="600">
-        <text x="488" y="200"><tspan fill="#00f3ff">Institution</tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#f1f5f9" font-weight="700">R.M.K. Engineering College (Autonomous)</tspan></text>
-        <text x="488" y="245"><tspan fill="#00f3ff">Degree     </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#00ff9c">B.Tech Computer Science &amp; Business Systems (&apos;24–&apos;28)</tspan></text>
-        <text x="488" y="290"><tspan fill="#00f3ff">University </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#f1f5f9">Anna University, Chennai</tspan></text>
-        <text x="488" y="335"><tspan fill="#00f3ff">Cumulative </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#ffa116" font-weight="700">CGPA 8.75 / 10.00 </tspan><tspan fill="#38bdf8">[First Class with Distinction]</tspan></text>
-        <text x="488" y="380"><tspan fill="#00f3ff">Status     </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#00ff9c">Active Matriculation (3rd Year Undergraduate)</tspan></text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="600">
+        <text x="488" y="195"><tspan fill="#00f3ff">Institution</tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#f1f5f9" font-weight="700">R.M.K. Engineering College (Autonomous)</tspan></text>
+        <text x="488" y="240"><tspan fill="#00f3ff">Degree     </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#00ff9c">B.Tech Computer Science &amp; Business Systems</tspan></text>
+        <text x="488" y="275"><tspan fill="#94a3b8">              [&apos;24–&apos;28 Batch &#8226; Autonomous Campus]</tspan></text>
+        <text x="488" y="320"><tspan fill="#00f3ff">University </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#f1f5f9">Anna University, Chennai</tspan></text>
+        <text x="488" y="365"><tspan fill="#00f3ff">Cumulative </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#ffa116" font-weight="700">CGPA 8.75 / 10.00 </tspan><tspan fill="#38bdf8">[First Class Distinction]</tspan></text>
+        <text x="488" y="410"><tspan fill="#00f3ff">Status     </tspan><tspan fill="#94a3b8"> : </tspan><tspan fill="#00ff9c">Active Matriculation (3rd Year Undergraduate)</tspan></text>
       </g>
     </g>
   </g>
@@ -203,19 +204,19 @@
     <!-- Blinking Cursor -->
     <rect width="11" height="22" rx="2" fill="#00f3ff">
       <animate attributeName="x" values="560; 560; 560; 1120; 1120; 488; 488; 560; 560" keyTimes="0.0000; 0.2857; 0.2917; 0.3202; 0.3250; 0.3262; 0.4119; 0.4214; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="131; 131; 131; 131; 131; 425; 425; 131; 131" keyTimes="0.0000; 0.2857; 0.2917; 0.3202; 0.3250; 0.3262; 0.4119; 0.4214; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="131; 131; 131; 131; 131; 435; 435; 131; 131" keyTimes="0.0000; 0.2857; 0.2917; 0.3202; 0.3250; 0.3262; 0.4119; 0.4214; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
     <!-- Output -->
     <g>
       <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.2857; 0.3250; 0.3262; 0.4119; 0.4238; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-weight="600">
-        <text x="488" y="200"><tspan fill="#00f3ff">FRONTEND_STACK</tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#00ff9c">&quot;React 19, Next.js 15, TypeScript, Tailwind CSS&quot;</tspan></text>
-        <text x="488" y="245"><tspan fill="#00f3ff">BACKEND_STACK </tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#38bdf8">&quot;Spring Boot 3.4, FastAPI, PostgreSQL, Redis&quot;</tspan></text>
-        <text x="488" y="290"><tspan fill="#00f3ff">AI_SYSTEMS    </tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#c084fc">&quot;LangGraph, Gemini API, Claude MCP, Agent Swarms&quot;</tspan></text>
-        <text x="488" y="335"><tspan fill="#00f3ff">SOFT_SKILLS   </tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#f1f5f9">&quot;First-Principles Thinking, High Agency, Mentorship&quot;</tspan></text>
-        <text x="488" y="380"><tspan fill="#00f3ff">PARADIGM      </tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#ffa116">&quot;Full-Stack Velocity: Ship 80%, Own Hard 20%&quot;</tspan></text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16" font-weight="600">
+        <text x="488" y="200"><tspan fill="#00f3ff">FRONTEND_STACK</tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#00ff9c">&quot;React 19, Next.js 15, TypeScript, Tailwind&quot;</tspan></text>
+        <text x="488" y="250"><tspan fill="#00f3ff">BACKEND_STACK </tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#38bdf8">&quot;Spring Boot 3.4, FastAPI, PostgreSQL, Redis&quot;</tspan></text>
+        <text x="488" y="300"><tspan fill="#00f3ff">AI_SYSTEMS    </tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#c084fc">&quot;LangGraph, Gemini API, Claude MCP, Groq&quot;</tspan></text>
+        <text x="488" y="350"><tspan fill="#00f3ff">SOFT_SKILLS   </tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#f1f5f9">&quot;High Agency, Systems Thinking, Mentorship&quot;</tspan></text>
+        <text x="488" y="400"><tspan fill="#00f3ff">PARADIGM      </tspan><tspan fill="#94a3b8"> = </tspan><tspan fill="#ffa116">&quot;Ship the boring 80%, own the hard 20%&quot;</tspan></text>
       </g>
     </g>
   </g>
@@ -240,18 +241,21 @@
     <!-- Blinking Cursor -->
     <rect width="11" height="22" rx="2" fill="#00f3ff">
       <animate attributeName="x" values="560; 560; 560; 915; 915; 488; 488; 560; 560" keyTimes="0.0000; 0.4286; 0.4345; 0.4631; 0.4679; 0.4690; 0.5548; 0.5643; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="131; 131; 131; 131; 131; 405; 405; 131; 131" keyTimes="0.0000; 0.4286; 0.4345; 0.4631; 0.4679; 0.4690; 0.5548; 0.5643; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="131; 131; 131; 131; 131; 465; 465; 131; 131" keyTimes="0.0000; 0.4286; 0.4345; 0.4631; 0.4679; 0.4690; 0.5548; 0.5643; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
     <!-- Output -->
     <g>
       <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.4286; 0.4679; 0.4690; 0.5548; 0.5667; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5" font-weight="600">
-        <text x="488" y="205"><tspan fill="#ffa116" font-weight="700">* e4a81c2</tspan><tspan fill="#38bdf8"> (HEAD -&gt; main, tag: v1.4.0)</tspan><tspan fill="#f1f5f9"> feat(linkific): production FastAPI backend, JWT/RBAC auth &amp; 5+ REST endpoints</tspan></text>
-        <text x="488" y="255"><tspan fill="#ffa116" font-weight="700">* 9b2f0a1</tspan><tspan fill="#f1f5f9"> feat(linkific): Supabase Shared Pooler (asyncpg) + TTL cache </tspan><tspan fill="#00ff9c">(-34% cloud latency)</tspan></text>
-        <text x="488" y="305"><tspan fill="#ffa116" font-weight="700">* 7c1d3e8</tspan><tspan fill="#f1f5f9"> feat(ten): React frontend with 28 components, state hooks &amp; error boundaries</tspan></text>
-        <text x="488" y="355" fill="#94a3b8" font-style="italic">... (2 production tenures logged &#8226; 0 architecture review claims)</text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15.5" font-weight="600">
+        <text x="488" y="195"><tspan fill="#ffa116" font-weight="700">* e4a81c2</tspan><tspan fill="#38bdf8"> (HEAD -&gt; main, tag: v1.4.0)</tspan><tspan fill="#f1f5f9"> feat(linkific):</tspan></text>
+        <text x="488" y="230"><tspan fill="#f1f5f9">    Production FastAPI backend, JWT/RBAC &amp; 5+ endpoints</tspan></text>
+        <text x="488" y="275"><tspan fill="#ffa116" font-weight="700">* 9b2f0a1</tspan><tspan fill="#f1f5f9"> feat(linkific): Supabase asyncpg Shared Pooler</tspan></text>
+        <text x="488" y="310"><tspan fill="#00ff9c">    + TTL caching (-34% warm latency on Render)</tspan></text>
+        <text x="488" y="355"><tspan fill="#ffa116" font-weight="700">* 7c1d3e8</tspan><tspan fill="#f1f5f9"> feat(ten): React frontend with 28 JSX components</tspan></text>
+        <text x="488" y="390"><tspan fill="#38bdf8">    State hooks &amp; Error Boundaries (1.62s LCP)</tspan></text>
+        <text x="488" y="435" fill="#94a3b8" font-style="italic">... (2 production tenures logged &#8226; 0 architecture review claims)</text>
       </g>
     </g>
   </g>
@@ -276,19 +280,19 @@
     <!-- Blinking Cursor -->
     <rect width="11" height="22" rx="2" fill="#00f3ff">
       <animate attributeName="x" values="560; 560; 560; 1120; 1120; 488; 488; 560; 560" keyTimes="0.0000; 0.5714; 0.5774; 0.6060; 0.6107; 0.6119; 0.6976; 0.7071; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="131; 131; 131; 131; 131; 425; 425; 131; 131" keyTimes="0.0000; 0.5714; 0.5774; 0.6107; 0.6119; 0.6976; 0.7071; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="131; 131; 131; 131; 131; 440; 440; 131; 131" keyTimes="0.0000; 0.5714; 0.5774; 0.6107; 0.6119; 0.6976; 0.7071; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
     <!-- Output -->
     <g>
       <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.5714; 0.6107; 0.6119; 0.6976; 0.7095; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600">
-        <text x="488" y="195" font-weight="700" fill="#94a3b8">NAMES       STATUS          PORTS</text>
-        <text x="488" y="240"><tspan fill="#00ff9c" font-weight="700">orbit</tspan><tspan fill="#38bdf8" dx="44">Up 24 days</tspan><tspan fill="#f1f5f9" dx="20">8000/tcp (Credential Failover Platform)</tspan></text>
-        <text x="488" y="285"><tspan fill="#00ff9c" font-weight="700">blocksafe</tspan><tspan fill="#38bdf8" dx="12">Up 12 days</tspan><tspan fill="#ffa116" dx="20">8080/tcp (Cognitive Firewall Swarm [2nd &#8377;15,000])</tspan></text>
-        <text x="488" y="330"><tspan fill="#00ff9c" font-weight="700">friday</tspan><tspan fill="#38bdf8" dx="36">Up 48 days</tspan><tspan fill="#f1f5f9" dx="20">9090/tcp (Spring Boot AI Assistant)</tspan></text>
-        <text x="488" y="380" fill="#94a3b8" font-style="italic">3 containers active &#9679; 0 exit errors &#9679; 99.98% cluster uptime</text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15.5" font-weight="600">
+        <text x="488" y="195"><tspan fill="#94a3b8" font-weight="700">NAMES</tspan><tspan x="615" fill="#94a3b8" font-weight="700">STATUS</tspan><tspan x="755" fill="#94a3b8" font-weight="700">PORTS / ROLE</tspan></text>
+        <text x="488" y="245"><tspan fill="#00ff9c" font-weight="700">orbit</tspan><tspan x="615" fill="#38bdf8">Up 24 days</tspan><tspan x="755" fill="#f1f5f9">8000/tcp (Credential Failover Platform)</tspan></text>
+        <text x="488" y="295"><tspan fill="#00ff9c" font-weight="700">blocksafe</tspan><tspan x="615" fill="#38bdf8">Up 12 days</tspan><tspan x="755" fill="#ffa116">8080/tcp (Cognitive Firewall [&#8377;15k Prize])</tspan></text>
+        <text x="488" y="345"><tspan fill="#00ff9c" font-weight="700">friday</tspan><tspan x="615" fill="#38bdf8">Up 48 days</tspan><tspan x="755" fill="#f1f5f9">9090/tcp (Spring Boot AI Assistant)</tspan></text>
+        <text x="488" y="405" fill="#94a3b8" font-style="italic">3 containers active &#9679; 0 exit errors &#9679; 99.98% cluster uptime</text>
       </g>
     </g>
   </g>
@@ -313,21 +317,21 @@
     <!-- Blinking Cursor -->
     <rect width="11" height="22" rx="2" fill="#00f3ff">
       <animate attributeName="x" values="560; 560; 560; 925; 925; 488; 488; 560; 560" keyTimes="0.0000; 0.7143; 0.7202; 0.7488; 0.7536; 0.7548; 0.8405; 0.8500; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="131; 131; 131; 131; 131; 445; 445; 131; 131" keyTimes="0.0000; 0.7143; 0.7202; 0.7488; 0.7536; 0.7548; 0.8405; 0.8500; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="131; 131; 131; 131; 131; 465; 465; 131; 131" keyTimes="0.0000; 0.7143; 0.7202; 0.7488; 0.7536; 0.7548; 0.8405; 0.8500; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
     <!-- Output -->
     <g>
       <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.7143; 0.7536; 0.7548; 0.8405; 0.8524; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-weight="600">
-        <text x="488" y="190"><tspan fill="#00ff9c">&#9679; gdgoc-rmk.service</tspan><tspan fill="#94a3b8"> - </tspan><tspan fill="#f1f5f9" font-weight="700">Google Developer Groups on Campus (RMKEC)</tspan></text>
-        <text x="488" y="225"><tspan fill="#94a3b8">     Loaded: </tspan><tspan fill="#f1f5f9">loaded (/etc/systemd/system/gdgoc-rmk.service; enabled)</tspan></text>
-        <text x="488" y="260"><tspan fill="#94a3b8">     Active: </tspan><tspan fill="#00ff9c" font-weight="700">active (running)</tspan><tspan fill="#f1f5f9"> since Oct 2026; 5 months ago</tspan></text>
-        <text x="488" y="295"><tspan fill="#94a3b8">   Operator: </tspan><tspan fill="#00f3ff" font-weight="700">Bhargava A</tspan><tspan fill="#94a3b8"> (Lead Organizer @ GDGoC RMKEC)</tspan></text>
-        <text x="488" y="330"><tspan fill="#94a3b8">   Previous: </tspan><tspan fill="#38bdf8">Technical Team Member (Dec 2025 – Oct 2026)</tspan></text>
-        <text x="488" y="365"><tspan fill="#94a3b8">     Status: </tspan><tspan fill="#c084fc">Campus Developer Community Leadership</tspan></text>
-        <text x="488" y="400"><tspan fill="#94a3b8">     Campus: </tspan><tspan fill="#ffa116">R.M.K. Engineering College (RMKEC)</tspan></text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15.5" font-weight="600">
+        <text x="488" y="195"><tspan fill="#00ff9c">&#9679; gdgoc-rmk.service</tspan><tspan fill="#94a3b8"> - </tspan><tspan fill="#f1f5f9" font-weight="700">Google Developer Groups on Campus (RMKEC)</tspan></text>
+        <text x="488" y="235"><tspan fill="#94a3b8">     Loaded: </tspan><tspan fill="#f1f5f9">loaded (/etc/systemd/system/gdgoc-rmk.service)</tspan></text>
+        <text x="488" y="275"><tspan fill="#94a3b8">     Active: </tspan><tspan fill="#00ff9c" font-weight="700">active (running)</tspan><tspan fill="#f1f5f9"> since Oct 2026; 5 months ago</tspan></text>
+        <text x="488" y="315"><tspan fill="#94a3b8">   Operator: </tspan><tspan fill="#00f3ff" font-weight="700">Bhargava A</tspan><tspan fill="#94a3b8"> (Lead Organizer @ GDGoC RMKEC)</tspan></text>
+        <text x="488" y="355"><tspan fill="#94a3b8">   Previous: </tspan><tspan fill="#38bdf8">Technical Team Member (Dec 2025 – Oct 2026)</tspan></text>
+        <text x="488" y="395"><tspan fill="#94a3b8">     Status: </tspan><tspan fill="#c084fc">Campus Developer Community Leadership</tspan></text>
+        <text x="488" y="435"><tspan fill="#94a3b8">     Campus: </tspan><tspan fill="#ffa116">R.M.K. Engineering College (RMKEC)</tspan></text>
       </g>
     </g>
   </g>
@@ -352,21 +356,21 @@
     <!-- Blinking Cursor -->
     <rect width="11" height="22" rx="2" fill="#00f3ff">
       <animate attributeName="x" values="560; 560; 560; 885; 885; 488; 488; 560; 560" keyTimes="0.0000; 0.8571; 0.8631; 0.8917; 0.8964; 0.8976; 0.9833; 0.9929; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="131; 131; 131; 131; 131; 445; 445; 131; 131" keyTimes="0.0000; 0.8571; 0.8631; 0.8917; 0.8964; 0.8976; 0.9833; 0.9929; 1.0000" dur="42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="131; 131; 131; 131; 131; 495; 495; 131; 131" keyTimes="0.0000; 0.8571; 0.8631; 0.8917; 0.8964; 0.8976; 0.9833; 0.9929; 1.0000" dur="42s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.15;1" dur="0.85s" repeatCount="indefinite"/>
     </rect>
     
     <!-- Output -->
     <g>
       <animate attributeName="opacity" values="0.0; 0.0; 0.0; 1.0; 1.0; 0.0; 0.0" keyTimes="0.0000; 0.8571; 0.8964; 0.8976; 0.9833; 0.9952; 1.0000" dur="42s" repeatCount="indefinite"/>
-      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="600">
-        <text x="488" y="190" fill="#94a3b8">{</text>
-        <text x="508" y="225"><tspan fill="#00f3ff">&quot;hackathon&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">&quot;SVCE Hackathon 2nd Place (&#8377;15,000 Prize)&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
-        <text x="508" y="260"><tspan fill="#00f3ff">&quot;rank&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#ffa116">&quot;HackerRank Top 3.5% Worldwide&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
-        <text x="508" y="295"><tspan fill="#00f3ff">&quot;ocp_java_21&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#c084fc">&quot;Oracle Certified Professional (1Z0-830)&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
-        <text x="508" y="330"><tspan fill="#00f3ff">&quot;oracle_ai&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#38bdf8">&quot;OCI Generative AI &amp; Vector Search Certified&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
-        <text x="508" y="365"><tspan fill="#00f3ff">&quot;google_kaggle&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">&quot;5-Day AI Agents Intensive Certified&quot;</tspan></text>
-        <text x="488" y="400" fill="#94a3b8">}</text>
+      <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="16.5" font-weight="600">
+        <text x="488" y="195" fill="#94a3b8">{</text>
+        <text x="508" y="240"><tspan fill="#00f3ff">&quot;hackathon&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">&quot;SVCE Hackathon 2nd Place (&#8377;15,000 Prize)&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
+        <text x="508" y="285"><tspan fill="#00f3ff">&quot;rank&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#ffa116">&quot;HackerRank Top 3.5% Worldwide&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
+        <text x="508" y="330"><tspan fill="#00f3ff">&quot;ocp_java_21&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#c084fc">&quot;Oracle Certified Professional (1Z0-830)&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
+        <text x="508" y="375"><tspan fill="#00f3ff">&quot;oracle_ai&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#38bdf8">&quot;OCI Generative AI &amp; Vector Search Certified&quot;</tspan><tspan fill="#94a3b8">,</tspan></text>
+        <text x="508" y="420"><tspan fill="#00f3ff">&quot;google_kaggle&quot;</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00ff9c">&quot;5-Day AI Agents Intensive Certified&quot;</tspan></text>
+        <text x="488" y="465" fill="#94a3b8">}</text>
       </g>
     </g>
   </g>
