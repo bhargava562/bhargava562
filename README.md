@@ -162,29 +162,25 @@ principle : Ship the boring 80%, own the hard 20%
 </td>
 </tr>
 <tr>
-<th colspan="2" align="center">🧠 GENERATIVE AI PLATFORMS</th>
+<th align="center" width="50%">🧠 GENERATIVE AI PLATFORMS</th>
+<th align="center" width="50%">🤖 AGENTIC CODING SYSTEMS</th>
 </tr>
 <tr>
-<td colspan="2" align="center" valign="top">
+<td align="center" valign="top">
 <br/>
-<img src="https://img.icons8.com/fluency/96/chatgpt--v1.png" width="44" height="44" alt="ChatGPT" title="ChatGPT" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.icons8.com/fluency/96/gemini-ai.png" width="44" height="44" alt="Gemini" title="Google Gemini" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.icons8.com/fluency/96/claude-ai.png" width="44" height="44" alt="Claude" title="Claude" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/chatgpt--v1.png" width="44" height="44" alt="ChatGPT" title="ChatGPT" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/gemini-ai.png" width="44" height="44" alt="Gemini" title="Google Gemini" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/claude-ai.png" width="44" height="44" alt="Claude" title="Claude" />&nbsp;&nbsp;
 <img src="https://img.icons8.com/fluency/96/perplexity-ai.png" width="44" height="44" alt="Perplexity AI" title="Perplexity AI" />
 <br/><br/>
 <code>ChatGPT</code> • <code>Gemini</code> • <code>Claude</code> • <code>Perplexity AI</code>
 <br/><br/>
 </td>
-</tr>
-<tr>
-<th colspan="2" align="center">🤖 AGENTIC CODING SYSTEMS</th>
-</tr>
-<tr>
-<td colspan="2" align="center" valign="top">
+<td align="center" valign="top">
 <br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antigravity/antigravity-original.svg" width="44" height="44" alt="Antigravity" title="Google Antigravity" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.icons8.com/fluency/96/github-copilot.png" width="44" height="44" alt="GitHub Copilot" title="GitHub Copilot" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.icons8.com/fluency/96/claude-ai.png" width="44" height="44" alt="Claude Code" title="Claude Code" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antigravity/antigravity-original.svg" width="44" height="44" alt="Antigravity" title="Google Antigravity" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/github-copilot.png" width="44" height="44" alt="GitHub Copilot" title="GitHub Copilot" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/claude-ai.png" width="44" height="44" alt="Claude Code" title="Claude Code" />&nbsp;&nbsp;
 <img src="https://img.icons8.com/color/96/chatgpt.png" width="44" height="44" alt="Codex" title="OpenAI Codex" />
 <br/><br/>
 <code>Antigravity</code> • <code>GitHub Copilot</code> • <code>Claude Code</code> • <code>Codex</code>
