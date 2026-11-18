@@ -345,12 +345,6 @@ principle : Ship the boring 80%, own the hard 20%
   <img src="https://img.shields.io/badge/50%20Day%20Badge%20'26-FFA116?style=for-the-badge&labelColor=0d1424" alt="50 day LeetCode badge" />
 </p>
 
-<h3 align="center">📊 Real-Time GitHub Contribution Matrix</h3>
-
-<p align="center">
-  <img width="100%" src="https://ghchart.rshah.org/00FF9C/bhargava562" alt="Bhargava A GitHub Contribution Chart" />
-</p>
-
 <br/>
 
 <!-- ====================================================================== -->
