@@ -4,7 +4,6 @@ import urllib.request
 import base64
 import tempfile
 import subprocess
-from PIL import Image
 
 output_dir = r"d:\github\bhargava562\assets\buttons"
 os.makedirs(output_dir, exist_ok=True)
@@ -15,74 +14,65 @@ buttons_config = [
     {
         "file": "portfolio.svg",
         "id": "portfolio",
-        "label": "PORTFOLIO",
+        "label": "Portfolio",
         "accent": "#00FF9C",
         "url": "https://img.icons8.com/fluency/96/domain.png",
-        "width": 144
     },
     {
         "file": "linkedin.svg",
         "id": "linkedin",
-        "label": "LINKEDIN",
+        "label": "LinkedIn",
         "accent": "#0A66C2",
         "url": "https://img.icons8.com/fluency/96/linkedin.png",
-        "width": 136
     },
     {
         "file": "github.svg",
         "id": "github",
-        "label": "GITHUB",
+        "label": "GitHub",
         "accent": "#FFFFFF",
         "url": "https://img.icons8.com/fluency/96/github.png",
-        "width": 120
     },
     {
         "file": "leetcode.svg",
         "id": "leetcode",
-        "label": "LEETCODE",
+        "label": "LeetCode",
         "accent": "#FFA116",
         "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png",
-        "width": 136
     },
     {
         "file": "gmail.svg",
         "id": "gmail",
-        "label": "GMAIL",
+        "label": "Gmail",
         "accent": "#EA4335",
         "url": "https://img.icons8.com/fluency/96/gmail.png",
-        "width": 112
     },
     {
         "file": "hackerrank.svg",
         "id": "hackerrank",
-        "label": "HACKERRANK",
+        "label": "HackerRank",
         "accent": "#00EA64",
         "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png",
-        "width": 154
     },
     {
         "file": "codeforces.svg",
         "id": "codeforces",
-        "label": "CODEFORCES",
+        "label": "Codeforces",
         "accent": "#1F8ACB",
         "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png",
-        "width": 154
     },
     {
         "file": "codolio.svg",
         "id": "codolio",
-        "label": "CODOLIO",
+        "label": "Codolio",
         "accent": "#00FF9C",
         "is_codolio": True,
-        "width": 128
     },
     {
         "file": "x.svg",
         "id": "x",
-        "label": "X / TWITTER",
+        "label": "X",
         "accent": "#E2E8F0",
         "url": "https://img.icons8.com/fluency/96/twitterx.png",
-        "width": 162
     }
 ]
 
@@ -123,6 +113,17 @@ with open(temp_png, "rb") as f:
 
 print(f"Codolio PNG rendered successfully (b64 len={len(codolio_b64)}).")
 
+svg_width = 72
+svg_height = 74
+btn_size = 48
+btn_x = (svg_width - btn_size) / 2 # 12.0
+btn_y = 2.0
+icon_size = 28
+icon_x = btn_x + (btn_size - icon_size) / 2 # 22.0
+icon_y = btn_y + (btn_size - icon_size) / 2 # 12.0
+text_x = svg_width / 2 # 36.0
+text_y = 66.0
+
 for btn in buttons_config:
     if btn.get("is_codolio"):
         b64 = codolio_b64
@@ -132,61 +133,55 @@ for btn in buttons_config:
         img_data = urllib.request.urlopen(req).read()
         b64 = base64.b64encode(img_data).decode("utf-8")
     
-    w = btn["width"]
-    arrow_x = w - 18
     accent = btn["accent"]
     btn_id = btn["id"]
     label = btn["label"]
+    font_size = "10px" if len(label) > 8 else "11px"
     
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {w} 36" width="{w}" height="36" role="img" aria-label="{label}">
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {svg_width} {svg_height}" width="{svg_width}" height="{svg_height}" role="img" aria-label="{label}">
   <title>{label}</title>
   <defs>
     <style>
       .btn-bg {{ transition: fill 0.2s ease; }}
-      .btn-border {{ transition: stroke 0.2s ease, stroke-width 0.2s ease; }}
-      .btn-arrow {{ transition: transform 0.2s ease, opacity 0.2s ease; }}
-      .btn-group:hover .btn-bg {{ fill: #131c31; }}
-      .btn-group:hover .btn-border {{ stroke-width: 1.5; stroke-opacity: 1; }}
-      .btn-group:hover .btn-arrow {{ opacity: 1; transform: translate({arrow_x + 1}px, 12.5px); }}
-      .btn-text {{
+      .btn-border {{ transition: stroke 0.2s ease, stroke-width 0.2s ease, stroke-opacity 0.2s ease; }}
+      .btn-label {{
         font-family: 'JetBrains Mono', Consolas, 'Fira Code', 'Segoe UI Mono', monospace;
-        font-size: 12.5px;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        fill: #FFFFFF;
+        font-size: {font_size};
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        fill: #94a3b8;
+        transition: fill 0.2s ease;
       }}
+      .btn-group:hover .btn-bg {{ fill: #131c31; }}
+      .btn-group:hover .btn-border {{ stroke-width: 1.6; stroke-opacity: 1; stroke: {accent}; }}
+      .btn-group:hover .btn-label {{ fill: #ffffff; }}
     </style>
     <linearGradient id="bg-grad-{btn_id}" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1424" />
       <stop offset="100%" stop-color="#080d1a" />
     </linearGradient>
     <linearGradient id="glow-{btn_id}" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="{accent}" stop-opacity="0.12" />
+      <stop offset="0%" stop-color="{accent}" stop-opacity="0.15" />
       <stop offset="100%" stop-color="{accent}" stop-opacity="0.0" />
     </linearGradient>
   </defs>
   <g class="btn-group" cursor="pointer">
-    <!-- Background card -->
-    <rect class="btn-bg" x="0.5" y="0.5" width="{w - 1}" height="35" rx="7.5" fill="url(#bg-grad-{btn_id})" />
-    <rect x="0.5" y="0.5" width="{w - 1}" height="35" rx="7.5" fill="url(#glow-{btn_id})" />
-    <rect class="btn-border" x="0.5" y="0.5" width="{w - 1}" height="35" rx="7.5" fill="none" stroke="{accent}" stroke-width="1" stroke-opacity="0.65" />
+    <!-- Square Button Card (No text inside) -->
+    <rect class="btn-bg" x="{btn_x + 0.5}" y="{btn_y + 0.5}" width="{btn_size - 1}" height="{btn_size - 1}" rx="10" fill="url(#bg-grad-{btn_id})" />
+    <rect x="{btn_x + 0.5}" y="{btn_y + 0.5}" width="{btn_size - 1}" height="{btn_size - 1}" rx="10" fill="url(#glow-{btn_id})" />
+    <rect class="btn-border" x="{btn_x + 0.5}" y="{btn_y + 0.5}" width="{btn_size - 1}" height="{btn_size - 1}" rx="10" fill="none" stroke="{accent}" stroke-width="1.2" stroke-opacity="0.65" />
     
-    <!-- Icon -->
-    <image x="10" y="8" width="20" height="20" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{b64}" href="data:image/png;base64,{b64}" />
+    <!-- Centered Logo (Medium size) -->
+    <image x="{icon_x}" y="{icon_y}" width="{icon_size}" height="{icon_size}" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{b64}" href="data:image/png;base64,{b64}" />
     
-    <!-- Text Label -->
-    <text class="btn-text" x="38" y="18" dominant-baseline="central">{label}</text>
-    
-    <!-- Subtle arrow indicator ↗ -->
-    <g class="btn-arrow" transform="translate({arrow_x}, 13.5)" stroke="{accent}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.75">
-      <path d="M1 7.5 L7.5 1 M3 1 L7.5 1 L7.5 5.5" />
-    </g>
+    <!-- Text Label Below Button -->
+    <text class="btn-label" x="{text_x}" y="{text_y}" text-anchor="middle">{label}</text>
   </g>
 </svg>
 """
     target_path = os.path.join(output_dir, btn["file"])
     with open(target_path, "w", encoding="utf-8") as f:
         f.write(svg)
-    print(f"Wrote {btn['file']} ({w}x36, len={len(svg)})")
+    print(f"Wrote {btn['file']} ({svg_width}x{svg_height}, len={len(svg)})")
 
-print("All 9 button SVGs created successfully!")
+print("All 9 squared button SVGs created successfully!")
