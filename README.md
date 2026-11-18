@@ -181,77 +181,40 @@ principle : Ship the boring 80%, own the hard 20%
 <tr>
 <td width="100%">
 
-### 💼 Work Experience
+### 💼 Professional Experience
 
-<!-- Role 1: Linkific -->
-<p>
-  <strong>Python Backend Developer Intern</strong> &nbsp;•&nbsp; <strong>Linkific</strong>
-  <br/>
-  <img src="https://img.shields.io/badge/TENURE-APR%202026%20%E2%86%92%20AUG%202026-00FF9C?style=flat-square&labelColor=0d1424" alt="Tenure" />
-  <img src="https://img.shields.io/badge/DOMAIN-BACKEND%20%26%20DISTRIBUTED%20SYSTEMS-00F3FF?style=flat-square&labelColor=0d1424" alt="Domain" />
-  <img src="https://img.shields.io/badge/MODE-REMOTE-7CFFCB?style=flat-square&labelColor=0d1424" alt="Mode" />
-</p>
+#### ⚡ Python Backend Developer Intern &nbsp;•&nbsp; **Linkific**
+`Apr 2026 – Aug 2026` &nbsp;•&nbsp; `Remote` &nbsp;•&nbsp; `Backend & Distributed Systems`  
+**Stack:** <code>FastAPI</code> <code>PostgreSQL</code> <code>Supabase</code> <code>Redis</code> <code>Python</code> <code>Docker</code>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-- <img src="https://img.shields.io/badge/METRIC-~34%25%20LATENCY%20CUT-00FF9C?style=flat-square&labelColor=0d1424" alt="Latency Cut" /> Diagnosed cloud database bottleneck; migrated to **Supabase Shared Pooler (asyncpg)** and TTL caching, slashing warm cloud response times by **~34%** (181 ms → 120 ms on Render; ~23 ms locally).
-- <img src="https://img.shields.io/badge/METRIC-5%2B%20CORE%20ENDPOINTS-00F3FF?style=flat-square&labelColor=0d1424" alt="Auth Endpoints" /> Engineered **5+ core auth & user REST endpoints** incorporating **JWT, granular RBAC, bcrypt password hashing**, and **Google OAuth 2.0**.
-- <img src="https://img.shields.io/badge/METRIC-11--PHASE%20TEST%20SUITE-FFA116?style=flat-square&labelColor=0d1424" alt="Test Suite" /> Hardened endpoints with **SlowAPI rate limiting** and authored an exhaustive **11-phase test suite** ensuring zero-regression releases.
-- <img src="https://img.shields.io/badge/METRIC-TIMER%20DATA%20PIPELINE-0891B2?style=flat-square&labelColor=0d1424" alt="Data Pipeline" /> Architected a **multi-phase data processing pipeline** reading stored PostgreSQL inputs to compute and generate a sequential timer-scheduled output queue.
-
-<br/>
-<hr/>
-<br/>
-
-<!-- Role 2: TEN -->
-<p>
-  <strong>Frontend Developer Intern</strong> &nbsp;•&nbsp; <strong>The Entrepreneurship Network</strong>
-  <br/>
-  <img src="https://img.shields.io/badge/TENURE-JUN%202025%20%E2%86%92%20JUL%202025-00F3FF?style=flat-square&labelColor=0d1424" alt="Tenure" />
-  <img src="https://img.shields.io/badge/DOMAIN-FRONTEND%20ENGINEERING-00FF9C?style=flat-square&labelColor=0d1424" alt="Domain" />
-  <img src="https://img.shields.io/badge/MODE-REMOTE-7CFFCB?style=flat-square&labelColor=0d1424" alt="Mode" />
-</p>
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-- <img src="https://img.shields.io/badge/METRIC-28%20JSX%20COMPONENTS-00F3FF?style=flat-square&labelColor=0d1424" alt="28 Components" /> Developed responsive interfaces delivering **28 JSX modular components across 8 routes** for the flagship TEN Tech Competition Engine.
-- <img src="https://img.shields.io/badge/METRIC-1.62s%20LCP%20%7C%200.00%20CLS-00FF9C?style=flat-square&labelColor=0d1424" alt="Web Vitals" /> Optimized client-side routing and state management with `useCallback`/`useEffect`, clocking **1.62s LCP and 0.00 CLS** Core Web Vitals.
-- <img src="https://img.shields.io/badge/METRIC-FAULT--TOLERANT%20UI-FFA116?style=flat-square&labelColor=0d1424" alt="Error Boundaries" /> Implemented **React Error Boundaries** preventing catastrophic cascading failures and guaranteeing graceful UI fallback states.
+- **Cloud Latency Reduction (~34%)** — Diagnosed cloud database bottleneck; migrated production service to **Supabase Shared Pooler (asyncpg)** with TTL caching, slashing warm cloud response times by **~34%** (181 ms → 120 ms on Render; ~23 ms locally).
+- **Auth & Security Infrastructure** — Engineered **5+ core auth & user REST endpoints** incorporating **JWT, granular RBAC, bcrypt password hashing**, and **Google OAuth 2.0**.
+- **Testing & Reliability** — Hardened endpoints with **SlowAPI rate limiting** and authored an exhaustive **11-phase test suite** ensuring zero-regression releases.
+- **Data Processing Pipeline** — Architected an automated data pipeline reading stored PostgreSQL inputs to compute and generate a sequential timer-scheduled output queue.
 
 <hr/>
 
-### 🤝 Volunteering & Community Leadership
+#### 🌐 Frontend Developer Intern &nbsp;•&nbsp; **The Entrepreneurship Network**
+`Jun 2025 – Jul 2025` &nbsp;•&nbsp; `Remote` &nbsp;•&nbsp; `Frontend Engineering`  
+**Stack:** <code>React 19</code> <code>Tailwind CSS</code> <code>JavaScript</code> <code>HTML5</code> <code>CSS3</code>
 
-<!-- Volunteering 1: GDGoC RMK Lead -->
-<p>
-  <strong>Lead Organizer</strong> &nbsp;•&nbsp; <strong>Google Developer Groups on Campus (GDGoC RMK)</strong>
-  <br/>
-  <img src="https://img.shields.io/badge/TENURE-OCT%202026%20%E2%86%92%20PRESENT-FFA116?style=flat-square&labelColor=0d1424" alt="Tenure" />
-  <img src="https://img.shields.io/badge/ROLE-LEAD%20ORGANIZER-00FF9C?style=flat-square&labelColor=0d1424" alt="Role" />
-  <img src="https://img.shields.io/badge/CAMPUS-RMKEC-00F3FF?style=flat-square&labelColor=0d1424" alt="Campus" />
-</p>
+- **Modular UI Components** — Developed responsive interfaces delivering **28 modular JSX components across 8 routes** for the flagship TEN Tech Competition Engine.
+- **Core Web Vitals Optimization** — Tuned client-side routing and state hooks (<code>useCallback</code>, <code>useEffect</code>), clocking **1.62s LCP and 0.00 CLS** Core Web Vitals.
+- **Fault-Tolerant UI** — Implemented **React Error Boundaries** preventing cascading failures and guaranteeing graceful UI fallback states.
 
-<br/>
 <hr/>
+
+### 🤝 Leadership & Community
+
+#### 👑 Lead Organizer &nbsp;•&nbsp; **Google Developer Groups on Campus (GDGoC RMK)**
+`Oct 2026 – Present` &nbsp;•&nbsp; `Campus Community Lead` &nbsp;•&nbsp; `RMKEC`
+- Spearheading developer community initiatives, technical workshops, and hackathons, bridging peer learning with Google developer ecosystem technologies.
+
 <br/>
 
-<!-- Volunteering 2: GDGoC RMK Tech Team -->
-<p>
-  <strong>Technical Team Member</strong> &nbsp;•&nbsp; <strong>Google Developer Groups on Campus (GDGoC RMK)</strong>
-  <br/>
-  <img src="https://img.shields.io/badge/TENURE-DEC%202025%20%E2%86%92%20OCT%202026-7CFFCB?style=flat-square&labelColor=0d1424" alt="Tenure" />
-  <img src="https://img.shields.io/badge/ROLE-TECHNICAL%20TEAM%20MEMBER-0891B2?style=flat-square&labelColor=0d1424" alt="Role" />
-  <img src="https://img.shields.io/badge/CAMPUS-RMKEC-00F3FF?style=flat-square&labelColor=0d1424" alt="Campus" />
-</p>
+#### 🛠️ Technical Team Member &nbsp;•&nbsp; **Google Developer Groups on Campus (GDGoC RMK)**
+`Dec 2025 – Oct 2026` &nbsp;•&nbsp; `Technical Core` &nbsp;•&nbsp; `RMKEC`
+- Orchestrated hands-on technical sessions and campus engineering challenges in competitive programming and cloud computing.
 
 </td>
 </tr>
@@ -273,11 +236,8 @@ principle : Ship the boring 80%, own the hard 20%
 <td width="50%" valign="top">
 
 ### 🛰️ Orbit
-**Request-Time Health-Aware Credential Failover Platform**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![SpringBoot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+**Request-Time Health-Aware Credential Failover Platform**  
+<code>Java 21</code> <code>Spring Boot</code> <code>React 19</code>
 
 > **Flagship Platform** — Enterprise developer platform that dynamically fails over API credentials at request time based on live health signals rather than static config. *In active development toward MVP.*
 
@@ -286,11 +246,8 @@ principle : Ship the boring 80%, own the hard 20%
 <td width="50%" valign="top">
 
 ### 🛡️ BlockSafe
-**Autonomous Cognitive Firewall & Honeypot**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-10B981?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
+**Autonomous Cognitive Firewall & Honeypot**  
+<code>FastAPI</code> <code>LangGraph</code> <code>Groq</code>
 
 > Real-time adversarial deception and cognitive firewall powered by a LangGraph multi-agent swarm — detects subtle psychological manipulation to neutralize scammers. **2nd Place (₹15,000) — SVCE Yet Another Hackathon 2026.**
 
@@ -305,11 +262,8 @@ principle : Ship the boring 80%, own the hard 20%
 <td colspan="2" width="100%" valign="top">
 
 ### 🤖 Friday
-**Java CLI AI Assistant**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![SpringBoot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+**Java CLI AI Assistant**  
+<code>Java 21</code> <code>Spring Boot</code> <code>Gemini API</code>
 
 > Intelligent command-line assistant powered by Gemini API, integrating 10+ external APIs (Google Calendar, Wolfram Alpha, GNews) with Jackson-persisted reminders and desktop notifications.
 
@@ -422,19 +376,32 @@ principle : Ship the boring 80%, own the hard 20%
   <img src="./assets/headers/logged-wins.svg" width="480" alt="[ // 05. LOGGED_WINS ]" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/BlockSafe-2nd%20Place%20%40%20SVCE%20Hackathon%20(%E2%82%B915%2C000)-00FF9C?style=for-the-badge&labelColor=0d1424" alt="BlockSafe second place" />
-  <br/><br/>
-  <img src="https://img.shields.io/badge/HackerRank%20Orchestrate%202026-Rank%20452%2F12%2C885%20(Top%203.5%25)-00F3FF?style=for-the-badge&labelColor=0d1424" alt="HackerRank Orchestrate 2026" />
-  <br/><br/>
-  <img src="https://img.shields.io/badge/MUSKETS%2FPFCE-Finalist%20%40%20IOB%20CyberNova%202025-0891B2?style=for-the-badge&labelColor=0d1424" alt="MUSKETS PFCE finalist" />
-  <br/><br/>
-  <img src="https://img.shields.io/badge/OCP%20Java%20SE%2021%20Developer-Oracle%20Certified-FFA116?style=for-the-badge&labelColor=0d1424" alt="OCP Java SE 21 Developer certification" />
-  <br/><br/>
-  <img src="https://img.shields.io/badge/AI%20Vector%20Search-Oracle%20Certified-F80000?style=for-the-badge&labelColor=0d1424" alt="Oracle AI Vector Search certification" />
-  <br/><br/>
-  <img src="https://img.shields.io/badge/5--Day%20AI%20Agents-Google%20%2F%20Kaggle-4285F4?style=for-the-badge&labelColor=0d1424" alt="Google Kaggle 5-Day AI Agents" />
-</p>
+<table align="center" width="100%">
+<thead>
+<tr>
+<th align="left" width="50%">🏆 Hackathons & Competitions</th>
+<th align="left" width="50%">📜 Industry Certifications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">
+  <ul>
+    <li>🥇 <strong>2nd Place (₹15,000)</strong> — <em>SVCE Yet Another Hackathon 2026</em> (BlockSafe AI Swarm)</li>
+    <li>⚡ <strong>Rank 452 / 12,885 (Top 3.5%)</strong> — <em>HackerRank Orchestrate 2026</em></li>
+    <li>🛡️ <strong>National Finalist</strong> — <em>IOB CyberNova 2025</em> (MUSKETS / PFCE)</li>
+  </ul>
+</td>
+<td valign="top">
+  <ul>
+    <li>☕ <strong>Oracle Certified Professional</strong> — <em>Java SE 21 Developer (1Z0-830)</em></li>
+    <li>🧠 <strong>Oracle Cloud Infrastructure</strong> — <em>OCI Generative AI & Vector Search Certified</em></li>
+    <li>🤖 <strong>Google / Kaggle</strong> — <em>5-Day AI Agents Intensive Certified</em></li>
+  </ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 <br/>
 
@@ -457,9 +424,7 @@ principle : Ship the boring 80%, own the hard 20%
 <tr>
 <td><b>🟢 Status & Availability</b></td>
 <td>
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00FF9C?style=flat-square&labelColor=0d1424" alt="Status Online" />
-  <img src="https://img.shields.io/badge/DISPATCH-OPEN%20FOR%20SWE%20'28-00F3FF?style=flat-square&labelColor=0d1424" alt="Open for SWE '28" />
-  <img src="https://img.shields.io/badge/FOCUS-FULL--STACK%20%2B%20AI-FFA116?style=flat-square&labelColor=0d1424" alt="Full Stack Focus" />
+  <code>ONLINE</code> &nbsp; <code>OPEN FOR SWE '28</code> &nbsp; <code>FULL-STACK + AI</code>
   <br/>
   <strong>Full-Stack & AI-Native Systems Engineering</strong> <i>(Modern Frontends + High-Scale Backends + Agentic Swarms)</i>
 </td>
@@ -467,8 +432,7 @@ principle : Ship the boring 80%, own the hard 20%
 <tr>
 <td><b>⚡ Response SLA</b></td>
 <td>
-  <img src="https://img.shields.io/badge/SLA-%3C%2024%20HOURS-7CFFCB?style=flat-square&labelColor=0d1424" alt="SLA Less Than 24h" />
-  <img src="https://img.shields.io/badge/CHANNELS-DIRECT%20PRIORITY-0891B2?style=flat-square&labelColor=0d1424" alt="Direct Priority" />
+  <code>&lt; 24 HOURS</code> &nbsp; <code>DIRECT PRIORITY</code>
   <br/>
   <em>Guaranteed priority response for full-stack engineering roles, collaborative builds, and technical discussions.</em>
 </td>
