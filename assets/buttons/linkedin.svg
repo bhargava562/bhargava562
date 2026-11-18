@@ -1,40 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 74" width="72" height="74" role="img" aria-label="LinkedIn">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 104 96" width="104" height="96" role="img" aria-label="LinkedIn">
   <title>LinkedIn</title>
   <defs>
+    <filter id="shadow-linkedin" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4.5" flood-color="#000000" flood-opacity="0.65" />
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#0A66C2" flood-opacity="0.45" />
+    </filter>
     <style>
-      .btn-bg { transition: fill 0.2s ease; }
-      .btn-border { transition: stroke 0.2s ease, stroke-width 0.2s ease, stroke-opacity 0.2s ease; }
+      .btn-logo {
+        filter: url(#shadow-linkedin);
+        transition: transform 0.2s ease, filter 0.2s ease;
+      }
       .btn-label {
         font-family: 'JetBrains Mono', Consolas, 'Fira Code', 'Segoe UI Mono', monospace;
-        font-size: 11px;
+        font-size: 13px;
         font-weight: 600;
         letter-spacing: 0.3px;
         fill: #94a3b8;
         transition: fill 0.2s ease;
       }
-      .btn-group:hover .btn-bg { fill: #131c31; }
-      .btn-group:hover .btn-border { stroke-width: 1.6; stroke-opacity: 1; stroke: #0A66C2; }
-      .btn-group:hover .btn-label { fill: #ffffff; }
+      .btn-group:hover .btn-logo {
+        transform: translateY(-2px);
+      }
+      .btn-group:hover .btn-label {
+        fill: #ffffff;
+      }
     </style>
-    <linearGradient id="bg-grad-linkedin" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1424" />
-      <stop offset="100%" stop-color="#080d1a" />
-    </linearGradient>
-    <linearGradient id="glow-linkedin" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0A66C2" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#0A66C2" stop-opacity="0.0" />
-    </linearGradient>
   </defs>
   <g class="btn-group" cursor="pointer">
-    <!-- Square Button Card (No text inside) -->
-    <rect class="btn-bg" x="12.5" y="2.5" width="47" height="47" rx="10" fill="url(#bg-grad-linkedin)" />
-    <rect x="12.5" y="2.5" width="47" height="47" rx="10" fill="url(#glow-linkedin)" />
-    <rect class="btn-border" x="12.5" y="2.5" width="47" height="47" rx="10" fill="none" stroke="#0A66C2" stroke-width="1.2" stroke-opacity="0.65" />
-    
-    <!-- Centered Logo (Medium size) -->
-    <image x="22.0" y="12.0" width="28" height="28" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFklEQVR4nO2dz28bRRTHh1TtBYkjB4S4ckb8E+VUBJRKiAohaA/Edp1tk10jRMUFWuBGuSChVtQNpUhIoEr0kthp3TjdpEnIruOE/KAS0CYqtHWdKD9s70NvxgUUOfGus7sz3X1f6Ukr787E7328783MOh7GSCQSiUQikUgkEolEIpFIJC86ae9jhnWI6VY/M+wZZtgrzLAhYrbCfUMf+6Ze5z4rId16lRn2ggIBgpBtnmWsV+QF/uClPcywPlcgECDVdPszdhK6wgdAwYf/QTgtI+3Id9xQyDKll0MsuPa8dIcNxUy3F8MpzDjake2soaqVDoYAwP5WvqO2mqZb2RAAWL9Kd9RQ1maCB6BbVQUcBSUNYxO4OnpjU8B6x4EdHwN2fBSYZorj3nFxTnbg/DTlAPRNAtNuAEsVgCVywLoHhOFxqiDO4TWyAxdJABjYnhF4IjEIb5+fhuJiBVY26rC6UQfzVgXezZb5ObwmMhCUAYCpRbvBA5w178B2ypp3BAS8E6KQjpQBgPk9VeCf/HY6fK4k0lHvhPwARgYAFtlEDkZ+q7QFcHXuPrBEXrSRHcDoABjlxRbzfTs9XKuLwoxtZAcwagCw6BIAiSloePFBWwCFhQdiWEopSE4RfvPfIjwuP4BRHIZeMJe2Df7Z4m0ahgYCgN8FE3yS1ZXI8UkXTr6wKFfX6zztHD5XoolYoAAeQeBLEde2LEXkaSkiFABbF+P4Qtzof4txhiU/aJEEgIHuxAyf2nPoE8BO3NyyCtuEj6/jeb/rjlIA3hvwZpq5+/YYUAwuprZjBWDJPLDuQZH28Bo8xlSIr+N5rD8Ixa80qBoAt2LbAPDcntebq/CUNgRHLpTh4tgSzCytwr3VGjQcB5YfbkDp9gp8P74MR/vL8Oz7uEyeB5Yuijtjt3dErAH0jMCeZA5O/DAHlbWaq3abdQe+KvwJz31wnYPjf7fvFwLAOmj/ZE8erkz/DZ0Igb305aS4G3YzJ4krgK7uQfi59BfsRvWGA299Mw0sOdRcl+pghBZXAJkf58EPrdca8MInJrBj10UxJwDgOpf7JSzae1MdLo/EFYDfeuOsLYapXhcICYA/mvyjKuYMXp9READgwfv4yi1IXpqFDy8vwk9Td2Fts+G5n+c/KoqJmpc0FGcA67WGeLaAn1xc/MMUwr+PlOfjfK9D1HeyZdGHl1lyXAE4DsChr20xhMTiibkbA4frPTjDTRd5Yb1suR+q4rMK3p+X0VBcAXx3c7n5WHO0dcpAEOkiPK1fcz1Lxm908IkZAWivF0+ZwNLDO6cLDGRyCL7I/+6iR4DZ5dVmIfbwrDquAPalciL17DR7xTWe9DDsPzPpqs+71U3v39aIIwDHadG+pVl8VPNMpuCq31rDcdkvAQDXgdJMfrf43m+cAaC8AAgELAEYIAAEwCYAjAAQgGBFAIAAtBABIABAADQCQAACFwEAAtBCBIAAAAHQCAABCFwEAAhACxGACAJAPfYAPJnmw78oBf2+HisAnZjhU/ug3pd0APSjfbCt6VYlDACz0h01FDXdLocBoF8JZw0l7XzwAHDzAvmOgpKWsV8LHsDRsb1Mt+akO2soZwvh7aqBO0fIdxiUMr10gIUq3DlCttOGKmadYqELt+0w7E/lO29L/uTbp+VsYfJIuHNEHGuCbs2Fn3Z2Ksy4eQH+fj6OhaM4WdOtatO3LB/toM8kEolEIpFIJBKJRCKRSCQSc69/AF4tSYoWatqDAAAAAElFTkSuQmCC" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFklEQVR4nO2dz28bRRTHh1TtBYkjB4S4ckb8E+VUBJRKiAohaA/Edp1tk10jRMUFWuBGuSChVtQNpUhIoEr0kthp3TjdpEnIruOE/KAS0CYqtHWdKD9s70NvxgUUOfGus7sz3X1f6Ukr787E7328783MOh7GSCQSiUQikUgkEolEIpFIJC86ae9jhnWI6VY/M+wZZtgrzLAhYrbCfUMf+6Ze5z4rId16lRn2ggIBgpBtnmWsV+QF/uClPcywPlcgECDVdPszdhK6wgdAwYf/QTgtI+3Id9xQyDKll0MsuPa8dIcNxUy3F8MpzDjake2soaqVDoYAwP5WvqO2mqZb2RAAWL9Kd9RQ1maCB6BbVQUcBSUNYxO4OnpjU8B6x4EdHwN2fBSYZorj3nFxTnbg/DTlAPRNAtNuAEsVgCVywLoHhOFxqiDO4TWyAxdJABjYnhF4IjEIb5+fhuJiBVY26rC6UQfzVgXezZb5ObwmMhCUAYCpRbvBA5w178B2ypp3BAS8E6KQjpQBgPk9VeCf/HY6fK4k0lHvhPwARgYAFtlEDkZ+q7QFcHXuPrBEXrSRHcDoABjlxRbzfTs9XKuLwoxtZAcwagCw6BIAiSloePFBWwCFhQdiWEopSE4RfvPfIjwuP4BRHIZeMJe2Df7Z4m0ahgYCgN8FE3yS1ZXI8UkXTr6wKFfX6zztHD5XoolYoAAeQeBLEde2LEXkaSkiFABbF+P4Qtzof4txhiU/aJEEgIHuxAyf2nPoE8BO3NyyCtuEj6/jeb/rjlIA3hvwZpq5+/YYUAwuprZjBWDJPLDuQZH28Bo8xlSIr+N5rD8Ixa80qBoAt2LbAPDcntebq/CUNgRHLpTh4tgSzCytwr3VGjQcB5YfbkDp9gp8P74MR/vL8Oz7uEyeB5Yuijtjt3dErAH0jMCeZA5O/DAHlbWaq3abdQe+KvwJz31wnYPjf7fvFwLAOmj/ZE8erkz/DZ0Igb305aS4G3YzJ4krgK7uQfi59BfsRvWGA299Mw0sOdRcl+pghBZXAJkf58EPrdca8MInJrBj10UxJwDgOpf7JSzae1MdLo/EFYDfeuOsLYapXhcICYA/mvyjKuYMXp9READgwfv4yi1IXpqFDy8vwk9Td2Fts+G5n+c/KoqJmpc0FGcA67WGeLaAn1xc/MMUwr+PlOfjfK9D1HeyZdGHl1lyXAE4DsChr20xhMTiibkbA4frPTjDTRd5Yb1suR+q4rMK3p+X0VBcAXx3c7n5WHO0dcpAEOkiPK1fcz1Lxm908IkZAWivF0+ZwNLDO6cLDGRyCL7I/+6iR4DZ5dVmIfbwrDquAPalciL17DR7xTWe9DDsPzPpqs+71U3v39aIIwDHadG+pVl8VPNMpuCq31rDcdkvAQDXgdJMfrf43m+cAaC8AAgELAEYIAAEwCYAjAAQgGBFAIAAtBABIABAADQCQAACFwEAAtBCBIAAAAHQCAABCFwEAAhACxGACAJAPfYAPJnmw78oBf2+HisAnZjhU/ug3pd0APSjfbCt6VYlDACz0h01FDXdLocBoF8JZw0l7XzwAHDzAvmOgpKWsV8LHsDRsb1Mt+akO2soZwvh7aqBO0fIdxiUMr10gIUq3DlCttOGKmadYqELt+0w7E/lO29L/uTbp+VsYfJIuHNEHGuCbs2Fn3Z2Ksy4eQH+fj6OhaM4WdOtatO3LB/toM8kEolEIpFIJBKJRCKRSCQSc69/AF4tSYoWatqDAAAAAElFTkSuQmCC" />
+    <!-- Elevated Logo with Ambient Glow & Drop Shadow -->
+    <image class="btn-logo" x="20.0" y="4.0" width="64" height="64" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFklEQVR4nO2dz28bRRTHh1TtBYkjB4S4ckb8E+VUBJRKiAohaA/Edp1tk10jRMUFWuBGuSChVtQNpUhIoEr0kthp3TjdpEnIruOE/KAS0CYqtHWdKD9s70NvxgUUOfGus7sz3X1f6Ukr787E7328783MOh7GSCQSiUQikUgkEolEIpFIJC86ae9jhnWI6VY/M+wZZtgrzLAhYrbCfUMf+6Ze5z4rId16lRn2ggIBgpBtnmWsV+QF/uClPcywPlcgECDVdPszdhK6wgdAwYf/QTgtI+3Id9xQyDKll0MsuPa8dIcNxUy3F8MpzDjake2soaqVDoYAwP5WvqO2mqZb2RAAWL9Kd9RQ1maCB6BbVQUcBSUNYxO4OnpjU8B6x4EdHwN2fBSYZorj3nFxTnbg/DTlAPRNAtNuAEsVgCVywLoHhOFxqiDO4TWyAxdJABjYnhF4IjEIb5+fhuJiBVY26rC6UQfzVgXezZb5ObwmMhCUAYCpRbvBA5w178B2ypp3BAS8E6KQjpQBgPk9VeCf/HY6fK4k0lHvhPwARgYAFtlEDkZ+q7QFcHXuPrBEXrSRHcDoABjlxRbzfTs9XKuLwoxtZAcwagCw6BIAiSloePFBWwCFhQdiWEopSE4RfvPfIjwuP4BRHIZeMJe2Df7Z4m0ahgYCgN8FE3yS1ZXI8UkXTr6wKFfX6zztHD5XoolYoAAeQeBLEde2LEXkaSkiFABbF+P4Qtzof4txhiU/aJEEgIHuxAyf2nPoE8BO3NyyCtuEj6/jeb/rjlIA3hvwZpq5+/YYUAwuprZjBWDJPLDuQZH28Bo8xlSIr+N5rD8Ixa80qBoAt2LbAPDcntebq/CUNgRHLpTh4tgSzCytwr3VGjQcB5YfbkDp9gp8P74MR/vL8Oz7uEyeB5Yuijtjt3dErAH0jMCeZA5O/DAHlbWaq3abdQe+KvwJz31wnYPjf7fvFwLAOmj/ZE8erkz/DZ0Igb305aS4G3YzJ4krgK7uQfi59BfsRvWGA299Mw0sOdRcl+pghBZXAJkf58EPrdca8MInJrBj10UxJwDgOpf7JSzae1MdLo/EFYDfeuOsLYapXhcICYA/mvyjKuYMXp9READgwfv4yi1IXpqFDy8vwk9Td2Fts+G5n+c/KoqJmpc0FGcA67WGeLaAn1xc/MMUwr+PlOfjfK9D1HeyZdGHl1lyXAE4DsChr20xhMTiibkbA4frPTjDTRd5Yb1suR+q4rMK3p+X0VBcAXx3c7n5WHO0dcpAEOkiPK1fcz1Lxm908IkZAWivF0+ZwNLDO6cLDGRyCL7I/+6iR4DZ5dVmIfbwrDquAPalciL17DR7xTWe9DDsPzPpqs+71U3v39aIIwDHadG+pVl8VPNMpuCq31rDcdkvAQDXgdJMfrf43m+cAaC8AAgELAEYIAAEwCYAjAAQgGBFAIAAtBABIABAADQCQAACFwEAAtBCBIAAAAHQCAABCFwEAAhACxGACAJAPfYAPJnmw78oBf2+HisAnZjhU/ug3pd0APSjfbCt6VYlDACz0h01FDXdLocBoF8JZw0l7XzwAHDzAvmOgpKWsV8LHsDRsb1Mt+akO2soZwvh7aqBO0fIdxiUMr10gIUq3DlCttOGKmadYqELt+0w7E/lO29L/uTbp+VsYfJIuHNEHGuCbs2Fn3Z2Ksy4eQH+fj6OhaM4WdOtatO3LB/toM8kEolEIpFIJBKJRCKRSCQSc69/AF4tSYoWatqDAAAAAElFTkSuQmCC" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFklEQVR4nO2dz28bRRTHh1TtBYkjB4S4ckb8E+VUBJRKiAohaA/Edp1tk10jRMUFWuBGuSChVtQNpUhIoEr0kthp3TjdpEnIruOE/KAS0CYqtHWdKD9s70NvxgUUOfGus7sz3X1f6Ukr787E7328783MOh7GSCQSiUQikUgkEolEIpFIJC86ae9jhnWI6VY/M+wZZtgrzLAhYrbCfUMf+6Ze5z4rId16lRn2ggIBgpBtnmWsV+QF/uClPcywPlcgECDVdPszdhK6wgdAwYf/QTgtI+3Id9xQyDKll0MsuPa8dIcNxUy3F8MpzDjake2soaqVDoYAwP5WvqO2mqZb2RAAWL9Kd9RQ1maCB6BbVQUcBSUNYxO4OnpjU8B6x4EdHwN2fBSYZorj3nFxTnbg/DTlAPRNAtNuAEsVgCVywLoHhOFxqiDO4TWyAxdJABjYnhF4IjEIb5+fhuJiBVY26rC6UQfzVgXezZb5ObwmMhCUAYCpRbvBA5w178B2ypp3BAS8E6KQjpQBgPk9VeCf/HY6fK4k0lHvhPwARgYAFtlEDkZ+q7QFcHXuPrBEXrSRHcDoABjlxRbzfTs9XKuLwoxtZAcwagCw6BIAiSloePFBWwCFhQdiWEopSE4RfvPfIjwuP4BRHIZeMJe2Df7Z4m0ahgYCgN8FE3yS1ZXI8UkXTr6wKFfX6zztHD5XoolYoAAeQeBLEde2LEXkaSkiFABbF+P4Qtzof4txhiU/aJEEgIHuxAyf2nPoE8BO3NyyCtuEj6/jeb/rjlIA3hvwZpq5+/YYUAwuprZjBWDJPLDuQZH28Bo8xlSIr+N5rD8Ixa80qBoAt2LbAPDcntebq/CUNgRHLpTh4tgSzCytwr3VGjQcB5YfbkDp9gp8P74MR/vL8Oz7uEyeB5Yuijtjt3dErAH0jMCeZA5O/DAHlbWaq3abdQe+KvwJz31wnYPjf7fvFwLAOmj/ZE8erkz/DZ0Igb305aS4G3YzJ4krgK7uQfi59BfsRvWGA299Mw0sOdRcl+pghBZXAJkf58EPrdca8MInJrBj10UxJwDgOpf7JSzae1MdLo/EFYDfeuOsLYapXhcICYA/mvyjKuYMXp9READgwfv4yi1IXpqFDy8vwk9Td2Fts+G5n+c/KoqJmpc0FGcA67WGeLaAn1xc/MMUwr+PlOfjfK9D1HeyZdGHl1lyXAE4DsChr20xhMTiibkbA4frPTjDTRd5Yb1suR+q4rMK3p+X0VBcAXx3c7n5WHO0dcpAEOkiPK1fcz1Lxm908IkZAWivF0+ZwNLDO6cLDGRyCL7I/+6iR4DZ5dVmIfbwrDquAPalciL17DR7xTWe9DDsPzPpqs+71U3v39aIIwDHadG+pVl8VPNMpuCq31rDcdkvAQDXgdJMfrf43m+cAaC8AAgELAEYIAAEwCYAjAAQgGBFAIAAtBABIABAADQCQAACFwEAAtBCBIAAAAHQCAABCFwEAAhACxGACAJAPfYAPJnmw78oBf2+HisAnZjhU/ug3pd0APSjfbCt6VYlDACz0h01FDXdLocBoF8JZw0l7XzwAHDzAvmOgpKWsV8LHsDRsb1Mt+akO2soZwvh7aqBO0fIdxiUMr10gIUq3DlCttOGKmadYqELt+0w7E/lO29L/uTbp+VsYfJIuHNEHGuCbs2Fn3Z2Ksy4eQH+fj6OhaM4WdOtatO3LB/toM8kEolEIpFIJBKJRCKRSCQSc69/AF4tSYoWatqDAAAAAElFTkSuQmCC" />
     
     <!-- Text Label Below Button -->
-    <text class="btn-label" x="36.0" y="66.0" text-anchor="middle">LinkedIn</text>
+    <text class="btn-label" x="52.0" y="86.0" text-anchor="middle">LinkedIn</text>
   </g>
 </svg>

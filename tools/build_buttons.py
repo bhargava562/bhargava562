@@ -29,7 +29,7 @@ buttons_config = [
         "file": "github.svg",
         "id": "github",
         "label": "GitHub",
-        "accent": "#FFFFFF",
+        "accent": "#E2E8F0",
         "url": "https://img.icons8.com/fluency/96/github.png",
     },
     {
@@ -113,16 +113,13 @@ with open(temp_png, "rb") as f:
 
 print(f"Codolio PNG rendered successfully (b64 len={len(codolio_b64)}).")
 
-svg_width = 72
-svg_height = 74
-btn_size = 48
-btn_x = (svg_width - btn_size) / 2 # 12.0
-btn_y = 2.0
-icon_size = 28
-icon_x = btn_x + (btn_size - icon_size) / 2 # 22.0
-icon_y = btn_y + (btn_size - icon_size) / 2 # 12.0
-text_x = svg_width / 2 # 36.0
-text_y = 66.0
+svg_width = 104
+svg_height = 96
+icon_size = 64
+icon_x = (svg_width - icon_size) / 2 # 20.0
+icon_y = 4.0
+text_x = svg_width / 2 # 52.0
+text_y = 86.0
 
 for btn in buttons_config:
     if btn.get("is_codolio"):
@@ -136,14 +133,20 @@ for btn in buttons_config:
     accent = btn["accent"]
     btn_id = btn["id"]
     label = btn["label"]
-    font_size = "10px" if len(label) > 8 else "11px"
+    font_size = "11.5px" if len(label) > 8 else "13px"
     
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {svg_width} {svg_height}" width="{svg_width}" height="{svg_height}" role="img" aria-label="{label}">
   <title>{label}</title>
   <defs>
+    <filter id="shadow-{btn_id}" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4.5" flood-color="#000000" flood-opacity="0.65" />
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="{accent}" flood-opacity="0.45" />
+    </filter>
     <style>
-      .btn-bg {{ transition: fill 0.2s ease; }}
-      .btn-border {{ transition: stroke 0.2s ease, stroke-width 0.2s ease, stroke-opacity 0.2s ease; }}
+      .btn-logo {{
+        filter: url(#shadow-{btn_id});
+        transition: transform 0.2s ease, filter 0.2s ease;
+      }}
       .btn-label {{
         font-family: 'JetBrains Mono', Consolas, 'Fira Code', 'Segoe UI Mono', monospace;
         font-size: {font_size};
@@ -152,27 +155,17 @@ for btn in buttons_config:
         fill: #94a3b8;
         transition: fill 0.2s ease;
       }}
-      .btn-group:hover .btn-bg {{ fill: #131c31; }}
-      .btn-group:hover .btn-border {{ stroke-width: 1.6; stroke-opacity: 1; stroke: {accent}; }}
-      .btn-group:hover .btn-label {{ fill: #ffffff; }}
+      .btn-group:hover .btn-logo {{
+        transform: translateY(-2px);
+      }}
+      .btn-group:hover .btn-label {{
+        fill: #ffffff;
+      }}
     </style>
-    <linearGradient id="bg-grad-{btn_id}" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1424" />
-      <stop offset="100%" stop-color="#080d1a" />
-    </linearGradient>
-    <linearGradient id="glow-{btn_id}" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="{accent}" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="{accent}" stop-opacity="0.0" />
-    </linearGradient>
   </defs>
   <g class="btn-group" cursor="pointer">
-    <!-- Square Button Card (No text inside) -->
-    <rect class="btn-bg" x="{btn_x + 0.5}" y="{btn_y + 0.5}" width="{btn_size - 1}" height="{btn_size - 1}" rx="10" fill="url(#bg-grad-{btn_id})" />
-    <rect x="{btn_x + 0.5}" y="{btn_y + 0.5}" width="{btn_size - 1}" height="{btn_size - 1}" rx="10" fill="url(#glow-{btn_id})" />
-    <rect class="btn-border" x="{btn_x + 0.5}" y="{btn_y + 0.5}" width="{btn_size - 1}" height="{btn_size - 1}" rx="10" fill="none" stroke="{accent}" stroke-width="1.2" stroke-opacity="0.65" />
-    
-    <!-- Centered Logo (Medium size) -->
-    <image x="{icon_x}" y="{icon_y}" width="{icon_size}" height="{icon_size}" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{b64}" href="data:image/png;base64,{b64}" />
+    <!-- Elevated Logo with Ambient Glow & Drop Shadow -->
+    <image class="btn-logo" x="{icon_x}" y="{icon_y}" width="{icon_size}" height="{icon_size}" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{b64}" href="data:image/png;base64,{b64}" />
     
     <!-- Text Label Below Button -->
     <text class="btn-label" x="{text_x}" y="{text_y}" text-anchor="middle">{label}</text>
@@ -184,4 +177,4 @@ for btn in buttons_config:
         f.write(svg)
     print(f"Wrote {btn['file']} ({svg_width}x{svg_height}, len={len(svg)})")
 
-print("All 9 squared button SVGs created successfully!")
+print("All 9 elevated logo button SVGs created successfully!")
