@@ -20,29 +20,7 @@
 <!-- ====================================================================== -->
 
 <div align="center">
-  <a href="https://bhargavaa.vercel.app/" target="_blank">
-    <img src="./assets/buttons/portfolio.svg" height="88" alt="Portfolio" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/bhargavaa1/" target="_blank">
-    <img src="./assets/buttons/linkedin.svg" height="88" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/bhargava562" target="_blank">
-    <img src="./assets/buttons/github.svg" height="88" alt="GitHub" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://leetcode.com/Bhargava2525/" target="_blank">
-    <img src="./assets/buttons/leetcode.svg" height="88" alt="LeetCode" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:bhargavaanand2006@gmail.com">
-    <img src="./assets/buttons/gmail.svg" height="88" alt="Gmail" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://x.com/Bhargava3196511" target="_blank">
-    <img src="./assets/buttons/x.svg" height="88" alt="X" />
-  </a>
+  <a href="https://bhargavaa.vercel.app/" target="_blank"><img src="./assets/buttons/portfolio.svg" height="88" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/bhargavaa1/" target="_blank"><img src="./assets/buttons/linkedin.svg" height="88" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/bhargava562" target="_blank"><img src="./assets/buttons/github.svg" height="88" alt="GitHub" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://leetcode.com/Bhargava2525/" target="_blank"><img src="./assets/buttons/leetcode.svg" height="88" alt="LeetCode" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:bhargavaanand2006@gmail.com" target="_blank"><img src="./assets/buttons/gmail.svg" height="88" alt="Gmail" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/Bhargava3196511" target="_blank"><img src="./assets/buttons/x.svg" height="88" alt="X" /></a>
 </div>
 
 <p align="center">
@@ -316,7 +294,7 @@ principle : Ship the boring 80%, own the hard 20%
 
 > Real-time adversarial deception and cognitive firewall powered by a LangGraph multi-agent swarm — detects subtle psychological manipulation to neutralize scammers. **2nd Place (₹15,000) — SVCE Yet Another Hackathon 2026.**
 
-[![View Code](https://img.shields.io/badge/View%20Code%20→-00FF9C?style=for-the-badge&logoColor=000000&labelColor=0d1424)](https://github.com/bhargava562/BlockSafe)
+<a href="https://github.com/bhargava562/BlockSafe" target="_blank"><img src="https://img.shields.io/badge/View%20Code%20→-00FF9C?style=for-the-badge&logoColor=000000&labelColor=0d1424" alt="View Code - BlockSafe" /></a>
 
 </td>
 
@@ -335,7 +313,7 @@ principle : Ship the boring 80%, own the hard 20%
 
 > Intelligent command-line assistant powered by Gemini API, integrating 10+ external APIs (Google Calendar, Wolfram Alpha, GNews) with Jackson-persisted reminders and desktop notifications.
 
-[![View Code](https://img.shields.io/badge/View%20Code%20→-0891B2?style=for-the-badge&logoColor=white&labelColor=0d1424)](https://github.com/bhargava562/Friday)
+<a href="https://github.com/bhargava562/Friday" target="_blank"><img src="https://img.shields.io/badge/View%20Code%20→-0891B2?style=for-the-badge&logoColor=white&labelColor=0d1424" alt="View Code - Friday" /></a>
 
 </td>
 
@@ -396,21 +374,7 @@ principle : Ship the boring 80%, own the hard 20%
 <h3 align="center">⚔️ Competitive Programming Handles</h3>
 
 <div align="center">
-  <a href="https://leetcode.com/Bhargava2525/" target="_blank">
-    <img src="./assets/buttons/leetcode.svg" height="88" alt="LeetCode" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.hackerrank.com/profile/Bhargava_A_056" target="_blank">
-    <img src="./assets/buttons/hackerrank.svg" height="88" alt="HackerRank" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://codeforces.com/profile/bhargava_a5" target="_blank">
-    <img src="./assets/buttons/codeforces.svg" height="88" alt="Codeforces" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://codolio.com/profile/bhargavA45" target="_blank">
-    <img src="./assets/buttons/codolio.svg" height="88" alt="Codolio" />
-  </a>
+  <a href="https://leetcode.com/Bhargava2525/" target="_blank"><img src="./assets/buttons/leetcode.svg" height="88" alt="LeetCode" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.hackerrank.com/profile/Bhargava_A_056" target="_blank"><img src="./assets/buttons/hackerrank.svg" height="88" alt="HackerRank" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://codeforces.com/profile/bhargava_a5" target="_blank"><img src="./assets/buttons/codeforces.svg" height="88" alt="Codeforces" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://codolio.com/profile/bhargavA45" target="_blank"><img src="./assets/buttons/codolio.svg" height="88" alt="Codolio" /></a>
 </div>
 
 <p align="center">
@@ -527,21 +491,7 @@ principle : Ship the boring 80%, own the hard 20%
 <br/>
 
 <div align="center">
-  <a href="mailto:bhargavaanand2006@gmail.com">
-    <img src="./assets/buttons/gmail.svg" height="88" alt="Gmail" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/bhargavaa1/" target="_blank">
-    <img src="./assets/buttons/linkedin.svg" height="88" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://bhargavaa.vercel.app/" target="_blank">
-    <img src="./assets/buttons/portfolio.svg" height="88" alt="Portfolio" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://x.com/Bhargava3196511" target="_blank">
-    <img src="./assets/buttons/x.svg" height="88" alt="X" />
-  </a>
+  <a href="mailto:bhargavaanand2006@gmail.com" target="_blank"><img src="./assets/buttons/gmail.svg" height="88" alt="Gmail" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/bhargavaa1/" target="_blank"><img src="./assets/buttons/linkedin.svg" height="88" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bhargavaa.vercel.app/" target="_blank"><img src="./assets/buttons/portfolio.svg" height="88" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/Bhargava3196511" target="_blank"><img src="./assets/buttons/x.svg" height="88" alt="X" /></a>
 </div>
 
 <br/>

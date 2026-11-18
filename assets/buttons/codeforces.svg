@@ -1,14 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 104 96" width="104" height="96" role="img" aria-label="Codeforces">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 104 100" width="104" height="100" role="img" aria-label="Codeforces">
   <title>Codeforces</title>
   <defs>
-    <filter id="shadow-codeforces" x="-30%" y="-30%" width="160%" height="160%">
+    <filter id="shadow-codeforces" x="-40%" y="-40%" width="180%" height="180%">
       <feDropShadow dx="0" dy="4" stdDeviation="4.5" flood-color="#000000" flood-opacity="0.65" />
       <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#1F8ACB" flood-opacity="0.45" />
     </filter>
     <style>
+      @keyframes float {
+        0%, 100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-4px);
+        }
+      }
       .btn-logo {
         filter: url(#shadow-codeforces);
-        transition: transform 0.2s ease, filter 0.2s ease;
+        animation: float 3.2s ease-in-out 1.4s infinite;
+        transform-origin: center;
+        transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.25s ease;
       }
       .btn-label {
         font-family: 'JetBrains Mono', Consolas, 'Fira Code', 'Segoe UI Mono', monospace;
@@ -19,7 +29,7 @@
         transition: fill 0.2s ease;
       }
       .btn-group:hover .btn-logo {
-        transform: translateY(-2px);
+        transform: translateY(-6px) scale(1.06);
       }
       .btn-group:hover .btn-label {
         fill: #ffffff;
@@ -27,10 +37,12 @@
     </style>
   </defs>
   <g class="btn-group" cursor="pointer">
-    <!-- Elevated Logo with Ambient Glow & Drop Shadow -->
-    <image class="btn-logo" x="20.0" y="4.0" width="64" height="64" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACuElEQVR4nO2dMW7bMBRAPUnoGdxBBDxll9HZXHqB3iL2XTKYuUMP0KlA7cWxJ3noRWw68y++3MSpgcQWK4YK9B7wR36I/1HUIPFrMAAAAAAAAAAAAEjM6E7ywvmZcX5tnD8Y56Vh6Jh1MfdTzZV6Ph+Kz/ePQzPfbwOK/krsK82Zel4fgtGd5O0W/ySBO+EKiuO2I1Hi3t+mnl/nKeZ+E03A3D+knl/nKZz3sQRo7tTz6zwm1ur/G6nn13kMAtJiEJAWg4C0GASkxSAgLQYBaTEISItBQFoMAtJiEJAW01cB8mOQyyKbySJbyzI/yDKXhnGox/7Kp5or9DpMHwXIz09DWeTbgKK/FpXmDLkW0zcBx5XfavFPEgLuBNM7AbrttF/8p2j8Bsr0T0C+iScga/wGyvROwDL3Ee+Axm+gTA8FSMxoej0GAQh4VxCQGAQkBgGJQUBiEHAd8nWUe1vOvC3XfjI+HOxYmoSOqcfacqq5TokRcJHHyZeht+W2adHfkFFpzjo5Aq5a+a0V/6WE+k5AwNvottN28V9IuEXABbwdb+IJKB8QcIGDLX0sAZobAReIV/xjIOACCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAXIuIF6rgkW+61jz7l2nPk+flLvONesoOta+Pv4BDe1w1aF2NcXcT7v0Awc91Rj3iJI2bNLmSu0Xv5LfgyzoFyZuX7UvYF/dfJcs6JDeZFxFKH4l326yU8uydiUEtyx7/olPqxL+7yc+9THVFiX8c0z1CV2tumXovh34YPayzFZ1joCVf46uVt0ydN8OeTDXY+Z+pTlCVv45ulp1y9B9O+zBXHo/Ga80x/PKBwAAAAAAAACAQZ/4A+lQ8iSEzjKdAAAAAElFTkSuQmCC" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACuElEQVR4nO2dMW7bMBRAPUnoGdxBBDxll9HZXHqB3iL2XTKYuUMP0KlA7cWxJ3noRWw68y++3MSpgcQWK4YK9B7wR36I/1HUIPFrMAAAAAAAAAAAAEjM6E7ywvmZcX5tnD8Y56Vh6Jh1MfdTzZV6Ph+Kz/ePQzPfbwOK/krsK82Zel4fgtGd5O0W/ySBO+EKiuO2I1Hi3t+mnl/nKeZ+E03A3D+knl/nKZz3sQRo7tTz6zwm1ur/G6nn13kMAtJiEJAWg4C0GASkxSAgLQYBaTEISItBQFoMAtJiEJAW01cB8mOQyyKbySJbyzI/yDKXhnGox/7Kp5or9DpMHwXIz09DWeTbgKK/FpXmDLkW0zcBx5XfavFPEgLuBNM7AbrttF/8p2j8Bsr0T0C+iScga/wGyvROwDL3Ee+Axm+gTA8FSMxoej0GAQh4VxCQGAQkBgGJQUBiEHAd8nWUe1vOvC3XfjI+HOxYmoSOqcfacqq5TokRcJHHyZeht+W2adHfkFFpzjo5Aq5a+a0V/6WE+k5AwNvottN28V9IuEXABbwdb+IJKB8QcIGDLX0sAZobAReIV/xjIOACCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAXIuIF6rgkW+61jz7l2nPk+flLvONesoOta+Pv4BDe1w1aF2NcXcT7v0Awc91Rj3iJI2bNLmSu0Xv5LfgyzoFyZuX7UvYF/dfJcs6JDeZFxFKH4l326yU8uydiUEtyx7/olPqxL+7yc+9THVFiX8c0z1CV2tumXovh34YPayzFZ1joCVf46uVt0ydN8OeTDXY+Z+pTlCVv45ulp1y9B9O+zBXHo/Ga80x/PKBwAAAAAAAACAQZ/4A+lQ8iSEzjKdAAAAAElFTkSuQmCC" />
+    <!-- Elevated Logo with Ambient Glow & Floating Animation -->
+    <g class="btn-logo">
+      <image x="20.0" y="8.0" width="64" height="64" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACuElEQVR4nO2dMW7bMBRAPUnoGdxBBDxll9HZXHqB3iL2XTKYuUMP0KlA7cWxJ3noRWw68y++3MSpgcQWK4YK9B7wR36I/1HUIPFrMAAAAAAAAAAAAEjM6E7ywvmZcX5tnD8Y56Vh6Jh1MfdTzZV6Ph+Kz/ePQzPfbwOK/krsK82Zel4fgtGd5O0W/ySBO+EKiuO2I1Hi3t+mnl/nKeZ+E03A3D+knl/nKZz3sQRo7tTz6zwm1ur/G6nn13kMAtJiEJAWg4C0GASkxSAgLQYBaTEISItBQFoMAtJiEJAW01cB8mOQyyKbySJbyzI/yDKXhnGox/7Kp5or9DpMHwXIz09DWeTbgKK/FpXmDLkW0zcBx5XfavFPEgLuBNM7AbrttF/8p2j8Bsr0T0C+iScga/wGyvROwDL3Ee+Axm+gTA8FSMxoej0GAQh4VxCQGAQkBgGJQUBiEHAd8nWUe1vOvC3XfjI+HOxYmoSOqcfacqq5TokRcJHHyZeht+W2adHfkFFpzjo5Aq5a+a0V/6WE+k5AwNvottN28V9IuEXABbwdb+IJKB8QcIGDLX0sAZobAReIV/xjIOACCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAXIuIF6rgkW+61jz7l2nPk+flLvONesoOta+Pv4BDe1w1aF2NcXcT7v0Awc91Rj3iJI2bNLmSu0Xv5LfgyzoFyZuX7UvYF/dfJcs6JDeZFxFKH4l326yU8uydiUEtyx7/olPqxL+7yc+9THVFiX8c0z1CV2tumXovh34YPayzFZ1joCVf46uVt0ydN8OeTDXY+Z+pTlCVv45ulp1y9B9O+zBXHo/Ga80x/PKBwAAAAAAAACAQZ/4A+lQ8iSEzjKdAAAAAElFTkSuQmCC" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACuElEQVR4nO2dMW7bMBRAPUnoGdxBBDxll9HZXHqB3iL2XTKYuUMP0KlA7cWxJ3noRWw68y++3MSpgcQWK4YK9B7wR36I/1HUIPFrMAAAAAAAAAAAAEjM6E7ywvmZcX5tnD8Y56Vh6Jh1MfdTzZV6Ph+Kz/ePQzPfbwOK/krsK82Zel4fgtGd5O0W/ySBO+EKiuO2I1Hi3t+mnl/nKeZ+E03A3D+knl/nKZz3sQRo7tTz6zwm1ur/G6nn13kMAtJiEJAWg4C0GASkxSAgLQYBaTEISItBQFoMAtJiEJAW01cB8mOQyyKbySJbyzI/yDKXhnGox/7Kp5or9DpMHwXIz09DWeTbgKK/FpXmDLkW0zcBx5XfavFPEgLuBNM7AbrttF/8p2j8Bsr0T0C+iScga/wGyvROwDL3Ee+Axm+gTA8FSMxoej0GAQh4VxCQGAQkBgGJQUBiEHAd8nWUe1vOvC3XfjI+HOxYmoSOqcfacqq5TokRcJHHyZeht+W2adHfkFFpzjo5Aq5a+a0V/6WE+k5AwNvottN28V9IuEXABbwdb+IJKB8QcIGDLX0sAZobAReIV/xjIOACCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAXIuIF6rgkW+61jz7l2nPk+flLvONesoOta+Pv4BDe1w1aF2NcXcT7v0Awc91Rj3iJI2bNLmSu0Xv5LfgyzoFyZuX7UvYF/dfJcs6JDeZFxFKH4l326yU8uydiUEtyx7/olPqxL+7yc+9THVFiX8c0z1CV2tumXovh34YPayzFZ1joCVf46uVt0ydN8OeTDXY+Z+pTlCVv45ulp1y9B9O+zBXHo/Ga80x/PKBwAAAAAAAACAQZ/4A+lQ8iSEzjKdAAAAAElFTkSuQmCC" />
+    </g>
     
     <!-- Text Label Below Button -->
-    <text class="btn-label" x="52.0" y="86.0" text-anchor="middle">Codeforces</text>
+    <text class="btn-label" x="52.0" y="90.0" text-anchor="middle">Codeforces</text>
   </g>
 </svg>

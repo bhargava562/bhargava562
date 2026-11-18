@@ -17,6 +17,7 @@ buttons_config = [
         "label": "Portfolio",
         "accent": "#00FF9C",
         "url": "https://img.icons8.com/fluency/96/domain.png",
+        "delay": "0.0s",
     },
     {
         "file": "linkedin.svg",
@@ -24,6 +25,7 @@ buttons_config = [
         "label": "LinkedIn",
         "accent": "#0A66C2",
         "url": "https://img.icons8.com/fluency/96/linkedin.png",
+        "delay": "0.5s",
     },
     {
         "file": "github.svg",
@@ -31,6 +33,7 @@ buttons_config = [
         "label": "GitHub",
         "accent": "#E2E8F0",
         "url": "https://img.icons8.com/fluency/96/github.png",
+        "delay": "1.0s",
     },
     {
         "file": "leetcode.svg",
@@ -38,6 +41,7 @@ buttons_config = [
         "label": "LeetCode",
         "accent": "#FFA116",
         "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png",
+        "delay": "1.5s",
     },
     {
         "file": "gmail.svg",
@@ -45,6 +49,7 @@ buttons_config = [
         "label": "Gmail",
         "accent": "#EA4335",
         "url": "https://img.icons8.com/fluency/96/gmail.png",
+        "delay": "2.0s",
     },
     {
         "file": "hackerrank.svg",
@@ -52,6 +57,7 @@ buttons_config = [
         "label": "HackerRank",
         "accent": "#00EA64",
         "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png",
+        "delay": "0.7s",
     },
     {
         "file": "codeforces.svg",
@@ -59,6 +65,7 @@ buttons_config = [
         "label": "Codeforces",
         "accent": "#1F8ACB",
         "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png",
+        "delay": "1.4s",
     },
     {
         "file": "codolio.svg",
@@ -66,6 +73,7 @@ buttons_config = [
         "label": "Codolio",
         "accent": "#00FF9C",
         "is_codolio": True,
+        "delay": "2.1s",
     },
     {
         "file": "x.svg",
@@ -73,6 +81,7 @@ buttons_config = [
         "label": "X",
         "accent": "#E2E8F0",
         "url": "https://img.icons8.com/fluency/96/twitterx.png",
+        "delay": "2.5s",
     }
 ]
 
@@ -114,12 +123,12 @@ with open(temp_png, "rb") as f:
 print(f"Codolio PNG rendered successfully (b64 len={len(codolio_b64)}).")
 
 svg_width = 104
-svg_height = 96
+svg_height = 100
 icon_size = 64
 icon_x = (svg_width - icon_size) / 2 # 20.0
-icon_y = 4.0
+icon_y = 8.0
 text_x = svg_width / 2 # 52.0
-text_y = 86.0
+text_y = 90.0
 
 for btn in buttons_config:
     if btn.get("is_codolio"):
@@ -133,19 +142,30 @@ for btn in buttons_config:
     accent = btn["accent"]
     btn_id = btn["id"]
     label = btn["label"]
+    delay = btn.get("delay", "0.0s")
     font_size = "11.5px" if len(label) > 8 else "13px"
     
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {svg_width} {svg_height}" width="{svg_width}" height="{svg_height}" role="img" aria-label="{label}">
   <title>{label}</title>
   <defs>
-    <filter id="shadow-{btn_id}" x="-30%" y="-30%" width="160%" height="160%">
+    <filter id="shadow-{btn_id}" x="-40%" y="-40%" width="180%" height="180%">
       <feDropShadow dx="0" dy="4" stdDeviation="4.5" flood-color="#000000" flood-opacity="0.65" />
       <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="{accent}" flood-opacity="0.45" />
     </filter>
     <style>
+      @keyframes float {{
+        0%, 100% {{
+          transform: translateY(0px);
+        }}
+        50% {{
+          transform: translateY(-4px);
+        }}
+      }}
       .btn-logo {{
         filter: url(#shadow-{btn_id});
-        transition: transform 0.2s ease, filter 0.2s ease;
+        animation: float 3.2s ease-in-out {delay} infinite;
+        transform-origin: center;
+        transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.25s ease;
       }}
       .btn-label {{
         font-family: 'JetBrains Mono', Consolas, 'Fira Code', 'Segoe UI Mono', monospace;
@@ -156,7 +176,7 @@ for btn in buttons_config:
         transition: fill 0.2s ease;
       }}
       .btn-group:hover .btn-logo {{
-        transform: translateY(-2px);
+        transform: translateY(-6px) scale(1.06);
       }}
       .btn-group:hover .btn-label {{
         fill: #ffffff;
@@ -164,8 +184,10 @@ for btn in buttons_config:
     </style>
   </defs>
   <g class="btn-group" cursor="pointer">
-    <!-- Elevated Logo with Ambient Glow & Drop Shadow -->
-    <image class="btn-logo" x="{icon_x}" y="{icon_y}" width="{icon_size}" height="{icon_size}" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{b64}" href="data:image/png;base64,{b64}" />
+    <!-- Elevated Logo with Ambient Glow & Floating Animation -->
+    <g class="btn-logo">
+      <image x="{icon_x}" y="{icon_y}" width="{icon_size}" height="{icon_size}" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{b64}" href="data:image/png;base64,{b64}" />
+    </g>
     
     <!-- Text Label Below Button -->
     <text class="btn-label" x="{text_x}" y="{text_y}" text-anchor="middle">{label}</text>
