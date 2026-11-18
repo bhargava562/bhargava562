@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 136 36" width="136" height="36" role="img" aria-label="LINKEDIN">
+  <title>LINKEDIN</title>
+  <defs>
+    <style>
+      .btn-bg { transition: fill 0.2s ease; }
+      .btn-border { transition: stroke 0.2s ease, stroke-width 0.2s ease; }
+      .btn-arrow { transition: transform 0.2s ease, opacity 0.2s ease; }
+      .btn-group:hover .btn-bg { fill: #131c31; }
+      .btn-group:hover .btn-border { stroke-width: 1.5; stroke-opacity: 1; }
+      .btn-group:hover .btn-arrow { opacity: 1; transform: translate(119px, 12.5px); }
+      .btn-text {
+        font-family: 'JetBrains Mono', Consolas, 'Fira Code', 'Segoe UI Mono', monospace;
+        font-size: 12.5px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        fill: #FFFFFF;
+      }
+    </style>
+    <linearGradient id="bg-grad-linkedin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1424" />
+      <stop offset="100%" stop-color="#080d1a" />
+    </linearGradient>
+    <linearGradient id="glow-linkedin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0A66C2" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0A66C2" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+  <g class="btn-group" cursor="pointer">
+    <!-- Background card -->
+    <rect class="btn-bg" x="0.5" y="0.5" width="135" height="35" rx="7.5" fill="url(#bg-grad-linkedin)" />
+    <rect x="0.5" y="0.5" width="135" height="35" rx="7.5" fill="url(#glow-linkedin)" />
+    <rect class="btn-border" x="0.5" y="0.5" width="135" height="35" rx="7.5" fill="none" stroke="#0A66C2" stroke-width="1" stroke-opacity="0.65" />
+    
+    <!-- Icon -->
+    <image x="10" y="8" width="20" height="20" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFklEQVR4nO2dz28bRRTHh1TtBYkjB4S4ckb8E+VUBJRKiAohaA/Edp1tk10jRMUFWuBGuSChVtQNpUhIoEr0kthp3TjdpEnIruOE/KAS0CYqtHWdKD9s70NvxgUUOfGus7sz3X1f6Ukr787E7328783MOh7GSCQSiUQikUgkEolEIpFIJC86ae9jhnWI6VY/M+wZZtgrzLAhYrbCfUMf+6Ze5z4rId16lRn2ggIBgpBtnmWsV+QF/uClPcywPlcgECDVdPszdhK6wgdAwYf/QTgtI+3Id9xQyDKll0MsuPa8dIcNxUy3F8MpzDjake2soaqVDoYAwP5WvqO2mqZb2RAAWL9Kd9RQ1maCB6BbVQUcBSUNYxO4OnpjU8B6x4EdHwN2fBSYZorj3nFxTnbg/DTlAPRNAtNuAEsVgCVywLoHhOFxqiDO4TWyAxdJABjYnhF4IjEIb5+fhuJiBVY26rC6UQfzVgXezZb5ObwmMhCUAYCpRbvBA5w178B2ypp3BAS8E6KQjpQBgPk9VeCf/HY6fK4k0lHvhPwARgYAFtlEDkZ+q7QFcHXuPrBEXrSRHcDoABjlxRbzfTs9XKuLwoxtZAcwagCw6BIAiSloePFBWwCFhQdiWEopSE4RfvPfIjwuP4BRHIZeMJe2Df7Z4m0ahgYCgN8FE3yS1ZXI8UkXTr6wKFfX6zztHD5XoolYoAAeQeBLEde2LEXkaSkiFABbF+P4Qtzof4txhiU/aJEEgIHuxAyf2nPoE8BO3NyyCtuEj6/jeb/rjlIA3hvwZpq5+/YYUAwuprZjBWDJPLDuQZH28Bo8xlSIr+N5rD8Ixa80qBoAt2LbAPDcntebq/CUNgRHLpTh4tgSzCytwr3VGjQcB5YfbkDp9gp8P74MR/vL8Oz7uEyeB5Yuijtjt3dErAH0jMCeZA5O/DAHlbWaq3abdQe+KvwJz31wnYPjf7fvFwLAOmj/ZE8erkz/DZ0Igb305aS4G3YzJ4krgK7uQfi59BfsRvWGA299Mw0sOdRcl+pghBZXAJkf58EPrdca8MInJrBj10UxJwDgOpf7JSzae1MdLo/EFYDfeuOsLYapXhcICYA/mvyjKuYMXp9READgwfv4yi1IXpqFDy8vwk9Td2Fts+G5n+c/KoqJmpc0FGcA67WGeLaAn1xc/MMUwr+PlOfjfK9D1HeyZdGHl1lyXAE4DsChr20xhMTiibkbA4frPTjDTRd5Yb1suR+q4rMK3p+X0VBcAXx3c7n5WHO0dcpAEOkiPK1fcz1Lxm908IkZAWivF0+ZwNLDO6cLDGRyCL7I/+6iR4DZ5dVmIfbwrDquAPalciL17DR7xTWe9DDsPzPpqs+71U3v39aIIwDHadG+pVl8VPNMpuCq31rDcdkvAQDXgdJMfrf43m+cAaC8AAgELAEYIAAEwCYAjAAQgGBFAIAAtBABIABAADQCQAACFwEAAtBCBIAAAAHQCAABCFwEAAhACxGACAJAPfYAPJnmw78oBf2+HisAnZjhU/ug3pd0APSjfbCt6VYlDACz0h01FDXdLocBoF8JZw0l7XzwAHDzAvmOgpKWsV8LHsDRsb1Mt+akO2soZwvh7aqBO0fIdxiUMr10gIUq3DlCttOGKmadYqELt+0w7E/lO29L/uTbp+VsYfJIuHNEHGuCbs2Fn3Z2Ksy4eQH+fj6OhaM4WdOtatO3LB/toM8kEolEIpFIJBKJRCKRSCQSc69/AF4tSYoWatqDAAAAAElFTkSuQmCC" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFklEQVR4nO2dz28bRRTHh1TtBYkjB4S4ckb8E+VUBJRKiAohaA/Edp1tk10jRMUFWuBGuSChVtQNpUhIoEr0kthp3TjdpEnIruOE/KAS0CYqtHWdKD9s70NvxgUUOfGus7sz3X1f6Ukr787E7328783MOh7GSCQSiUQikUgkEolEIpFIJC86ae9jhnWI6VY/M+wZZtgrzLAhYrbCfUMf+6Ze5z4rId16lRn2ggIBgpBtnmWsV+QF/uClPcywPlcgECDVdPszdhK6wgdAwYf/QTgtI+3Id9xQyDKll0MsuPa8dIcNxUy3F8MpzDjake2soaqVDoYAwP5WvqO2mqZb2RAAWL9Kd9RQ1maCB6BbVQUcBSUNYxO4OnpjU8B6x4EdHwN2fBSYZorj3nFxTnbg/DTlAPRNAtNuAEsVgCVywLoHhOFxqiDO4TWyAxdJABjYnhF4IjEIb5+fhuJiBVY26rC6UQfzVgXezZb5ObwmMhCUAYCpRbvBA5w178B2ypp3BAS8E6KQjpQBgPk9VeCf/HY6fK4k0lHvhPwARgYAFtlEDkZ+q7QFcHXuPrBEXrSRHcDoABjlxRbzfTs9XKuLwoxtZAcwagCw6BIAiSloePFBWwCFhQdiWEopSE4RfvPfIjwuP4BRHIZeMJe2Df7Z4m0ahgYCgN8FE3yS1ZXI8UkXTr6wKFfX6zztHD5XoolYoAAeQeBLEde2LEXkaSkiFABbF+P4Qtzof4txhiU/aJEEgIHuxAyf2nPoE8BO3NyyCtuEj6/jeb/rjlIA3hvwZpq5+/YYUAwuprZjBWDJPLDuQZH28Bo8xlSIr+N5rD8Ixa80qBoAt2LbAPDcntebq/CUNgRHLpTh4tgSzCytwr3VGjQcB5YfbkDp9gp8P74MR/vL8Oz7uEyeB5Yuijtjt3dErAH0jMCeZA5O/DAHlbWaq3abdQe+KvwJz31wnYPjf7fvFwLAOmj/ZE8erkz/DZ0Igb305aS4G3YzJ4krgK7uQfi59BfsRvWGA299Mw0sOdRcl+pghBZXAJkf58EPrdca8MInJrBj10UxJwDgOpf7JSzae1MdLo/EFYDfeuOsLYapXhcICYA/mvyjKuYMXp9READgwfv4yi1IXpqFDy8vwk9Td2Fts+G5n+c/KoqJmpc0FGcA67WGeLaAn1xc/MMUwr+PlOfjfK9D1HeyZdGHl1lyXAE4DsChr20xhMTiibkbA4frPTjDTRd5Yb1suR+q4rMK3p+X0VBcAXx3c7n5WHO0dcpAEOkiPK1fcz1Lxm908IkZAWivF0+ZwNLDO6cLDGRyCL7I/+6iR4DZ5dVmIfbwrDquAPalciL17DR7xTWe9DDsPzPpqs+71U3v39aIIwDHadG+pVl8VPNMpuCq31rDcdkvAQDXgdJMfrf43m+cAaC8AAgELAEYIAAEwCYAjAAQgGBFAIAAtBABIABAADQCQAACFwEAAtBCBIAAAAHQCAABCFwEAAhACxGACAJAPfYAPJnmw78oBf2+HisAnZjhU/ug3pd0APSjfbCt6VYlDACz0h01FDXdLocBoF8JZw0l7XzwAHDzAvmOgpKWsV8LHsDRsb1Mt+akO2soZwvh7aqBO0fIdxiUMr10gIUq3DlCttOGKmadYqELt+0w7E/lO29L/uTbp+VsYfJIuHNEHGuCbs2Fn3Z2Ksy4eQH+fj6OhaM4WdOtatO3LB/toM8kEolEIpFIJBKJRCKRSCQSc69/AF4tSYoWatqDAAAAAElFTkSuQmCC" />
+    
+    <!-- Text Label -->
+    <text class="btn-text" x="38" y="18" dominant-baseline="central">LINKEDIN</text>
+    
+    <!-- Subtle arrow indicator ↗ -->
+    <g class="btn-arrow" transform="translate(118, 13.5)" stroke="#0A66C2" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.75">
+      <path d="M1 7.5 L7.5 1 M3 1 L7.5 1 L7.5 5.5" />
+    </g>
+  </g>
+</svg>

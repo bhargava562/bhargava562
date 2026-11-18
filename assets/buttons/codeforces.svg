@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 154 36" width="154" height="36" role="img" aria-label="CODEFORCES">
+  <title>CODEFORCES</title>
+  <defs>
+    <style>
+      .btn-bg { transition: fill 0.2s ease; }
+      .btn-border { transition: stroke 0.2s ease, stroke-width 0.2s ease; }
+      .btn-arrow { transition: transform 0.2s ease, opacity 0.2s ease; }
+      .btn-group:hover .btn-bg { fill: #131c31; }
+      .btn-group:hover .btn-border { stroke-width: 1.5; stroke-opacity: 1; }
+      .btn-group:hover .btn-arrow { opacity: 1; transform: translate(137px, 12.5px); }
+      .btn-text {
+        font-family: 'JetBrains Mono', Consolas, 'Fira Code', 'Segoe UI Mono', monospace;
+        font-size: 12.5px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        fill: #FFFFFF;
+      }
+    </style>
+    <linearGradient id="bg-grad-codeforces" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1424" />
+      <stop offset="100%" stop-color="#080d1a" />
+    </linearGradient>
+    <linearGradient id="glow-codeforces" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1F8ACB" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#1F8ACB" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+  <g class="btn-group" cursor="pointer">
+    <!-- Background card -->
+    <rect class="btn-bg" x="0.5" y="0.5" width="153" height="35" rx="7.5" fill="url(#bg-grad-codeforces)" />
+    <rect x="0.5" y="0.5" width="153" height="35" rx="7.5" fill="url(#glow-codeforces)" />
+    <rect class="btn-border" x="0.5" y="0.5" width="153" height="35" rx="7.5" fill="none" stroke="#1F8ACB" stroke-width="1" stroke-opacity="0.65" />
+    
+    <!-- Icon -->
+    <image x="10" y="8" width="20" height="20" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACuElEQVR4nO2dMW7bMBRAPUnoGdxBBDxll9HZXHqB3iL2XTKYuUMP0KlA7cWxJ3noRWw68y++3MSpgcQWK4YK9B7wR36I/1HUIPFrMAAAAAAAAAAAAEjM6E7ywvmZcX5tnD8Y56Vh6Jh1MfdTzZV6Ph+Kz/ePQzPfbwOK/krsK82Zel4fgtGd5O0W/ySBO+EKiuO2I1Hi3t+mnl/nKeZ+E03A3D+knl/nKZz3sQRo7tTz6zwm1ur/G6nn13kMAtJiEJAWg4C0GASkxSAgLQYBaTEISItBQFoMAtJiEJAW01cB8mOQyyKbySJbyzI/yDKXhnGox/7Kp5or9DpMHwXIz09DWeTbgKK/FpXmDLkW0zcBx5XfavFPEgLuBNM7AbrttF/8p2j8Bsr0T0C+iScga/wGyvROwDL3Ee+Axm+gTA8FSMxoej0GAQh4VxCQGAQkBgGJQUBiEHAd8nWUe1vOvC3XfjI+HOxYmoSOqcfacqq5TokRcJHHyZeht+W2adHfkFFpzjo5Aq5a+a0V/6WE+k5AwNvottN28V9IuEXABbwdb+IJKB8QcIGDLX0sAZobAReIV/xjIOACCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAXIuIF6rgkW+61jz7l2nPk+flLvONesoOta+Pv4BDe1w1aF2NcXcT7v0Awc91Rj3iJI2bNLmSu0Xv5LfgyzoFyZuX7UvYF/dfJcs6JDeZFxFKH4l326yU8uydiUEtyx7/olPqxL+7yc+9THVFiX8c0z1CV2tumXovh34YPayzFZ1joCVf46uVt0ydN8OeTDXY+Z+pTlCVv45ulp1y9B9O+zBXHo/Ga80x/PKBwAAAAAAAACAQZ/4A+lQ8iSEzjKdAAAAAElFTkSuQmCC" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACuElEQVR4nO2dMW7bMBRAPUnoGdxBBDxll9HZXHqB3iL2XTKYuUMP0KlA7cWxJ3noRWw68y++3MSpgcQWK4YK9B7wR36I/1HUIPFrMAAAAAAAAAAAAEjM6E7ywvmZcX5tnD8Y56Vh6Jh1MfdTzZV6Ph+Kz/ePQzPfbwOK/krsK82Zel4fgtGd5O0W/ySBO+EKiuO2I1Hi3t+mnl/nKeZ+E03A3D+knl/nKZz3sQRo7tTz6zwm1ur/G6nn13kMAtJiEJAWg4C0GASkxSAgLQYBaTEISItBQFoMAtJiEJAW01cB8mOQyyKbySJbyzI/yDKXhnGox/7Kp5or9DpMHwXIz09DWeTbgKK/FpXmDLkW0zcBx5XfavFPEgLuBNM7AbrttF/8p2j8Bsr0T0C+iScga/wGyvROwDL3Ee+Axm+gTA8FSMxoej0GAQh4VxCQGAQkBgGJQUBiEHAd8nWUe1vOvC3XfjI+HOxYmoSOqcfacqq5TokRcJHHyZeht+W2adHfkFFpzjo5Aq5a+a0V/6WE+k5AwNvottN28V9IuEXABbwdb+IJKB8QcIGDLX0sAZobAReIV/xjIOACCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAYIAhwAEWAQIAhAgCHAIQIBFgCAAAXIuIF6rgkW+61jz7l2nPk+flLvONesoOta+Pv4BDe1w1aF2NcXcT7v0Awc91Rj3iJI2bNLmSu0Xv5LfgyzoFyZuX7UvYF/dfJcs6JDeZFxFKH4l326yU8uydiUEtyx7/olPqxL+7yc+9THVFiX8c0z1CV2tumXovh34YPayzFZ1joCVf46uVt0ydN8OeTDXY+Z+pTlCVv45ulp1y9B9O+zBXHo/Ga80x/PKBwAAAAAAAACAQZ/4A+lQ8iSEzjKdAAAAAElFTkSuQmCC" />
+    
+    <!-- Text Label -->
+    <text class="btn-text" x="38" y="18" dominant-baseline="central">CODEFORCES</text>
+    
+    <!-- Subtle arrow indicator ↗ -->
+    <g class="btn-arrow" transform="translate(136, 13.5)" stroke="#1F8ACB" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.75">
+      <path d="M1 7.5 L7.5 1 M3 1 L7.5 1 L7.5 5.5" />
+    </g>
+  </g>
+</svg>

@@ -21,22 +21,22 @@
 
 <p align="center">
   <a href="https://bhargavaa.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/PORTFOLIO-00FF9C?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=0d1424" alt="Portfolio" />
+    <img src="./assets/buttons/portfolio.svg" height="34" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/bhargavaa1/" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1424" alt="LinkedIn" />
-  </a>
-  <a href="https://leetcode.com/Bhargava2525/" target="_blank">
-    <img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=0d1424" alt="LeetCode" />
+    <img src="./assets/buttons/linkedin.svg" height="34" alt="LinkedIn" />
   </a>
   <a href="https://github.com/bhargava562" target="_blank">
-    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1424" alt="GitHub" />
+    <img src="./assets/buttons/github.svg" height="34" alt="GitHub" />
   </a>
-  <a href="https://x.com/Bhargava3196511" target="_blank">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1424" alt="X" />
+  <a href="https://leetcode.com/Bhargava2525/" target="_blank">
+    <img src="./assets/buttons/leetcode.svg" height="34" alt="LeetCode" />
   </a>
   <a href="mailto:bhargavaanand2006@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1424" alt="Email" />
+    <img src="./assets/buttons/gmail.svg" height="34" alt="Gmail" />
+  </a>
+  <a href="https://x.com/Bhargava3196511" target="_blank">
+    <img src="./assets/buttons/x.svg" height="34" alt="X" />
   </a>
 </p>
 
@@ -103,25 +103,26 @@ principle : Ship the boring 80%, own the hard 20%
 <tr>
 <td align="center" valign="top">
 <br/>
-<img src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" width="44" height="44" alt="Java" title="Java 21" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/python--v1.png" width="44" height="44" alt="Python" title="Python 3" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/typescript.png" width="44" height="44" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/javascript--v1.png" width="44" height="44" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/c-plus-plus-logo.png" width="44" height="44" alt="C++" title="C++" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/c-programming.png" width="44" height="44" alt="C" title="C" />
+<img src="https://img.icons8.com/color/96/java-coffee-cup-logo--v1.png" width="44" height="44" alt="Java" title="Java 21" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/python--v1.png" width="44" height="44" alt="Python" title="Python 3" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/typescript.png" width="44" height="44" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/javascript--v1.png" width="44" height="44" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/c-plus-plus-logo.png" width="44" height="44" alt="C++" title="C++" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/c-programming.png" width="44" height="44" alt="C" title="C" />
 <br/><br/>
-<code>Java 21 (OCP)</code> • <code>Python</code> • <code>TypeScript</code> • <code>JavaScript</code> • <code>C++</code>
+<code>Java 21 (OCP)</code> • <code>Python</code> • <code>TypeScript</code> • <code>JavaScript</code> • <code>C++</code> • <code>C</code>
 <br/><br/>
 </td>
 <td align="center" valign="top">
 <br/>
-<img src="https://img.icons8.com/color/48/react-native.png" width="44" height="44" alt="React" title="React 19" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/nextjs.png" width="44" height="44" alt="Next.js" title="Next.js 15" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/tailwind_css.png" width="44" height="44" alt="Tailwind CSS" title="Tailwind CSS" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/spring-logo.png" width="44" height="44" alt="Spring Boot" title="Spring Boot 3.4" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/nodejs.png" width="44" height="44" alt="Node.js" title="Node.js" />
+<img src="https://img.icons8.com/color/96/react-native.png" width="44" height="44" alt="React" title="React 19" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/nextjs.png" width="44" height="44" alt="Next.js" title="Next.js 15" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/vite.png" width="44" height="44" alt="Vite.js" title="Vite.js" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/tailwind_css.png" width="44" height="44" alt="Tailwind CSS" title="Tailwind CSS" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/spring-logo.png" width="44" height="44" alt="Spring Boot" title="Spring Boot 3.4" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/nodejs.png" width="44" height="44" alt="Node.js" title="Node.js" />
 <br/><br/>
-<code>React 19</code> • <code>Next.js 15</code> • <code>Tailwind</code> • <code>FastAPI</code> • <code>Spring Boot</code>
+<code>React 19</code> • <code>Next.js 15</code> • <code>Vite.js</code> • <code>Tailwind</code> • <code>FastAPI</code> • <code>Spring Boot</code>
 <br/><br/>
 </td>
 </tr>
@@ -132,37 +133,54 @@ principle : Ship the boring 80%, own the hard 20%
 <tr>
 <td align="center" valign="top">
 <br/>
-<img src="https://img.icons8.com/color/48/postgreesql.png" width="44" height="44" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/redis.png" width="44" height="44" alt="Redis" title="Redis" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/supabase.png" width="44" height="44" alt="Supabase" title="Supabase" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/docker.png" width="44" height="44" alt="Docker" title="Docker" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/linux--v1.png" width="44" height="44" alt="Linux" title="Linux" />
+<img src="https://img.icons8.com/color/96/postgreesql.png" width="44" height="44" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png" width="44" height="44" alt="MongoDB" title="MongoDB" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/redis.png" width="44" height="44" alt="Redis" title="Redis" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/supabase.png" width="44" height="44" alt="Supabase" title="Supabase" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/docker.png" width="44" height="44" alt="Docker" title="Docker" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/linux--v1.png" width="44" height="44" alt="Linux" title="Linux" />
 <br/><br/>
-<code>PostgreSQL</code> • <code>Redis</code> • <code>Supabase</code> • <code>Docker</code> • <code>Linux</code>
+<code>PostgreSQL</code> • <code>MongoDB</code> • <code>Redis</code> • <code>Supabase</code> • <code>Docker</code> • <code>Linux</code>
 <br/><br/>
 </td>
 <td align="center" valign="top">
 <br/>
-<img src="https://img.icons8.com/color/48/git.png" width="44" height="44" alt="Git" title="Git" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/github--v1.png" width="44" height="44" alt="GitHub" title="GitHub" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" width="44" height="44" alt="VS Code" title="VS Code" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/intellij-idea.png" width="44" height="44" alt="IntelliJ IDEA" title="IntelliJ IDEA" />&nbsp;&nbsp;
-<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png" width="44" height="44" alt="Postman" title="Postman" />
+<img src="https://img.icons8.com/color/96/git.png" width="44" height="44" alt="Git" title="Git" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/github--v1.png" width="44" height="44" alt="GitHub" title="GitHub" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/visual-studio-code-2019.png" width="44" height="44" alt="VS Code" title="VS Code" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/intellij-idea.png" width="44" height="44" alt="IntelliJ IDEA" title="IntelliJ IDEA" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png" width="44" height="44" alt="Postman" title="Postman" />&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/notion.png" width="44" height="44" alt="Notion" title="Notion" />
 <br/><br/>
-<code>Git</code> • <code>GitHub Actions</code> • <code>VS Code</code> • <code>IntelliJ</code> • <code>Postman</code>
+<code>Git</code> • <code>GitHub Actions</code> • <code>VS Code</code> • <code>IntelliJ</code> • <code>Postman</code> • <code>Notion</code>
 <br/><br/>
 </td>
 </tr>
 <tr>
-<th colspan="2" align="center">🤖 AGENTIC TOOLS</th>
+<th colspan="2" align="center">🧠 GENERATIVE AI PLATFORMS</th>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+<br/>
+<img src="https://img.icons8.com/fluency/96/chatgpt--v1.png" width="44" height="44" alt="ChatGPT" title="ChatGPT" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/gemini-ai.png" width="44" height="44" alt="Gemini" title="Google Gemini" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/claude-ai.png" width="44" height="44" alt="Claude" title="Claude" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/perplexity-ai.png" width="44" height="44" alt="Perplexity AI" title="Perplexity AI" />
+<br/><br/>
+<code>ChatGPT</code> • <code>Gemini</code> • <code>Claude</code> • <code>Perplexity AI</code>
+<br/><br/>
+</td>
+</tr>
+<tr>
+<th colspan="2" align="center">🤖 AGENTIC CODING SYSTEMS</th>
 </tr>
 <tr>
 <td colspan="2" align="center" valign="top">
 <br/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antigravity/antigravity-original.svg" width="44" height="44" alt="Antigravity" title="Google Antigravity" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubcopilot/githubcopilot-original.svg" width="44" height="44" alt="GitHub Copilot" title="GitHub Copilot" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.icons8.com/fluency/48/claude-ai.png" width="44" height="44" alt="Claude Code" title="Claude Code (Claude)" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/48/chatgpt.png" width="44" height="44" alt="Codex" title="OpenAI Codex (ChatGPT)" />
+<img src="https://img.icons8.com/fluency/96/github-copilot.png" width="44" height="44" alt="GitHub Copilot" title="GitHub Copilot" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/96/claude-ai.png" width="44" height="44" alt="Claude Code" title="Claude Code" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/96/chatgpt.png" width="44" height="44" alt="Codex" title="OpenAI Codex" />
 <br/><br/>
 <code>Antigravity</code> • <code>GitHub Copilot</code> • <code>Claude Code</code> • <code>Codex</code>
 <br/><br/>
@@ -378,19 +396,16 @@ principle : Ship the boring 80%, own the hard 20%
 
 <p align="center">
   <a href="https://leetcode.com/Bhargava2525/" target="_blank">
-    <img src="https://img.shields.io/badge/LEETCODE-Bhargava2525-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=0d1424" alt="LeetCode" />
-  </a>
-  <a href="https://codolio.com/profile/bhargavA45" target="_blank">
-    <img src="https://img.shields.io/badge/CODOLIO-bhargavA45-00FF9C?style=for-the-badge&logo=codeforces&logoColor=black&labelColor=0d1424" alt="Codolio" />
-  </a>
-  <a href="https://codeforces.com/profile/bhargava_a5" target="_blank">
-    <img src="https://img.shields.io/badge/CODEFORCES-bhargava__a5-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0d1424" alt="CodeForces" />
-  </a>
-  <a href="https://atcoder.jp/users/bhargavaa1" target="_blank">
-    <img src="https://img.shields.io/badge/ATCODER-bhargavaa1-222222?style=for-the-badge&logo=atcoder&logoColor=white&labelColor=0d1424" alt="AtCoder" />
+    <img src="./assets/buttons/leetcode.svg" height="34" alt="LeetCode" />
   </a>
   <a href="https://www.hackerrank.com/profile/Bhargava_A_056" target="_blank">
-    <img src="https://img.shields.io/badge/HACKERRANK-Bhargava__A__056-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=0d1424" alt="HackerRank" />
+    <img src="./assets/buttons/hackerrank.svg" height="34" alt="HackerRank" />
+  </a>
+  <a href="https://codeforces.com/profile/bhargava_a5" target="_blank">
+    <img src="./assets/buttons/codeforces.svg" height="34" alt="Codeforces" />
+  </a>
+  <a href="https://codolio.com/profile/bhargavA45" target="_blank">
+    <img src="./assets/buttons/codolio.svg" height="34" alt="Codolio" />
   </a>
 </p>
 
@@ -509,19 +524,19 @@ principle : Ship the boring 80%, own the hard 20%
 
 <p align="center">
   <a href="mailto:bhargavaanand2006@gmail.com">
-    <img src="https://img.shields.io/badge/DIRECT%20DISPATCH-bhargavaanand2006%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1424" alt="Email Bhargava" />
+    <img src="./assets/buttons/gmail.svg" height="34" alt="Gmail" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/bhargavaa1/" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN%20NETWORK-bhargavaa1-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1424" alt="LinkedIn Profile" />
+    <img src="./assets/buttons/linkedin.svg" height="34" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="https://bhargavaa.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-bhargavaa.vercel.app-00FF9C?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=0d1424" alt="Live Portfolio" />
+    <img src="./assets/buttons/portfolio.svg" height="34" alt="Portfolio" />
   </a>
   &nbsp;
   <a href="https://x.com/Bhargava3196511" target="_blank">
-    <img src="https://img.shields.io/badge/RADAR%20FEED-%40Bhargava3196511-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1424" alt="X Radar" />
+    <img src="./assets/buttons/x.svg" height="34" alt="X" />
   </a>
 </p>
 

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 136 36" width="136" height="36" role="img" aria-label="LEETCODE">
+  <title>LEETCODE</title>
+  <defs>
+    <style>
+      .btn-bg { transition: fill 0.2s ease; }
+      .btn-border { transition: stroke 0.2s ease, stroke-width 0.2s ease; }
+      .btn-arrow { transition: transform 0.2s ease, opacity 0.2s ease; }
+      .btn-group:hover .btn-bg { fill: #131c31; }
+      .btn-group:hover .btn-border { stroke-width: 1.5; stroke-opacity: 1; }
+      .btn-group:hover .btn-arrow { opacity: 1; transform: translate(119px, 12.5px); }
+      .btn-text {
+        font-family: 'JetBrains Mono', Consolas, 'Fira Code', 'Segoe UI Mono', monospace;
+        font-size: 12.5px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        fill: #FFFFFF;
+      }
+    </style>
+    <linearGradient id="bg-grad-leetcode" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1424" />
+      <stop offset="100%" stop-color="#080d1a" />
+    </linearGradient>
+    <linearGradient id="glow-leetcode" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFA116" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#FFA116" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+  <g class="btn-group" cursor="pointer">
+    <!-- Background card -->
+    <rect class="btn-bg" x="0.5" y="0.5" width="135" height="35" rx="7.5" fill="url(#bg-grad-leetcode)" />
+    <rect x="0.5" y="0.5" width="135" height="35" rx="7.5" fill="url(#glow-leetcode)" />
+    <rect class="btn-border" x="0.5" y="0.5" width="135" height="35" rx="7.5" fill="none" stroke="#FFA116" stroke-width="1" stroke-opacity="0.65" />
+    
+    <!-- Icon -->
+    <image x="10" y="8" width="20" height="20" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,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" href="data:image/png;base64,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" />
+    
+    <!-- Text Label -->
+    <text class="btn-text" x="38" y="18" dominant-baseline="central">LEETCODE</text>
+    
+    <!-- Subtle arrow indicator ↗ -->
+    <g class="btn-arrow" transform="translate(118, 13.5)" stroke="#FFA116" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.75">
+      <path d="M1 7.5 L7.5 1 M3 1 L7.5 1 L7.5 5.5" />
+    </g>
+  </g>
+</svg>
